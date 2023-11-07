@@ -1,0 +1,46 @@
+/* Estilos para el contenedor principal */
+.image-text-container {
+    display: flex;
+    /* Alinea elementos horizontalmente */
+    justify-content: center;
+    /* Centra horizontalmente los elementos */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+    /* border: 3px solid black; */
+    padding-top: 100px;
+}
+
+/* Estilos para la mitad de la imagen */
+.image-half {
+    /* flex: 1;     */
+    /* Ocupa la mitad del espacio disponible horizontalmente */
+    padding: 0px;
+
+}
+
+.image-half img s {
+    width: 97%;
+    /* Ajusta la imagen al 100% del ancho del contenedor */
+    max-height: 100%;
+    /* Limita la altura de la imagen al 100% del contenedor */
+}
+
+/* Estilos para la mitad del texto */
+.text-half {
+    flex: 1;
+    /* Ocupa la mitad del espacio disponible horizontalmente */
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+.text-half h2 {
+    font-size: 24px;
+    /* Estilos para el título */
+}
+
+.text-half p {
+    font-size: 16px;
+    padding: 10px;
+}

@@ -1,0 +1,123 @@
+/* Estilos para el contenedor principal del carrusel */
+.Galery-container {
+    max-width: 100%;
+    position: relative;
+    margin: 1%;
+    padding-bottom: 50px;
+    /* position: relative;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto; */
+}
+
+/* Estilos para las diapositivas */
+.Galery-container .mySlides {
+    display: none;
+}
+
+/* Estilos para las diapositivas activas */
+.Galery-container .mySlides.active {
+    display: block;
+}
+
+/* Estilos para las imágenes en las diapositivas */
+.Galery-container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para el texto o título */
+.Galery-container .text {
+    color: #f2f2f2;
+    font-size: 28px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 128px;
+    width: 98%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.379);
+}
+
+.text:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Estilos para los enlaces en el texto */
+.Galery-container .text a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilos para los botones de navegación (anterior y siguiente) */
+.Galery-container .prev,
+.Galery-container .next {
+    cursor: pointer;
+    position: absolute;
+    top: 35%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    /* border-radius: 0 3px 3px 0; */
+    user-select: none;
+
+    /* position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 24px;
+    user-select: none; */
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* .Galery-container .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    background-color: aqua;
+
+} */
+
+.Galery-container .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+@media (max-width: 768px) {
+    .Galery-container .text {
+        color: #f2f2f2;
+        font-size: 10px;
+        padding: 2px 2px;
+        position: absolute;
+        bottom: 128px;
+        width: 100%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.379);
+    }
+
+    .Galery-container .prev,
+    .Galery-container .next {
+        cursor: pointer;
+        position: absolute;
+        top: 35%;
+        width: auto;
+        margin-top: -22px;
+        padding:6px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        /* border-radius: 0 3px 3px 0; */
+        user-select: none;
+    }
+}
+
+@media (min-width: 768px) {}

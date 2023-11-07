@@ -1,0 +1,48 @@
+.card {
+  width: 300px;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid #cccccc8d;
+  box-shadow: 0 4px 8px black;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.card-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente las tarjetas */
+
+  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en nuevas líneas si no caben en el ancho */
+  gap: 70px; 
+}
+
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px; */
+/* } */

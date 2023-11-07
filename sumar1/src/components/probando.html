@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Estilos CSS aquí... -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar a {
+            float: right;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: red;
+        }
+
+        /* Estilos para el menú desplegable */
+        .dropdown {
+            float: right;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Estilos para los submenús */
+        .sub-menu {
+            position: relative;
+        }
+
+        .sub-menu-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 2;
+            top: 0;
+            left: 100%;
+        }
+
+        .sub-menu:hover .sub-menu-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenedor principal de la página Zyro -->
+    <div class="zyro-container">
+        <!-- Contenido de tu sitio web -->
+        <div class="zyro-content">
+            <!-- Barra de navegación -->
+            <div class="navbar">
+                <!-- Elementos del menú -->
+                <a href="#home">Contacto</a>
+                <a href="#home">Instalaciones</a>
+                <a href="#home">Servicios</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Productos</button>
+                    <div class="dropdown-content">
+                        <div class="sub-menu">
+                            <a href="#">Grupos Electrogenos</a>
+                            <div class="sub-menu-content">
+                                <a href="#">Diesel</a>
+                                <a href="#">Gas</a>
+                            </div>
+                        </div>
+                        <!-- Otros submenús aquí... -->
+                    </div>
+                </div>
+                <a href="#home">Quiénes somos</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script JavaScript aquí... -->
+</body>
+</html>

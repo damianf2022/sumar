@@ -1,0 +1,162 @@
+.sidenav1 {
+    height: 85%;
+    width: 99%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111111b4;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 100px;
+    /* padding-bottom: 10px; */
+
+
+}
+
+.menu-side a {
+    width: 50%;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    z-index: 2;
+
+}
+
+.menu-side a:hover {
+    /* height: 20px; */
+    /* background-color: aqua;
+    color: greenyellow; */
+}
+
+.menu-side a {
+    color: white;
+    /* background-color: pink;  */
+
+}
+
+.menu-side a:hover {
+    color: red;
+}
+
+.menu-panel {
+    /* background-color: #818181; */
+    font-size: 50px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 30px;
+    margin-left: 50px;
+    z-index: 2;
+border-radius: 30%;
+}
+
+.closebtn :hover {
+    background-color: red;
+}
+
+/* ************************************************************************************************************* */
+
+.menu-side .dropdown2 {
+    /* float: left; */
+    overflow: hidden;
+    /* background-color: aqua; */
+
+}
+
+.dropbtn2 {
+    font-size: 200px;
+    border: none;
+    outline: none;
+    color: yellow;
+    /* padding: 14px 16px; */
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    /* background-color: aqua; */
+
+
+}
+
+
+
+.dropdown2:hover {
+    /* background-color: red;
+    color: white;  */
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content2 a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+
+}
+
+.dropdown-content2 a:hover {
+    background-color: #ddd;
+}
+
+.dropdown2:hover .dropdown-content {
+    display: block;
+}
+
+/************************ Estilos para submenus */
+
+.sub-menu {
+    position: relative;
+
+}
+
+.sub-menu-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    top: 0;
+    left: 100%;
+
+}
+
+.sub-menu2:hover .sub-menu-content2 {
+    display: block;
+
+}
+
+/* .menu-button {
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 15px;
+    cursor: pointer;
+    font-size: 40px;
+
+
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+
+} */
