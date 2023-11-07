@@ -16,7 +16,6 @@ function Navbar2() {
 
     const handleOpenMenu = () => {
         setMenuOpen(true);
-        console.log("oioioio");
     }
 
 
