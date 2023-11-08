@@ -11,7 +11,7 @@ const Card = () => {
                     src="https://sumarservicios.com.ar/wp-content/uploads/2020/02/Home_nuestros-equipos_grupos-1.png"
                     alt="Imagen de la tarjeta"
                 />
-                <h3 className="card-title">Título de la tarjeta</h3>
+                <h3 className="card-title">Grupos electrógenos</h3>
                 <button className="card-button">Botón</button>
             </div>
             <div className="card">
@@ -19,7 +19,7 @@ const Card = () => {
                     className="card-image"
                     src='https://sumarservicios.com.ar/wp-content/uploads/2020/02/Home_nuestros-equipos_torres-1.png' alt="Imagen de la tarjeta"
                 />
-                <h3 className="card-title">Título de la tarjetass</h3>
+                <h3 className="card-title">Torres de Iluminación</h3>
                 <button className="card-button">Botón</button>
             </div>
             <div className="card">
@@ -27,7 +27,7 @@ const Card = () => {
                     className="card-image"
                     src='https://sumarservicios.com.ar/wp-content/uploads/2020/02/Home_nuestros-equipos_plataformas-1.png' alt="Imagen de la tarjeta"
                 />
-                <h3 className="card-title">Título de la tarjeta</h3>
+                <h3 className="card-title">Plataformas en Altura</h3>
                 <button className="card-button">Botón</button>
             </div>
         </div>

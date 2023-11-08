@@ -1,0 +1,42 @@
+.contenedor-servicios {
+    text-align: center;
+    /* width: 390px; */
+    position: relative;
+}
+
+.contenedor-servicios h2 {
+    font-family: 'Lato', sans-serif;
+    /* font-size: 22px;
+    padding-right: 55%; */
+}
+
+.logoservi {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 15px;
+    font-size: 40px;
+    color: red;
+
+}
+
+.servicio-info {
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 115px;
+    font-size: 24px;
+}
+
+.prueba p {
+    font-family: 'Lato', sans-serif;
+    width: 200px;
+    text-align: left;
+    margin-left: 115px;
+    /* font-size: 26; */
+}
+
+.marco {
+    background-color: rgba(0, 0, 0, 0.23);
+    margin: 0px;
+    padding: 10px;
+}
