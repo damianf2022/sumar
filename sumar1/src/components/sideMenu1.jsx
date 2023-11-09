@@ -33,51 +33,51 @@ function SideMenu() {
             <div className='menu-side'>
               <div className='menu2'>
                 <Link to="/sumar/QuienesSomos">
-              <z>Quiénes somos</z>
+              <a href>Quiénes somos</a>
                 </Link>
 
 
                 <div className="dropdown2">
-                  <z className="dropbtn" onClick={handleOpenMenu}>
+                  <a className="dropbtn" onClick={handleOpenMenu}>
                     Productos
-                  </z>
+                  </a>
                   {isOpen && (
                     <div className="dropdown-content">
                       <div className="sub-menu">
-                        <z href="#">Grupos Electrogenos</z>
+                        <a href="#">Grupos Electrogenos</a>
 
                         <div className="sub-menu-content">
-                          <z href="/sumar/electrogenodiesel">Diesel</z>
-                          <z href="/sumar/electrogenogas">Gas</z>
+                          <a href="/sumar/electrogenodiesel">Diesel</a>
+                          <a href="/sumar/electrogenogas">Gas</a>
                         </div>
                       </div>
 
                       <div className="sub-menu2">
-                        <z href="#">Torres de Iluminacion</z>
+                        <a href="#">Torres de Iluminacion</a>
 
                         <div className="sub-menu-content2">
-                          <z href="/sumar/torresled">LED</z>
+                          <a href="/sumar/torresled">LED</a>
                         </div>
                       </div>
 
                       <div className="sub-menu2">
-                        <z href="#">Plataformas de Altura</z>
+                        <a href="#">Plataformas de Altura</a>
 
                         <div className="sub-menu-content2">
-                          <z href="/sumar/BrazoArtDiesel">Brazo articulado diesel</z>
-                          <z href="/sumar/BrazoTelescopico">Brazo telescópico diesel</z>
-                          <z href="/sumar/TijeraDiesel">Tijera todo-terreno diesel</z>
-                          <z href="/sumar/TijeraElectrica">Tijera eléctrica</z>
+                          <a href="/sumar/BrazoArtDiesel">Brazo articulado diesel</a>
+                          <a href="/sumar/BrazoTelescopico">Brazo telescópico diesel</a>
+                          <a href="/sumar/TijeraDiesel">Tijera todo-terreno diesel</a>
+                          <a href="/sumar/TijeraElectrica">Tijera eléctrica</a>
                         </div>
                       </div>
-                      <z href="/sumar/Tableros">Tableros</z>
+                      <a href="/sumar/Tableros">Tableros</a>
                     </div>
                   )}
 
                 </div>
-                <z href="/sumar/Servicios">Servicios</z>
-                <z href="/sumar/Instalaciones">Instalaciones</z>
-                <z href="/sumar/Contacto">Contacto</z>
+                <a href="/sumar/Servicios">Servicios</a>
+                <a href="/sumar/Instalaciones">Instalaciones</a>
+                <a href="/sumar/Contacto">Contacto</a>
 
               </div>
             </div>
