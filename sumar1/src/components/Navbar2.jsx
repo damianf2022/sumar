@@ -51,7 +51,9 @@ function Navbar2() {
                                 <div className="sub-menu">
                                     <a href="#">Grupos Electrogenos</a>
                                     <div className="sub-menu-content">
-                                        <a href="/sumar/electrogenodiesel">Diesel</a>
+                                        <Link to="/sumar/electrogenodiesel">
+                                        <a>Diesel</a>
+                                        </Link>
                                         <a href="/sumar/electrogenogas">Gas</a>
                                     </div>
                                 </div>
