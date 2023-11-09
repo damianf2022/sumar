@@ -29,7 +29,7 @@ function Navbar2() {
 
                 <button className='menu-button' onClick={handleOpenMenu}> </button>
                 {menuOpen && <SideMenu1 />}
-                {/* Renderiza SideMenu cuando menuOpen sea true */}
+                {/* Renderiaa SideMenu cuando menuOpen sea true */}
             </div>
 
             <nav className="navbar" >
@@ -38,50 +38,73 @@ function Navbar2() {
                 </Link>
 
                 <div className='menu'>
-                    <z href="/sumar/Contacto">Contacto</z>
-                    <z href="/sumar/Instalaciones">Instalaciones</z>
-                    <z href="/sumar/Servicios">Servicios</z>
+                    <Link to="/sumar/Contacto">
+                        <a>Contacto</a>
+                    </Link>
+                    <Link to="/sumar/Instalaciones">
+                        <a>Instalaciones</a>
+                    </Link>
+
+                    <Link to="/sumar/Servicios">
+                        <a>Servicios</a>
+                    </Link>
 
                     <div className="dropdown">
-                        <z className="dropbtn" onClick={() => setIsOpen(!isOpen)}>
+                        <a className="dropbtn" onClick={() => setIsOpen(!isOpen)}>
                             Productos
-                        </z>
+                        </a>
                         {isOpen && (
                             <div className="dropdown-content">
                                 <div className="sub-menu">
-                                    <z href="#">Grupos Electrogenos</z>
+                                    <a href="#">Grupos Electrogenos</a>
                                     <div className="sub-menu-content">
                                         <Link to="/sumar/electrogenodiesel">
-                                        <z>Diesel</z>
+                                            <a>Diesel</a>
                                         </Link>
-                                        <z href="/sumar/electrogenogas">Gas</z>
+                                        <Link to="/sumar/electrogenogas">
+                                            <a>Gas</a>
+                                        </Link>
                                     </div>
                                 </div>
 
                                 <div className="sub-menu">
-                                    <z href="/sumar/">Torres de Iluminacion</z>
+                                    <a href="#">Torres de Iluminacion</a>
 
                                     <div className="sub-menu-content">
-                                        <z href="/sumar/torresled">LED</z>
+                                        <Link to="/sumar/torresled" >
+                                            <a>LED</a>
+                                        </Link>
                                     </div>
                                 </div>
 
                                 <div className="sub-menu">
-                                    <z href="#">Plataformas de Altura</z>
+                                    <a href="#">Plataformas de Altura</a>
 
                                     <div className="sub-menu-content">
-                                        <z href="/sumar/BrazoArtDiesel">Brazo articulado diesel</z>
-                                        <z href="/sumar/BrazoTelescopico">Brazo telescópico diesel</z>
-                                        <z href="/sumar/TijeraDiesel">Tijera todo-terreno diesel</z>
-                                        <z href="/sumar/TijeraElectrica">Tijera eléctrica</z>
+                                        <Link to="/sumar/BrazoArtDiesel">
+                                            <a>Brazo articulado diesel</a>
+                                        </Link>
+                                        <Link to="/sumar/BrazoTelescopico">
+                                            <a>Brazo telescópico diesel</a>
+                                        </Link>
+                                        <Link to="/sumar/TijeraDiesel" >
+                                            <a>Tijera todo-terreno diesel</a>
+                                        </Link>
+                                        <Link to="/sumar/TijeraElectrica" >
+                                            <a>Tijera eléctrica</a>
+                                        </Link>
                                     </div>
                                 </div>
-                                <z href="/sumar/Tableros">Tableros</z>
+                                <Link to="/sumar/Tableros">
+                                    <a>Tableros</a>
+                                </Link>
                             </div>
                         )}
 
                     </div>
-                    <z href="/sumar/QuienesSomos">Quiénes somos</z>
+                    <Link to="/sumar/QuienesSomos">
+                        <a href>Quiénes somos</a>
+                    </Link>
                 </div>
 
             </nav>
