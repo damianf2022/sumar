@@ -1,0 +1,10 @@
+.contenedorinsta{
+}
+.contenedorinsta img{
+    width: 100%;
+    height: 100%;
+}
+.contenedorinsta p,h2{
+    margin: 5px;
+}
+

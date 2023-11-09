@@ -1,5 +1,5 @@
 import React from 'react'
-import "./styles/servicios.css"; // Importa los estilos CSS desde el archivo "Card.css"
+import "./styles/servicios.css"; 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHandshake, faRetweet, faUsers, faCogs, faWrench, faBolt } from '@fortawesome/free-solid-svg-icons';

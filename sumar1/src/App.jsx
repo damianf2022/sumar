@@ -15,7 +15,7 @@ import Tableros from './pages/Tableros'
 import QuienesSomos from './pages/QuienesSomos'
 import Instalaciones from './pages/Instalaciones'
 import Servicios from './pages/Servicios'
-import Contacto from './pages/Contacto'
+// import Contacto from './pages/Contacto'
 
 function App() {
 
@@ -39,7 +39,7 @@ function App() {
         <Route path="/sumar/QuienesSomos" element={<QuienesSomos />} />
         <Route path="/sumar/Instalaciones" element={<Instalaciones />} />
         <Route path="/sumar/Servicios" element={<Servicios />} />
-        <Route path="/sumar/Contacto" element={<Contacto />} />
+        {/* <Route path="/sumar/Contacto" element={<Contacto />} /> */}
 
 
 

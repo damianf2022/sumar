@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './stylesPages/serviciosp.css'
 const Servicios = () => {
     return (
-        <div>
+        <div className='servicontenedor'>
             <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-servicios.jpg" alt="" />
 
             <h2>Servicio técnico y servicio de mantenimiento preventivo.</h2>
@@ -11,8 +11,26 @@ const Servicios = () => {
 
                 Para los equipos trabajen a todo su potencial y sin fallas es que ofrecemos distintas modalidades de servicios, focalizando sobre todas las cosas en la gran importancia del mantenimiento preventivo.
             </p>
-
+            <br />
             <h3>Modalidades del servicio:</h3>
+            <br />
+
+            <div className='subservicios'>
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_servicio-correctivo.png" alt="" />
+                <p>SERVICIO CORRECTIVO</p>
+            </div>
+            <div className='subservicios'>
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_servicio-de-mantenimiento-preventivo.png" alt="" />
+                <p>SERVICIO DE MANTENIMIENTO PREVENTIVO</p>
+            </div>
+            <div className='subservicios'>
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_venta-de-repuestos.png" alt="" />
+                <p>VENTA DE REPUESTOS</p>
+            </div>
+            <div className='subservicios'>
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_Capacitaciones-te%CC%81cnicas-en-operacio%CC%81n-y-mantenimiento-de-equipos.png" alt="" />
+                <p>CAPACITACIONES TÉCNICAS EN OPERACIÓN Y MANTENIMIENTO DE EQUIPOS</p>
+            </div>
 
             <h4>Staff y herramientas</h4>
 

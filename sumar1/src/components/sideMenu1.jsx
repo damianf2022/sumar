@@ -33,7 +33,7 @@ function SideMenu() {
             <div className='menu-side'>
               <div className='menu2'>
                 <Link to="/sumar/QuienesSomos">
-                  <a href>Quiénes somos</a>
+                  <a>Quiénes somos</a>
                 </Link>
 
 
