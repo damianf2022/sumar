@@ -12,7 +12,7 @@ import './styles/Navbar2.css';
 function Navbar2() {
 
     const [isOpen, setIsOpen] = useState(false);
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(true);
 
     const handleOpenMenu = () => {
         setMenuOpen(true);
@@ -24,13 +24,11 @@ function Navbar2() {
 
             <div className='imgmovil'>
                 <img src={Logo1} alt="logo" className='logo1' />
-                <button className='menu-button' onClick={handleOpenMenu}>
-                    {/* <FiMenu className='menu-icon' /> */}
-                </button>
+                <button className='menu-button' onClick={handleOpenMenu}> </button>
                 {menuOpen && <SideMenu1 />}
-                 {/* Renderiza SideMenu cuando menuOpen sea true */}
-
+                {/* Renderiza SideMenu cuando menuOpen sea true */}
             </div>
+
             <nav className="navbar" >
                 <img src={Logo2} alt="logo" className='img' />
 

@@ -26,11 +26,12 @@
     padding: 2px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     user-select: none;
+    font-size: 16px;
 }
 
 
 .text-half h2 {
-    font-size: 24px;
+    font-size: 32px;
     /* Estilos para el título */
     padding-top: 20px;
 }

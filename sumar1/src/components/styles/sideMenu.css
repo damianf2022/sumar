@@ -27,13 +27,11 @@
 
 .menu-side a:hover {
     /* height: 20px; */
-    /* background-color: aqua;
-    color: greenyellow; */
+    /* background-color: rgba(0, 0, 0, 0.451); */
 }
 
 .menu-side a {
     color: white;
-    /* background-color: pink;  */
     font-size: 20px;
 
 
@@ -44,12 +42,11 @@
 }
 
 .menu-panel2 {
-    /* background-color: #818181; */
-    font-size: 50px;
+    /* font-size: 50px; */
 }
 
 .menu-panel2 :hover {
-    background-color: red;
+    /* background-color: red; */
 }
 
 .closebtn {
@@ -59,11 +56,11 @@
     font-size: 40px;
     z-index: 2;
     border-radius: 30%;
-    background-color: red;
+    background-color: #ec1b34;
 }
 
-.closebtn :hover {
-    background-color: red;
+.closebtn:hover {
+    /* background-color: black; */
 }
 
 /* ************************************************************************************************************* */
@@ -75,20 +72,20 @@
 
 }
 
-.dropbtn2 {
+/* .dropbtn2 {
     font-size: 200px;
     border: none;
     outline: none;
-    color: yellow;
-    /* padding: 14px 16px; */
+    color: yellow; 
+    padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-    /* background-color: aqua; */
+    background-color: aqua;
 
 
 }
-
+ */
 
 
 .dropdown2:hover {

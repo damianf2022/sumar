@@ -1,5 +1,6 @@
 import React from 'react'
-import { FiPhone, FiMail, FiLinkedin, FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
+import { FiLinkedin, FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
+import { FaWhatsappSquare } from "react-icons/fa";
 import './styles/footer.css';
 
 
@@ -9,7 +10,7 @@ const Footer = () => {
         <div>
             <div className='contenedor-footer'>
                 <h5>Cordoba Capital</h5>
-                <div className="linea-divisora"></div>
+                {/* <div className="linea-divisora">.</div> */}
 
                 <div className='datos-footer'>
                     <p>Tel.: +54(351)7667501</p>
@@ -18,6 +19,7 @@ const Footer = () => {
                 </div>
                 <div className='link-footer'>
                     <FiLinkedin />
+                    <FaWhatsappSquare/>
                     <FiFacebook />
                     <FiInstagram />
                     <FiTwitter />
@@ -25,7 +27,7 @@ const Footer = () => {
             </div>
             <div className='pie-footer'>
                 © SUMAR SERVICIOS INDUSTRIALES S.R.L. 2020
-                <br />  
+                <br />
                 - Todos los derechos reservados.-
             </div>
 

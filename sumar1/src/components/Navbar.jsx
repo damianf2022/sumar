@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { FiPhone, FiMail, FiLinkedin, FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
+import { FaPhone, FaEnvelope, FaLinkedin, FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
+// import { FaTwitter } from "react-icons/fa";
 
 import './styles/Navbar.css';
 
@@ -10,20 +11,20 @@ const Navbar = () => {
         <div className='container'>
 
             <div className='phone'>
-                <FiPhone />
+                <FaPhone />
                 +54 9 3517 66-7501
             </div>
 
             <div className='mail'>
-                <FiMail />
+                <FaEnvelope />
                 comercialcba@sumarservicios.com.ar
             </div>
 
             <div className='icons'>
-                <FiLinkedin />
-                <FiFacebook />
-                <FiInstagram />
-                <FiTwitter />
+                <FaLinkedin />
+                <FaFacebook />
+                <FaInstagram />
+                <FaTwitter />
             </div>
 
         </div>

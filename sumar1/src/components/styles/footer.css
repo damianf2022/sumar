@@ -14,12 +14,9 @@
 .contenedor-footer .linea-divisora {
     display: flex;
     justify-content: center;
-    width: 54%;
     height: 2px;
+    width: 275px;
     background-color: #ec1b34;
-    margin: 16px 0;
-    padding-left: 90px;
-    margin-bottom: 20px;
 }
 
 .datos-footer p {
