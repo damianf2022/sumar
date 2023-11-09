@@ -31,7 +31,7 @@ function SideMenu() {
           <div className='sidenav1'>
             <div className='menu-side'>
               <div className='menu2'>
-                <a href="#home">Quiénes somos</a>
+              <a href="/sumar/QuienesSomos">Quiénes somos</a>
 
 
                 <div className="dropdown2">
@@ -44,8 +44,8 @@ function SideMenu() {
                         <a href="#">Grupos Electrogenos</a>
 
                         <div className="sub-menu-content">
-                          <a href="#">Diesel</a>
-                          <a href="#">Gas</a>
+                          <a href="/sumar/electrogenodiesel">Diesel</a>
+                          <a href="/sumar/electrogenogas">Gas</a>
                         </div>
                       </div>
 
@@ -53,7 +53,7 @@ function SideMenu() {
                         <a href="#">Torres de Iluminacion</a>
 
                         <div className="sub-menu-content2">
-                          <a href="#">LED</a>
+                          <a href="/sumar/torresled">LED</a>
                         </div>
                       </div>
 
@@ -61,22 +61,20 @@ function SideMenu() {
                         <a href="#">Plataformas de Altura</a>
 
                         <div className="sub-menu-content2">
-                          <a href="#">Brazo articulado diesel</a>
-                          <a href="#">Brazo telescópico diesel</a>
-                          <a href="#">Tijera todo-terreno diesel</a>
-                          <a href="#">Tijera eléctrica</a>
+                          <a href="/sumar/BrazoArtDiesel">Brazo articulado diesel</a>
+                          <a href="/sumar/BrazoTelescopico">Brazo telescópico diesel</a>
+                          <a href="/sumar/TijeraDiesel">Tijera todo-terreno diesel</a>
+                          <a href="/sumar/TijeraElectrica">Tijera eléctrica</a>
                         </div>
                       </div>
-                      <a href="#">Tableros</a>
+                      <a href="/sumar/Tableros">Tableros</a>
                     </div>
                   )}
 
                 </div>
-
-                <a href="#home">Servicios</a>
-                <a href="#home">Instalaciones</a>
-                <a href="#home">Contacto</a>
-
+                <a href="/sumar/Servicios">Servicios</a>
+                <a href="/sumar/Instalaciones">Instalaciones</a>
+                <a href="/sumar/Contacto">Contacto</a>
 
               </div>
             </div>
@@ -84,7 +82,6 @@ function SideMenu() {
         </div>
       ) : (
         <span onClick={openNav}><LuMenu className='menu-button' /></span>
-        // style={{ fontSize: '30px', cursor: 'pointer' }}
       )}
     </div>
   );
