@@ -27,7 +27,8 @@ function Navbar2() {
                 <button className='menu-button' onClick={handleOpenMenu}>
                     {/* <FiMenu className='menu-icon' /> */}
                 </button>
-                {menuOpen && <SideMenu1 />} {/* Renderiza SideMenu cuando menuOpen sea true */}
+                {menuOpen && <SideMenu1 />}
+                 {/* Renderiza SideMenu cuando menuOpen sea true */}
 
             </div>
             <nav className="navbar" >

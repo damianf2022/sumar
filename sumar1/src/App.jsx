@@ -18,8 +18,8 @@ function App() {
       <Card />
       <Quienes/>
       <Servicios/>
-      {/* <Objetivos/>
-      <Footer /> */}
+      <Objetivos/>
+      <Footer />
 
     </div>
   )

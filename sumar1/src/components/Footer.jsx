@@ -1,13 +1,34 @@
 import React from 'react'
+import { FiPhone, FiMail, FiLinkedin, FiFacebook, FiInstagram, FiTwitter } from 'react-icons/fi';
 import './styles/footer.css';
+
 
 const Footer = () => {
     return (
-        <div className='footer'>
-            <p>cordoba capital</p>
-            Tel.:+32332424242442
-            Pje.Giuliano 300 Guiñazu Sud.
-            comercialcba@sumarservicios.com.ar
+
+        <div>
+            <div className='contenedor-footer'>
+                <h5>Cordoba Capital</h5>
+                <div className="linea-divisora"></div>
+
+                <div className='datos-footer'>
+                    <p>Tel.: +54(351)7667501</p>
+                    <p>Pje. Giuliano 300 Guiñazu Sud.</p>
+                    <p>comercialcba@sumarservicios.com.ar</p>
+                </div>
+                <div className='link-footer'>
+                    <FiLinkedin />
+                    <FiFacebook />
+                    <FiInstagram />
+                    <FiTwitter />
+                </div>
+            </div>
+            <div className='pie-footer'>
+                © SUMAR SERVICIOS INDUSTRIALES S.R.L. 2020
+                <br />  
+                - Todos los derechos reservados.-
+            </div>
+
         </div>
     )
 }

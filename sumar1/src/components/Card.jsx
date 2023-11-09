@@ -1,5 +1,5 @@
 import React from 'react';
-import "./styles/Card.css"; // Importa los estilos CSS desde el archivo "Card.css"
+import "./styles/Card.css";
 import _dsc0 from '../images/_dsc0.jpg';
 
 const Card = () => {
