@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { LuPanelRightClose, LuMenu } from 'react-icons/LU';
 
 import './styles/sideMenu.css';
@@ -31,50 +32,52 @@ function SideMenu() {
           <div className='sidenav1'>
             <div className='menu-side'>
               <div className='menu2'>
-              <a href="/sumar/QuienesSomos">Quiénes somos</a>
+                <Link to="/sumar/QuienesSomos">
+              <z>Quiénes somos</z>
+                </Link>
 
 
                 <div className="dropdown2">
-                  <a className="dropbtn" onClick={handleOpenMenu}>
+                  <z className="dropbtn" onClick={handleOpenMenu}>
                     Productos
-                  </a>
+                  </z>
                   {isOpen && (
                     <div className="dropdown-content">
                       <div className="sub-menu">
-                        <a href="#">Grupos Electrogenos</a>
+                        <z href="#">Grupos Electrogenos</z>
 
                         <div className="sub-menu-content">
-                          <a href="/sumar/electrogenodiesel">Diesel</a>
-                          <a href="/sumar/electrogenogas">Gas</a>
+                          <z href="/sumar/electrogenodiesel">Diesel</z>
+                          <z href="/sumar/electrogenogas">Gas</z>
                         </div>
                       </div>
 
                       <div className="sub-menu2">
-                        <a href="#">Torres de Iluminacion</a>
+                        <z href="#">Torres de Iluminacion</z>
 
                         <div className="sub-menu-content2">
-                          <a href="/sumar/torresled">LED</a>
+                          <z href="/sumar/torresled">LED</z>
                         </div>
                       </div>
 
                       <div className="sub-menu2">
-                        <a href="#">Plataformas de Altura</a>
+                        <z href="#">Plataformas de Altura</z>
 
                         <div className="sub-menu-content2">
-                          <a href="/sumar/BrazoArtDiesel">Brazo articulado diesel</a>
-                          <a href="/sumar/BrazoTelescopico">Brazo telescópico diesel</a>
-                          <a href="/sumar/TijeraDiesel">Tijera todo-terreno diesel</a>
-                          <a href="/sumar/TijeraElectrica">Tijera eléctrica</a>
+                          <z href="/sumar/BrazoArtDiesel">Brazo articulado diesel</z>
+                          <z href="/sumar/BrazoTelescopico">Brazo telescópico diesel</z>
+                          <z href="/sumar/TijeraDiesel">Tijera todo-terreno diesel</z>
+                          <z href="/sumar/TijeraElectrica">Tijera eléctrica</z>
                         </div>
                       </div>
-                      <a href="/sumar/Tableros">Tableros</a>
+                      <z href="/sumar/Tableros">Tableros</z>
                     </div>
                   )}
 
                 </div>
-                <a href="/sumar/Servicios">Servicios</a>
-                <a href="/sumar/Instalaciones">Instalaciones</a>
-                <a href="/sumar/Contacto">Contacto</a>
+                <z href="/sumar/Servicios">Servicios</z>
+                <z href="/sumar/Instalaciones">Instalaciones</z>
+                <z href="/sumar/Contacto">Contacto</z>
 
               </div>
             </div>
