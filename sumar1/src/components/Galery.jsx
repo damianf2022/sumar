@@ -16,16 +16,16 @@ const Galery = () => {
   const slides = [
     {
       imageSrc: 'https://sumarservicios.com.ar/wp-content/uploads/2020/02/ORIG_SUMAR_web_home_banner-2_V2.jpg',
-      caption: 'Caption Text',
+      caption: 'Iluminar',
       link: 'https://sumarservicios.com.ar/torres-iluminacion-led/',
     },
     {
       imageSrc: 'https://sumarservicios.com.ar/wp-content/uploads/2020/02/ORIG_SUMAR_web_home_banner-4_V2.jpg',
-      caption: 'Caption Two',
+      caption: 'Generador',
     },
     {
       imageSrc: 'https://sumarservicios.com.ar/wp-content/uploads/2020/02/ORIG_SUMAR_web_home_banner-3_V2.jpg',
-      caption: 'Caption Three',
+      caption: 'Elevador',
     },
   ];
 

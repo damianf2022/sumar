@@ -9,7 +9,8 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     transition: background-color 0.3s;
-    background-color: white
+    background-color: white;
+    user-select: none;
 }
 
 .content:hover {
@@ -17,6 +18,7 @@
 }
 
 .servis {
+    padding-top: 20px;
     padding-left: 30px;
     font-family: 'Lato', sans-serif;
 

@@ -5,6 +5,7 @@
   border: 1px solid #cccccc8d;
   box-shadow: 0 4px 8px black;
   transition: transform 0.3s;
+  user-select: none;
 }
 
 .card:hover {
@@ -22,7 +23,7 @@
 }
 
 .card-button {
-  background-color: #007bff;
+  background-color: #ec1b34;
   color: #fff;
   border: none;
   padding: 10px 20px;
