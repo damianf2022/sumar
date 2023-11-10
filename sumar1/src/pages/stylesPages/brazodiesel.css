@@ -1,0 +1,18 @@
+.brazocontainer {
+    font-family: 'Lato', sans-serif;
+    text-align: start;
+}
+
+.brazocontainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.brazocontainer h2 {
+    margin: 10px;
+    font-size: 28px;
+}
+
+.brazocontainer li {
+    margin-left: 35px;
+}

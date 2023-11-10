@@ -1,0 +1,27 @@
+.tijedieselconte{
+
+}
+.tijedieselconte {
+    font-family: 'Lato', sans-serif;
+    text-align: start;
+}
+
+.tijedieselconte img {
+    width: 100%;
+    height: 100%;
+}
+
+.tijedieselconte h2 {
+    margin: 10px;
+    font-size: 28px;
+
+}
+
+.tijedieselconte li {
+    margin-left: 30px;
+
+}
+.tijedieselconte img{
+height: 100%;
+width: 100%;
+}

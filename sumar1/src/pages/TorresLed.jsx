@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './stylesPages/torresled.css'
 
 const TorresLed = () => {
     return (
-        <div>
+        <div className='ledcontainer'>
             <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-torres-de-iluminacion.jpg" alt="" />
-            <h1> Torres de iluminación Led</h1>
-            <p>Sumar Servicios Industriales SRL es uno de los pocos fabricantes nacionales de torres de iluminación led. Contamos con una unidad de potencia compacta de altísima calidad, altamente confiable y de diseño robusto. Las torres de iluminación de Sumar Servicios Industriales SRL poseen una sencilla operación, mantenimiento, y están sujetas a un exhaustivo programa de pruebas.
+            <h1> <strong>Torres de iluminación Led</strong></h1>
+            <p><strong>Sumar Servicios Industriales SRL</strong> es uno de los pocos fabricantes nacionales de torres de iluminación led. Contamos con una unidad de potencia compacta de altísima calidad, altamente confiable y de diseño robusto. Las torres de iluminación de Sumar Servicios Industriales SRL poseen una sencilla operación, mantenimiento, y están sujetas a un exhaustivo programa de pruebas.
 
                 Confiamos principalmente en las motorizaciones diésel Perkins, las cuales cuentan con tres cilindros de línea e inyección directa, refrigerado por agua, dos válvulas por cilindro, cigüeñal y bielas de acero forjado.
 

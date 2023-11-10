@@ -1,15 +1,15 @@
 import React from 'react'
-
+import './stylesPages/brazodiesel.css'
 const BrazoArtDiesel = () => {
     return (
-        <div>
 
+        <div className='brazocontainer'>
             <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-plataformas-de-altura-skyjack.jpg" alt="" />
 
-            <h4>Plataformas de elevación diesel con brazo articulado</h4>
+            <h2><strong>Plataformas de elevación diesel con brazo articulado</strong></h2>
 
-            <p>Las plataformas de elevación diesel con brazo articulado de Skyjack proporcionan una versatilidad líder en la industria
-                Ideal para aplicaciones tanto de construcción como industriales, los elevadores Skyjack’s tipo brazo articulado cuentan con un alcance superior – ya sea en altura, alcance horizontal, hacia arriba y sobre despeje.
+            <p>Las plataformas de elevación diesel con brazo articulado de <strong>Skyjack</strong> proporcionan una versatilidad líder en la industria
+                Ideal para aplicaciones tanto de construcción como industriales, los elevadores <strong>Skyjack’s</strong> tipo brazo articulado cuentan con un alcance superior – ya sea en altura, alcance horizontal, hacia arriba y sobre despeje.
             </p>
             <ul>
                 <li>Radio de giro reducido y cola cero para maniobras en espacios reducidos.</li>

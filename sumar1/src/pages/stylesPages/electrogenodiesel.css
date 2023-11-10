@@ -1,0 +1,32 @@
+.trogenocontaniner ul {
+}
+    .trogenocontaniner ul {
+    padding-left: 30px;
+
+}
+
+.trogenocontaniner img {
+    width: 100%;
+    height: 100%;
+}
+
+.trogenocontaniner h2,
+p {
+    font-family: 'Lato', sans-serif;
+    text-align: start;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.trogenocontaniner .lu {
+    padding: 40px;
+
+}
+
+/* ****************************************** */
+.trogenocontaniner2 img {
+    margin-top: 30px;
+    width: 50%;
+    height: 50%;
+}

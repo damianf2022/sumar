@@ -1,18 +1,21 @@
 import React from 'react'
-
+import './stylesPages/tijeraelectrica.css'
 const TijeraElectrica = () => {
     return (
-        <div>
-            <img src="" alt="" />
-            <h4>Plataformas de elevación tipo Tijeras Eléctricas</h4>
+        <div className='tijeraeleconten'>
+            <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-plataformas-de-altura-tijera-electrica.jpg" alt="" />
+            <h2><strong>Plataformas de elevación tipo Tijeras Eléctricas</strong></h2>
             <p>Las Plataformas de elevación tipo Tijeras Eléctricas Skyjack hacen más sencillo y productivo su trabajo, cuentan con el mejor valor de ciclo de vida de la industria a través del bajo costo de propiedad, facilidad de servicio y mantenimiento. Conservando altos valores residuales.
-                Los productos Skyjack están diseñados para un sencillo servicio y mantenimiento.
+                <br /><br />
+
+                Los productos <strong>Skyjack</strong> están diseñados para un sencillo servicio y mantenimiento.
+                <br /><br />
                 Manteniendo un diseño simple, utilizando tecnología probada y aprobada por nuestros clientes, la fiabilidad y facilidad de servicio son comunes a todos nuestros equipos.
             </p>
 
             <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Plataforma-de-elevacio%CC%81n-tipo-Tijera-electrica.jpg" alt="" />
 
-            <h5>Características estándar</h5>
+            <h4>Características estándar</h4>
             <ul>
                 <li>Manejable a toda altura.</li>
                 <li>Velocidad variable, tracción hidráulica delantera de dos ruedas.</li>

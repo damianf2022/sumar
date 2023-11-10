@@ -9,6 +9,7 @@ function SideMenu() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleOpenMenu = () => {
+    console.log("productos!!!");
     setIsOpen(true);
   }
 
@@ -38,7 +39,7 @@ function SideMenu() {
 
 
                 <div className="dropdown2">
-                  <a className="dropbtn" onClick={handleOpenMenu}>
+                  <a className="dropbtn2" onClick={handleOpenMenu}>
                     Productos
                   </a>
                   {isOpen && (
@@ -47,10 +48,12 @@ function SideMenu() {
                         <a href="#">Grupos Electrogenos</a>
 
                         <div className="sub-menu-content">
-                          <Link to="/sumar/electrogenodiesel"></Link>
+                          <Link to="/sumar/electrogenodiesel">
                           <a >Diesel</a>
-                          <Link to="/sumar/electrogenogas"></Link>
+                          </Link>
+                          <Link to="/sumar/electrogenogas">
                           <a>Gas</a>
+                          </Link>
                         </div>
                       </div>
 

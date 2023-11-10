@@ -1,0 +1,28 @@
+.tijeraeleconten p{
+    padding: 5px;
+
+}
+.tijeraeleconten img{
+    width: 99%;
+    height: 99%;
+}
+.tijeraeleconten {
+    font-family: 'Lato', sans-serif;
+    text-align: start;
+}
+
+
+.tijeraeleconten h2 {
+    margin: 10px;
+    font-size: 26px;
+
+}
+
+.tijeraeleconten li {
+    margin-left: 30px;
+
+}
+.tijeraeleconten img{
+height: 100%;
+width: 100%;
+}
