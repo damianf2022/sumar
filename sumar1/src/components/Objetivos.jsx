@@ -10,7 +10,7 @@ const Objetivos = () => {
 
             <div className='contenedor-objetivos-1'>
                 <div className='contenedor-objetivos-2' >
-                    <p>Nuestro objetivo es que nuestros clientes nos consideren socios estratégicos para sus proyectos.</p>
+                    <p><strong>Nuestro objetivo es que nuestros clientes nos consideren socios estratégicos para sus proyectos.</strong></p>
 
                     <div className="objcard">
                         <FontAwesomeIcon className="obj-icon" icon={faHandHoldingUsd} />

@@ -1,11 +1,11 @@
 import React from 'react'
 import "./styles/quienes.css"; // Importa los estilos CSS desde el archivo "Card.css"
-
+import equipo from '../images/equipo.png'
 const Quienes = () => {
     return (
         <div className="image-text-container">
             <div className="image-half">
-                <img className="half-image"src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Home_quienes-somos.png" alt="Imagen" />
+                <img className="half-image"src={equipo} alt="Imagen" />
             </div>
             <div className="text-half">
                 <h2>Quiénes somos</h2>

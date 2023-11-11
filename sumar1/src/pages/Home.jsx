@@ -4,11 +4,13 @@ import Card from '../components/Card';
 import Quienes from '../components/Quienes';
 import Servicios from '../components/Servicios';
 import Objetivos from '../components/Objetivos';
+import Newcontent from '../components/Newcontent';
 
 const Home = () => {
   return (
     <div>
-          <Galery />
+          {/* <Galery /> */}
+          <Newcontent/>
           <Card />
           <Quienes />
           <Servicios />

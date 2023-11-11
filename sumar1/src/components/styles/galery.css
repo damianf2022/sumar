@@ -19,12 +19,14 @@
 
 /* Estilos para las imágenes en las diapositivas */
 .Galery-container img {
-    width: 10%;
-    height: auto;
+    width: 95%;
+    height: 95%;
+    margin: 5px;
+    border-radius: 1px;
 }
 
 /* Estilos para el texto o título */
-.Galery-container .text {
+/* .Galery-container .text {
     color: #f2f2f2;
     font-size: 28px;
     padding: 8px 12px;
@@ -37,17 +39,17 @@
 
 .text:hover {
     background-color: rgba(0, 0, 0, 0.8);
-}
+} */
 
 
 /* Estilos para los enlaces en el texto */
-.Galery-container .text a {
+/* .Galery-container .text a {
     text-decoration: none;
     color: inherit;
-}
+} */
 
 /* Estilos para los botones de navegación (anterior y siguiente) */
-.Galery-container .prev,
+/* .Galery-container .prev,
 .Galery-container .next {
     cursor: pointer;
     position: absolute;
@@ -61,21 +63,21 @@
     transition: 0.6s ease;
     user-select: none;
 
-}
+} */
 
-.prev:hover,
+/* .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-}
+} */
 
-.Galery-container .next {
+/* .Galery-container .next {
     right: 0;
     border-radius: 3px 0 0 3px;
-}
+} */
 
 @media (max-width: 768px) {
     
-    .Galery-container .text {
+    /* .Galery-container .text {
         color: #f2f2f2;
         font-size: 10px;
         padding: 2px 2px;
@@ -86,8 +88,8 @@
         background-color: rgba(0, 0, 0, 0.379);
 
     }
-
-    .Galery-container .prev,
+ */
+    /* .Galery-container .prev,
     .Galery-container .next {
         cursor: pointer;
         position: absolute;
@@ -99,21 +101,24 @@
         font-weight: bold;
         font-size: 18px;
         transition: 0.6s ease;
-        /* border-radius: 0 3px 3px 0; */
         user-select: none;
         
-    }
+    } */
 }
 
 @media (min-width: 768px) {
-    .Galery-container .text {
+    /* .Galery-container .text {
         color: #f2f2f2;
         font-size: 36px;
         padding: 1px 1px;
         position: absolute;
         bottom: 247px;
-        width: 99.8%;
+        width: 0%;
         text-align: center;
         background-color: rgba(0, 0, 0, 0.379);
-    }
+    } */
+}
+
+.Galery-container .menuicon{
+    margin-top : 10px;
 }

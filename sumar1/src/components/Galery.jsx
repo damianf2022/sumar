@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './styles/galery.css';
+import fabricantes from '../images/fabricantes.png'
+import alquiler from '../images/alquiler.png'
+import tecEspecial from '../images/tecEspecial.png'
+import menuicon from '../images/menuicon.png'
 
 const Galery = () => {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -12,20 +16,19 @@ const Galery = () => {
     const interval = setInterval(() => plusSlides(1), 3000);
     return () => clearInterval(interval);
   }, []);
-
   const slides = [
     {
-      imageSrc: 'https://sumarservicios.com.ar/wp-content/uploads/2020/02/ORIG_SUMAR_web_home_banner-2_V2.jpg',
-      caption: 'Iluminar',
+      imageSrc: fabricantes,
+      // caption: 'Iluminar',
       link: 'https://sumarservicios.com.ar/torres-iluminacion-led/',
     },
     {
-      imageSrc: 'https://sumarservicios.com.ar/wp-content/uploads/2020/02/ORIG_SUMAR_web_home_banner-4_V2.jpg',
-      caption: 'Generador',
+      imageSrc: alquiler,
+      // caption: 'Generador',
     },
     {
-      imageSrc: 'https://sumarservicios.com.ar/wp-content/uploads/2020/02/ORIG_SUMAR_web_home_banner-3_V2.jpg',
-      caption: 'Elevador',
+      imageSrc:tecEspecial,
+      // caption: 'Elevador',
     },
   ];
 
@@ -36,7 +39,7 @@ const Galery = () => {
           key={index}
           className={`mySlides fade${index === slideIndex ? ' active' : ''}`}
         >
-          <img src={slide.imageSrc} style={{ width: '100%' }} />
+          <img src={slide.imageSrc}  />
           <div className="text">
             {slide.link ? (
               <a href={slide.link} style={{ textDecoration: 'none', color: 'inherit' }}>
@@ -49,12 +52,18 @@ const Galery = () => {
         </div>
       ))}
 
-      <a className="prev" onClick={() => plusSlides(-1)}>
+      {/* <a className="prev" onClick={() => plusSlides(-1)}>
         &#10094;
       </a>
       <a className="next" onClick={() => plusSlides(1)}>
         &#10095;
-      </a>
+      </a> */}
+
+      <dir>
+
+<img  className="menuicon"src= {menuicon} alt="" />
+
+      </dir>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 .contenedor-objetivos-1 {
-    background-image: url('https://sumarservicios.com.ar/wp-content/uploads/2020/02/home_contador_fondo-recorte.jpg');
+    background-image: url('https://fotos.perfil.com/2023/06/24/trim/987/555/la-rueda-de-eiffel-en-el-parque-de-la-biodiversidad-1595429.jpeg?webp');
     background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     background-position: center; /* Centra la imagen de fondo */
@@ -19,9 +19,10 @@
 }
 
 .contenedor-objetivos-2 p {
+    background-color: rgba(0, 0, 0, 0.371);
     padding-top: 50px;
     font-size: 24px;
-    font-family: 'Lato', sans-serif;
+    font-family: "";
     color: white;
     text-align: center;
     margin: 0 auto;
@@ -29,6 +30,7 @@
 }
 
 .objcard {
+    background-color: rgba(0, 0, 0, 0.132);
     display: flex;
     flex-direction: column;
     align-items: center;
