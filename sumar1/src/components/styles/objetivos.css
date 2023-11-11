@@ -30,7 +30,7 @@
 }
 
 .objcard {
-    background-color: rgba(0, 0, 0, 0.132);
+    /* background-color: rgba(0, 0, 0, 0.132); */
     display: flex;
     flex-direction: column;
     align-items: center;

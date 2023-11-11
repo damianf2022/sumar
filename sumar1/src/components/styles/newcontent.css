@@ -2,9 +2,10 @@
 }
 .contenedornew-1 img {
     width: 100%;
-    border-radius: 10px;
+    display: flex;
     height: auto; /* Para mantener la proporción */
-
+    display: block; /* Para evitar márgenes extra */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
 .galeria{
@@ -52,7 +53,7 @@
   
     .contenedornew-1 img,
     .contenedornew-2 img {
-      max-width: 100%; /* Asegura que la imagen no sobrepase su contenedor */
+      max-width: 70%; /* Asegura que la imagen no sobrepase su contenedor */
       border-radius: 50%; /* Puedes reducir el radio de borde para ajustar el estilo en móviles */
     }
   

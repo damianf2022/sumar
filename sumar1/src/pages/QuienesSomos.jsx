@@ -1,5 +1,6 @@
 import React from 'react'
 import './stylesPages/quienes.css'
+import hisTiempo from '../images/histTiempo.png'
 
 const QuienesSomos = () => {
   return (
@@ -8,9 +9,9 @@ const QuienesSomos = () => {
 
       <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-quienes-somos-sumar.jpg" alt="" />
 
-      <strong className='stitulo'>Nuestra historia</strong>
-      <br /><br />
-      <p>En el año <strong>2011 Sumar</strong> se inicia como una empresa comercializadora de grupos electrógenos y plataformas para trabajo en altura, en condición venta y alquiler, con oficinas en Barracas y depósito en Sarandí.<br /><br />
+      <strong className='stitulo'>Nuestra </strong>
+      <img src={hisTiempo} alt="" />
+      {/* <p>En el año <strong>2011 Sumar</strong> se inicia como una empresa comercializadora de grupos electrógenos y plataformas para trabajo en altura, en condición venta y alquiler, con oficinas en Barracas y depósito en Sarandí.<br /><br />
 
         Luego de dos años en el <strong>2013</strong>, apostando a la producción nacional, se inaugura la planta industrial en Temperley convirtiéndonos en fabricantes de grupos electrógenos de hasta 700 kVA y torres de iluminación, haciendo acuerdos comerciales con fabricantes de motores como MWM, Perkins, Agrale, Volvo y Cummins, y de alternadores como Cramaco, Linz y Marelli.<br /><br />
 
@@ -19,10 +20,9 @@ const QuienesSomos = () => {
         Al año siguiente en el <strong>2016</strong>, conseguimos la representación de <strong>Skyjack</strong>, compañía canadiense líder en la fabricación de plataformas para trabajo en altura, para distribución de sus equipos en Argentina.<br /><br />
 
         Finalmente en el <strong>2018</strong> se realiza un acuerdo comercial con WEG, para armar nuestros grupos electrógenos con sus alternadores, dando un importante salto de calidad. Y también ese mismo año se consiguió la representación de <strong>ELGI</strong>, compañía India fabricante de compresores de aire de muy alta calidad, para la distribución de sus equipos en Argentina.<br /><br />
-      </p>
-
-
-      
+      </p> */}
+      <br /><br /><br /><br />
+     
         <strong className='stitulo'>Cultura empresarial</strong>
 
       

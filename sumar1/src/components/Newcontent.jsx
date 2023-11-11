@@ -27,9 +27,9 @@ const Newcontent = () => {
 
 
 
-            <Slide direction="right" triggerOnce>
+            <Slide direction="right" triggerOnce delay={1500}>
                 <div className='contenedornew-2'>
-                    <Fade delay={1300}>
+                    <Fade delay={2300}>
                     <img className="galeria" src={galeria} alt="" />
 
                     </Fade>
