@@ -54,6 +54,8 @@ const QuienesSomos = () => {
           <strong>Entusiasmo</strong>. <br /> <br />
         </p>
 
+        <img src="https://scontent.fcor11-2.fna.fbcdn.net/v/t1.6435-9/43108213_964736720393568_6994842175590629376_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=IVtqXnZWI9kAX_QHtAH&_nc_ht=scontent.fcor11-2.fna&oh=00_AfCcuZnx_UwjGqm06VHFUKM-tkmv1lQ5reKytiSUkkBcaQ&oe=65776C94" alt="" />
+
       </div>
 
 

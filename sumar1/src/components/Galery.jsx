@@ -1,71 +1,53 @@
-import React, { useState, useEffect } from 'react';
-import './styles/galery.css';
-import fabricantes from '../images/fabricantes.png'
-import alquiler from '../images/alquiler.png'
-import tecEspecial from '../images/tecEspecial.png'
-import menuicon from '../images/menuicon.png'
+import React, { useState } from 'react';
 
-const Galery = () => {
-  const [slideIndex, setSlideIndex] = useState(0);
+const Galery = ({ images }) => {
 
-  const plusSlides = (n) => {
-    setSlideIndex((prevIndex) => (prevIndex + n) % 3);
-  };
+  return(
+    <div>hola</div>
+  )}
+//   const [currentSlide, setCurrentSlide] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => plusSlides(1), 3000);
-    return () => clearInterval(interval);
-  }, []);
-  const slides = [
-    {
-      imageSrc: fabricantes,
-      // caption: 'Iluminar',
-      link: 'https://sumarservicios.com.ar/torres-iluminacion-led/',
-    },
-    {
-      imageSrc: alquiler,
-      // caption: 'Generador',
-    },
-    {
-      imageSrc:tecEspecial,
-      // caption: 'Elevador',
-    },
-  ];
+//   const plusSlides = (n) => {
+//     setCurrentSlide((prevSlide) => (prevSlide + n) % images.length);
+//   };
 
-  return (
-    <div className="Galery-container">
-      {slides.map((slide, index) => (
-        <div
-          key={index}
-          className={`mySlides fade${index === slideIndex ? ' active' : ''}`}
-        >
-          <img src={slide.imageSrc}  />
-          <div className="text">
-            {slide.link ? (
-              <a href={slide.link} style={{ textDecoration: 'none', color: 'inherit' }}>
-                {slide.caption}
-              </a>
-            ) : (
-              slide.caption
-            )}
-          </div>
-        </div>
-      ))}
+//   const handleSlideClick = (n) => {
+//     setCurrentSlide(n);
+//   };
 
-      {/* <a className="prev" onClick={() => plusSlides(-1)}>
-        &#10094;
-      </a>
-      <a className="next" onClick={() => plusSlides(1)}>
-        &#10095;
-      </a> */}
+//   return (
+//     <div className="container">
+//       {images.map((image, index) => (
+//         <div className={index === currentSlide ? 'mySlides' : 'hidden'} key={index}>
+//           <div className="numbertext">
+//             {index + 1} / {images.length}
+//           </div>
+//           <img src={image} style={{ width: '100%' }} />
+//         </div>
+//       ))}
 
-      <dir>
+//       <a className="prev" onClick={() => plusSlides(-1)}>
+//         &#10094;
+//       </a>
+//       <a className="next" onClick={() => plusSlides(1)}>
+//         &#10095;
+//       </a>
 
-<img  className="menuicon"src= {menuicon} alt="" />
-
-      </dir>
-    </div>
-  );
-};
+//       <div className="row">
+//         {images.map((image, index) => (
+//           <div className="column" key={index}>
+//             <img
+//               className="demo cursor"
+//               src={image}
+//               style={{ width: '100%' }}
+//               onClick={() => handleSlideClick(index)}
+//               alt={`Slide ${index + 1}`}
+//             />
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
 
 export default Galery;

@@ -1,5 +1,13 @@
 import React from 'react'
 import './stylesPages/serviciosp.css'
+// import Galery from '../components/Galery';
+
+const images = [
+    'url_imagen_1.jpg',
+    'url_imagen_2.jpg',
+    // ... añade las URLs de tus imágenes
+];
+
 const Servicios = () => {
     return (
         <div className='servicontenedor'>
@@ -38,6 +46,16 @@ const Servicios = () => {
                 <br /><br />
                 Orientamos a nuestro staff a la vocación de servicio ya que consideramos que ponernos en el lugar del cliente permite lograr los mejores esfuerzos de cada uno.
                 <br /><br />
+                {/* *********** */}
+
+                {/* <div>
+                    <h1>Página de inicio</h1>
+                    <p>Bienvenido a la página de inicio</p>
+                    <Galery /> 
+                    Usa el componente Galería aquí
+                </div> */}
+                {/* ***************** */}
+
                 <strong>Repuestos</strong>: contamos con repuestos originales de cada uno de nuestros productos, de manera tal, que podamos agilizar los tiempos de respuesta.
                 <br /><br />
                 <strong>Tableros especiales</strong>: Contamos con una división especializada en desarrollo de tableros para distintas aplicaciones adaptándonos a sus proyectos.

@@ -16,6 +16,7 @@ import QuienesSomos from './pages/QuienesSomos'
 import Instalaciones from './pages/Instalaciones'
 import Servicios from './pages/Servicios'
 import Contacto from './pages/Contacto'
+import Whatsapp from './components/Whatsapp'
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
 
 
       </Routes>
+      <Whatsapp/>
       <Footer />
 
     </Router>

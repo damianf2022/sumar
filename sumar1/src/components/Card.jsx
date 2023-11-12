@@ -3,46 +3,41 @@ import { Link } from 'react-router-dom';
 
 import "./styles/card.css";
 import _dsc0 from '../images/_dsc0.png';
+import card_grupo from '../images/card_grupo.png';
+import card_grua from '../images/card_grua.png';
+import card_iluminaria from '../images/card_iluminaria.png';
+
 import { Slide, Fade } from 'react-awesome-reveal';
 
 const Card = () => {
     return (
         <div className="card-container">
-            <Fade delay={1000}>
-                {/* <div className="card1">
-                    <img
-                        className="card-image"
-                        src="https://sumarservicios.com.ar/wp-content/uploads/2020/02/Home_nuestros-equipos_grupos-1.png"
-                        alt="Imagen de la tarjeta"
-                    />
-                    <h3 className="card-title">Grupos electrógenos</h3>
-                    <Link to="/sumar/electrogenodiesel">
-                        <button className="card-button">Botón</button>
-                    </Link>
-                </div> */}
-
-
+            <Fade delay={500}>
                 <div className="card">
-                    <Link to="/sumar/electrogenogas">
+                    <Link to="/sumar/electrogenodiesel">
                         <img
                             className="card-image"
-                            src='https://sumarservicios.com.ar/wp-content/uploads/2020/02/Home_nuestros-equipos_torres-1.png' alt="Imagen de la tarjeta"
-                        />
-                        {/* <h3 className="card-title">Torres de Iluminación</h3>
-                        <button className="card-button">Botón</button>*/}
+                            src={card_grupo} alt="Imagen de la tarjeta" />
+
                     </Link>
                 </div>
 
 
                 <div className="card">
-                    <Link to="/sumar/tijeraelectrica">
+                    <Link to="/sumar/TijeraElectrica">
                         <img
                             className="card-image"
-                            src='https://sumarservicios.com.ar/wp-content/uploads/2020/02/Home_nuestros-equipos_plataformas-1.png' alt="Imagen de la tarjeta"
-                        />
-                        {/* <h3 className="card-title">Plataformas en Altura</h3>
-                        <button className="card-button">Botón</button>
-                */}
+                            src={card_grua} alt="Imagen de la tarjeta" />
+                    </Link>
+                </div>
+
+
+                <div className="card">
+                    <Link to="/sumar/torresled">
+                        <img
+                            className="card-image"
+                            src={card_iluminaria} />
+
 
                     </Link>
                 </div>
