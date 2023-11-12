@@ -2068,8 +2068,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     .whatsapp-icon {
       width: 70px;
       height: 70px;
-      border: none;
+      border-radius:50%;
       background: none;
+      border: 3px solid #cccccc8d;
+      box-shadow: 0 4px 8px rgb(255, 255, 255);
+  
     }
 
     .email-link {
@@ -2082,6 +2085,19 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
       width: 70px;
       height: 70px;
       border: none;
+      border-radius:50%;
       background: none;
+      border: 3px solid #cccccc8d;
+      box-shadow: 0 4px 8px rgb(255, 255, 255);
+  
     }
+    .email-icon:hover {
+        background-color: rgb(106, 177, 225);
+
+    }
+    .whatsapp-icon:hover {
+        background-color: rgb(70, 236, 70);
+
+    }
+
   `;return s.jsxs("div",{children:[s.jsx("style",{children:e}),s.jsx("a",{href:"https://api.whatsapp.com/send?phone=+5943585714007",className:"whatsapp-link",children:s.jsx("img",{src:d4,alt:"WhatsApp",className:"whatsapp-icon"})}),s.jsx("style",{children:e}),s.jsx("a",{href:"https://api.whatsapp.com/send?phone=TUNUMEROTELEFONO",className:"email-link",children:s.jsx("img",{src:m4,alt:"Email",className:"email-icon"})})]})};function h4(){return s.jsxs(dg,{children:[s.jsx(Cg,{}),s.jsx(zg,{}),s.jsxs(og,{children:[s.jsx(Ee,{path:"/sumar/",element:s.jsx(Zx,{})}),s.jsx(Ee,{path:"/sumar/electrogenodiesel",element:s.jsx(e4,{})}),s.jsx(Ee,{path:"/sumar/electrogenogas",element:s.jsx(t4,{})}),s.jsx(Ee,{path:"/sumar/tijeraelectrica",element:s.jsx(dd,{})}),s.jsx(Ee,{path:"/sumar/torresled",element:s.jsx(n4,{})}),s.jsx(Ee,{path:"/sumar/BrazoArtDiesel",element:s.jsx(r4,{})}),s.jsx(Ee,{path:"/sumar/BrazoTelescopico",element:s.jsx(a4,{})}),s.jsx(Ee,{path:"/sumar/TijeraDiesel",element:s.jsx(i4,{})}),s.jsx(Ee,{path:"/sumar/TijeraElectrica",element:s.jsx(dd,{})}),s.jsx(Ee,{path:"/sumar/Tableros",element:s.jsx(o4,{})}),s.jsx(Ee,{path:"/sumar/QuienesSomos",element:s.jsx(l4,{})}),s.jsx(Ee,{path:"/sumar/Instalaciones",element:s.jsx(c4,{})}),s.jsx(Ee,{path:"/sumar/Servicios",element:s.jsx(u4,{})}),s.jsx(Ee,{path:"/sumar/Contacto",element:s.jsx(f4,{})})]}),s.jsx(p4,{}),s.jsx(Lg,{})]})}Ns.createRoot(document.getElementById("root")).render(s.jsx(ot.StrictMode,{children:s.jsx(h4,{})}));
