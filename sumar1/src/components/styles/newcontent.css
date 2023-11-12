@@ -1,69 +1,84 @@
-.contenedornew-1{
-}
+.contenedornew-1 {}
+
 .contenedornew-1 img {
-    width: 100%;
-    display: flex;
-    height: auto; /* Para mantener la proporción */
-    display: block; /* Para evitar márgenes extra */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
+  width: 100%;
+  display: flex;
+  height: auto;
+  display: block;/* Para evitar márgenes extra */
+  margin: 0 auto;/* Centra la imagen horizontalmente */
+  border: 3px solid #cccccc8d;
+  box-shadow: 0 4px 8px black;
+
 }
 
-.galeria{
-  max-width: 50%; /* Asegura que la imagen no sobrepase su contenedor */
+.galeria {
+  max-width: 50%;
+  /* Asegura que la imagen no sobrepase su contenedor */
 
 }
 
 .contenedornew-2 {
-    font-family: 'Lato', sans-serif;
-    color: white;
-    margin-bottom: 30px;
-    margin-top: 30px;
+  font-family: 'Lato', sans-serif;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 30px;  
+
 }
 
-.contenedornew-2 img {
-}
+.contenedornew-2 img {}
 
 .contenedornew-2 .obj-icon {
-    max-width: 100%; /* Asegura que la imagen no sobrepase su contenedor */
-    font-size: 50px;
-    margin: 17px;
+  max-width: 100%;
+  /* Asegura que la imagen no sobrepase su contenedor */
+  font-size: 50px;
+  margin: 17px;
 }
 
 .objcardnew {
-    max-width: 100%; /* Asegura que la imagen no sobrepase su contenedor */
-    margin-top: 10px;
-    margin-left: 3px;
-    margin-right: 3px;
-    background-color: #ec1b34;
-    display: flex;
-    flex-direction: row;
-    border-radius: 30px;
+  max-width: 100%;
+  /* Asegura que la imagen no sobrepase su contenedor */
+  margin-top: 20px;
+  margin-left: 3px;
+  margin-right: 3px;
+  background-color: #ec1b34;
+  display: flex;
+  flex-direction: row;
+  border-radius: 30px;
+  border: 3px solid #cccccc8d;
+  box-shadow: 0 4px 8px black;
+
 
 }
 
 .objcardnew h1 {
-    padding: 30px;
+  padding: 30px;
 }
 
 @media screen and (max-width: 768px) {
-  .contentnew .galeria{
-    max-width: 100%; /* Asegura que la imagen no sobrepase su contenedor */
-  
-  }
-  
-    .contenedornew-1 img,
-    .contenedornew-2 img {
-      max-width: 70%; /* Asegura que la imagen no sobrepase su contenedor */
-      border-radius: 50%; /* Puedes reducir el radio de borde para ajustar el estilo en móviles */
-    }
-  
-    .objcardnew {
-      max-width: 100%; /* Asegura que la imagen no sobrepase su contenedor */
+  .contentnew .galeria {
+    max-width: 100%;
+    /* Asegura que la imagen no sobrepase su contenedor */
 
-      border-radius: 15px; /* Reducir el radio de borde de las cards en móviles */
-    }
-  
-    .objcardnew h1 {
-      padding: 15px; /* Reducir el relleno en móviles para un aspecto más compacto */
-    }
   }
+
+  .contenedornew-1 img,
+  .contenedornew-2 img {
+    max-width: 70%;
+    /* Asegura que la imagen no sobrepase su contenedor */
+    border-radius: 50%;
+    /* Puedes reducir el radio de borde para ajustar el estilo en móviles */
+  }
+
+  .objcardnew {
+    max-width: 100%;
+    /* Asegura que la imagen no sobrepase su contenedor */
+
+    border-radius: 15px;
+    /* Reducir el radio de borde de las cards en móviles */
+  }
+
+  .objcardnew h1 {
+    padding: 15px;
+    /* Reducir el relleno en móviles para un aspecto más compacto */
+  }
+}

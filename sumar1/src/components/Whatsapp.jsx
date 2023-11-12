@@ -15,8 +15,11 @@ const Whatsapp = () => {
     .whatsapp-icon {
       width: 70px;
       height: 70px;
-      border: none;
+      border-radius:50%;
       background: none;
+      border: 3px solid #cccccc8d;
+      box-shadow: 0 4px 8px rgb(255, 255, 255);
+  
     }
 
     .email-link {
@@ -29,21 +32,34 @@ const Whatsapp = () => {
       width: 70px;
       height: 70px;
       border: none;
+      border-radius:50%;
       background: none;
+      border: 3px solid #cccccc8d;
+      box-shadow: 0 4px 8px rgb(255, 255, 255);
+  
     }
+    .email-icon:hover {
+        background-color: rgb(106, 177, 225);
+
+    }
+    .whatsapp-icon:hover {
+        background-color: rgb(70, 236, 70);
+
+    }
+
   `;
 
     return (
         <div>
-                <style>{styles}</style>
-                <a href="https://api.whatsapp.com/send?phone=+5943585714007" className="whatsapp-link">
-                    <img src={iconwat} alt="WhatsApp" className="whatsapp-icon" />
-                </a>
+            <style>{styles}</style>
+            <a href="https://api.whatsapp.com/send?phone=+5943585714007" className="whatsapp-link">
+                <img src={iconwat} alt="WhatsApp" className="whatsapp-icon" />
+            </a>
 
             <style>{styles}</style>
-                <a href="https://api.whatsapp.com/send?phone=TUNUMEROTELEFONO" className="email-link">
-                    <img src={email_icon} alt="Email" className="email-icon" />
-                </a>
+            <a href="https://api.whatsapp.com/send?phone=TUNUMEROTELEFONO" className="email-link">
+                <img src={email_icon} alt="Email" className="email-icon" />
+            </a>
         </div>
     );
 };
