@@ -56,11 +56,12 @@
 .closebtn {
     position: absolute;
     top: 30px;
-    margin-left: 5px;
+    margin-left: -15px;
     font-size: 40px;
     z-index: 2;
     border-radius: 30%;
-    background-color: red;
+    padding-top: 10px;
+    /* background-color: red; */
 }
 
 .closebtn :hover {

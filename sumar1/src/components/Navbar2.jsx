@@ -103,7 +103,7 @@ function Navbar2() {
 
                     </div>
                     <Link to="/sumar/QuienesSomos">
-                        <a href>Quiénes somos</a>
+                        <a>Quiénes somos</a>
                     </Link>
                 </div>
 
