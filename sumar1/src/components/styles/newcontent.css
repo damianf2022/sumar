@@ -1,84 +1,92 @@
-.contenedornew-1 {}
-
 .contenedornew-1 img {
-  width: 100%;
-  display: flex;
+  width: 50%;
   height: auto;
-  display: block;/* Para evitar márgenes extra */
-  margin: 0 auto;/* Centra la imagen horizontalmente */
+  display: block;
+  margin: 0 auto;
   border: 3px solid #cccccc8d;
   box-shadow: 0 4px 8px black;
-
 }
 
 .galeria {
-  max-width: 50%;
-  /* Asegura que la imagen no sobrepase su contenedor */
-
+  max-width: 100%;
+  margin: auto;
 }
 
 .contenedornew-2 {
   font-family: 'Lato', sans-serif;
   color: white;
   margin-bottom: 30px;
-  margin-top: 30px;  
-
+  margin-top: 30px;
 }
-
-.contenedornew-2 img {}
 
 .contenedornew-2 .obj-icon {
   max-width: 100%;
-  /* Asegura que la imagen no sobrepase su contenedor */
   font-size: 50px;
   margin: 17px;
 }
 
 .objcardnew {
-  max-width: 100%;
-  /* Asegura que la imagen no sobrepase su contenedor */
-  margin-top: 20px;
-  margin-left: 3px;
-  margin-right: 3px;
+  margin: 20px 0;
   background-color: #ec1b34;
   display: flex;
-  flex-direction: row;
   border-radius: 30px;
   border: 3px solid #cccccc8d;
   box-shadow: 0 4px 8px black;
-
-
 }
 
 .objcardnew h1 {
   padding: 30px;
 }
 
+/* Estilos para pantallas pequeñas */
 @media screen and (max-width: 768px) {
-  .contentnew .galeria {
-    max-width: 100%;
-    /* Asegura que la imagen no sobrepase su contenedor */
-
-  }
-
-  .contenedornew-1 img,
-  .contenedornew-2 img {
-    max-width: 70%;
-    /* Asegura que la imagen no sobrepase su contenedor */
+  .contenedornew-1 img {
+    width: 70%;
     border-radius: 50%;
-    /* Puedes reducir el radio de borde para ajustar el estilo en móviles */
   }
 
   .objcardnew {
-    max-width: 100%;
-    /* Asegura que la imagen no sobrepase su contenedor */
-
+    width: 100%;
     border-radius: 15px;
-    /* Reducir el radio de borde de las cards en móviles */
   }
 
   .objcardnew h1 {
     padding: 15px;
-    /* Reducir el relleno en móviles para un aspecto más compacto */
+  }
+}
+
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 1200px) {
+  .contenedor_cardnew {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .contenedornew-1 img {
+    width: 30%;
+  }
+
+  .galeria {
+    max-width: 70%;
+    margin-left: 250px;
+  }
+
+  .objcardnew {
+    width: calc(30% - 20px);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .obj-icon{
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 40px;
+  }
+
+  .objcardnew h1 {
+    padding: 25px;
   }
 }

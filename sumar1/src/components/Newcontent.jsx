@@ -28,31 +28,34 @@ const Newcontent = () => {
 
 
             <Slide direction="right" triggerOnce delay={1500}>
+               
                 <div className='contenedornew-2'>
                     <Fade delay={2300}>
-                    <img className="galeria" src={galeria} alt="" />
+                        <img className="galeria" src={galeria} alt="" />
 
                     </Fade>
-                    <div className="objcardnew">
-                        <FontAwesomeIcon className="obj-icon" icon={faRetweet} beatFade style={{ color: "#ffffff", fontSize: "30px" }} />
-                        <h1>Alquiler</h1>
-                        <div className="linea-divisora"></div>
-                    </div>
+                    <div className='contenedor_cardnew'>
+                        <div className="objcardnew">
+                            <FontAwesomeIcon className="obj-icon" icon={faRetweet} beatFade style={{ color: "#ffffff", fontSize: "30px" }} />
+                            <h1>Alquiler</h1>
+                            <div className="linea-divisora"></div>
+                        </div>
 
-                    <div className="objcardnew">
-                        <FontAwesomeIcon className="obj-icon" icon={faMoneyBillTrendUp} beatFade style={{ color: "#ffffff", fontSize: "30px" }} />
-                        <h1>Ventas</h1>
-                        <div className="linea-divisora"></div>
-                    </div>
+                        <div className="objcardnew">
+                            <FontAwesomeIcon className="obj-icon" icon={faMoneyBillTrendUp} beatFade style={{ color: "#ffffff", fontSize: "30px" }} />
+                            <h1>Ventas</h1>
+                            <div className="linea-divisora"></div>
+                        </div>
 
-                    <div className="objcardnew">
-                        <FontAwesomeIcon className="obj-icon" icon={faScrewdriver} beatFade style={{ color: "#ffffff", fontSize: "30px" }} />
-                        <h1>Mantenimiento</h1>
+                        <div className="objcardnew">
+                            <FontAwesomeIcon className="obj-icon" icon={faScrewdriver} beatFade style={{ color: "#ffffff", fontSize: "30px" }} />
+                            <h1>Mantenimiento</h1>
+                        </div>
                     </div>
                 </div>
-            </Slide>
+            </Slide >
 
-        </div>
+        </div >
     )
 }
 

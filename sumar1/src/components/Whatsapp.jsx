@@ -7,7 +7,7 @@ const Whatsapp = () => {
     const styles = `
     .whatsapp-link {
       position: fixed;
-      bottom: 100px;
+      bottom: 20px;
       right: 20px;
       z-index: 9999;
     }
@@ -24,7 +24,7 @@ const Whatsapp = () => {
 
     .email-link {
       position: fixed;
-      bottom: 100px;
+      bottom: 20px;
       left: 20px;
       z-index: 9999;
     }

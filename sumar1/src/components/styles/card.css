@@ -47,28 +47,46 @@
 
 .card-container {
   display: flex;
-  flex-direction: column; /* Cartas debajo de card1 */
-  align-items: center; /* Centra verticalmente las tarjetas */
-
-  gap: 70px; /* Espaciado entre cartas */
+  align-items: center;
+  justify-content: center;
+  /* gap: 70px; */
 }
 
 @media (max-width: 768px) {
-  .card1 {
-    width: 300px;
+  .card-container {
+    flex-direction: column;
+    align-items: center;
   }
+
   .card {
-    margin: 1px;
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .card {
+    order: -1; /* Pone la card1 al principio en móviles */
+    width: 100%;
+    margin: 10px 0;
   }
 }
 
 @media (min-width: 768px) {
-  .card1 {
-    margin: 80px;
-    width: 600px;
+  .card-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgba(0, 0, 0, 0.488);
   }
+
   .card {
-    margin: 80px;
+    order: 0; /* Reestablece el orden para las tarjetas en pantallas más grandes */
+    width: 600px;
+    margin: 20px;
+  }
+
+  .card {
     width: 400px;
+    margin: 20px;
   }
 }

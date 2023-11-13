@@ -5,7 +5,9 @@ const Quienes = () => {
     return (
         <div className="image-text-container">
             <div className="image-half">
-                <img className="half-image"src={equipo} alt="Imagen" />
+                <img className="half-image" src={equipo} alt="Imagen" />
+                <img className='equipo2' src="https://scontent.fcor11-2.fna.fbcdn.net/v/t1.6435-9/43108213_964736720393568_6994842175590629376_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=IVtqXnZWI9kAX_QHtAH&_nc_ht=scontent.fcor11-2.fna&oh=00_AfCcuZnx_UwjGqm06VHFUKM-tkmv1lQ5reKytiSUkkBcaQ&oe=65776C94" alt="" />
+
             </div>
             <div className="text-half">
                 <h2>Quiénes somos</h2>
@@ -15,6 +17,7 @@ const Quienes = () => {
                 <p><strong>Nuestra visión</strong> es construir relaciones a largo plazo con nuestros clientes, a quienes consideramos pilares fundamentales para el desarrollo de la compañía. Con el fin ser una empresa referente en el segmento  y lograr una mayor especialización.</p>
             </div>
 
+                <img className='equipo3' src="https://scontent.fcor11-2.fna.fbcdn.net/v/t1.6435-9/43108213_964736720393568_6994842175590629376_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=IVtqXnZWI9kAX_QHtAH&_nc_ht=scontent.fcor11-2.fna&oh=00_AfCcuZnx_UwjGqm06VHFUKM-tkmv1lQ5reKytiSUkkBcaQ&oe=65776C94" alt="" />
 
         </div>
     );

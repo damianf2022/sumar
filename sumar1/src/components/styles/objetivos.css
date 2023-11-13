@@ -1,113 +1,310 @@
-.contenedor-objetivos-1 {
-    background-image: url('https://fotos.perfil.com/2023/06/24/trim/987/555/la-rueda-de-eiffel-en-el-parque-de-la-biodiversidad-1595429.jpeg?webp');
-    background-size: cover; /* Ajusta el tamaño de la imagen de fondo */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    background-position: center; /* Centra la imagen de fondo */
-    background-attachment: fixed; /* Fija la imagen de fondo en su posición */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media (max-width: 768px) {
+    .contenedor-objetivos-1 {
+        background-image: url('https://fotos.perfil.com/2023/06/24/trim/987/555/la-rueda-de-eiffel-en-el-parque-de-la-biodiversidad-1595429.jpeg?webp');
+        background-size: cover;
+        /* Ajusta el tamaño de la imagen de fondo */
+        background-repeat: no-repeat;
+        /* Evita que la imagen se repita */
+        background-position: center;
+        /* Centra la imagen de fondo */
+        background-attachment: fixed;
+        /* Fija la imagen de fondo en su posición */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenedor-objetivos-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 0 20px;
+    }
+
+    .contenedor-objetivos-2 p {
+        background-color: rgba(0, 0, 0, 0.371);
+        padding-top: 50px;
+        font-size: 24px;
+        font-family: "";
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    .objcard {
+        /* background-color: rgba(0, 0, 0, 0.132); */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .objcard .obj-icon {
+        color: #ec1b34;
+        font-size: 31px;
+        padding-bottom: 15px;
+    }
+
+    .objcard {
+        font-size: 36px;
+        font-family: 'Lato', sans-serif;
+        color: white
+    }
+
+    .objcard h6 {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px
+    }
+
+    .contenedor-objetivo-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.421);
+        padding-bottom: 20px;
+
+    }
+
+    .contenedor-objetivo-3 h3 {
+        display: flex;
+        justify-content: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .contenedor-objetivo-3 span {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .contenedor-objetivo-3 button {
+        background-color: #ec1b34;
+        color: white;
+        padding: 10px;
+        margin: 20px
+    }
+
+    .contenedor-objetivos-4 .linea-divisoraf {
+        width: 88px;
+        height: 2px;
+        background-color: #ec1b34;
+        margin: 16px 0;
+        padding-right: 70px;
+        margin-left: 20px;
+    }
+
+    .contenedor-objetivos-4 h2 {
+        font-family: 'Lato', sans-serif;
+        padding-top: 40px;
+        font-size: 18px;
+        padding-left: 20px;
+
+    }
+
+    .contenedor-objetivos-4 img {
+        width: 100%;
+        height: 100%;
+    }
 }
 
-.contenedor-objetivos-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    padding: 0 20px;
-}
+/* @media (min-width: 768px) {
+    .contenedor-objetivos-2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 0 20px;
+    }
 
-.contenedor-objetivos-2 p {
-    background-color: rgba(0, 0, 0, 0.371);
-    padding-top: 50px;
-    font-size: 24px;
-    font-family: "";
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 50px;
-}
+    .contenedor-objetivos-2 p {
+        background-color: rgba(0, 0, 0, 0.371);
+        padding: 50px 20px;
+        font-size: 24px;
+        font-family: "";
+        color: white;
+        text-align: center;
+        margin: 0;
+    }
 
-.objcard {
-    /* background-color: rgba(0, 0, 0, 0.132); */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .contenedor-objetivo-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.421);
+        padding: 20px;
+        margin-bottom: 20px;
+    }
 
-.objcard .obj-icon {
-    color: #ec1b34;
-    font-size: 31px;
-    padding-bottom: 15px;
-}
+    .contenedor-objetivos-1 {
+        background-image: url('https://fotos.perfil.com/2023/06/24/trim/987/555/la-rueda-de-eiffel-en-el-parque-de-la-biodiversidad-1595429.jpeg?webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.objcard {
-    font-size: 36px;
-    font-family: 'Lato', sans-serif;
-    color: white
-}
+    .objcard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.objcard h6 {
-    font-family: 'Lato', sans-serif;
-    font-size: 18px
-}
+    .objcard .obj-icon {
+        color: #ec1b34;
+        font-size: 31px;
+        padding-bottom: 15px;
+    }
 
-.contenedor-objetivo-3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.421);
-    padding-bottom: 20px;
+    .objcard {
+        font-size: 36px;
+        font-family: 'Lato', sans-serif;
+        color: white
+    }
 
-}
+    .objcard h6 {
+        font-family: 'Lato', sans-serif;
+        font-size: 18px
+    }
+} */
 
-.contenedor-objetivo-3 h3 {
-    display: flex;
-    justify-content: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 40px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 20px;
-}
+@media  (min-width: 768px) {
+    .contenedor-objetivos-1 {
+        background-image: url('https://fotos.perfil.com/2023/06/24/trim/987/555/la-rueda-de-eiffel-en-el-parque-de-la-biodiversidad-1595429.jpeg?webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.contenedor-objetivo-3 span {
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 20px;
-}
+    .contenedor-objetivos-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        padding: 0 20px;
+    }
 
-.contenedor-objetivo-3 button {
-    background-color: #ec1b34;
-    color: white;
-    padding: 10px;
-    margin: 20px
-}
+    .contenedor-objetivos-2 p {
+        background-color: rgba(0, 0, 0, 0.371);
+        padding-top: 50px;
+        font-size: 54px;
+        font-family: "";
+        color: white;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
 
-.contenedor-objetivos-4 .linea-divisoraf {
-    width: 88px;
-    height: 2px;
-    background-color: #ec1b34;
-    margin: 16px 0;
-    padding-right: 70px;
-    margin-left: 20px;
-}
+    .objcard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.contenedor-objetivos-4 h2 {
-    font-family: 'Lato', sans-serif;
-    padding-top: 40px;
-    font-size: 18px;
-    padding-left: 20px;
+    .objcard .obj-icon {
+        color: #ec1b34;
+        font-size: 50px;
+        padding-bottom: 15px;
+    }
 
-}
+    .objcard {
+        font-size: 56px;
+        font-family: 'Lato', sans-serif;
+        color: white
+    }
 
-.contenedor-objetivos-4 img {
-    width: 100%;
-    height: 100%;
+    .objcard h6 {
+        font-family: 'Lato', sans-serif;
+        font-size: 38px
+    }
+
+    .contenedor-objetivo-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.421);
+        padding-bottom: 20px;
+
+    }
+
+    .contenedor-objetivo-3 h3 {
+        display: flex;
+        justify-content: center;
+        font-family: 'Lato', sans-serif;
+        font-size: 60px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .contenedor-objetivo-3 span {
+        display: flex;
+        justify-content: center;
+        font-size: 26px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .contenedor-objetivo-3 button {
+        background-color: #ec1b34;
+        color: white;
+        padding: 10px;
+        margin: 20px
+    }
+
+    .contenedor-objetivos-4 .linea-divisoraf {
+        width: 88px;
+        height: 2px;
+        background-color: #ec1b34;
+        margin: 16px 0;
+        padding-right: 70px;
+        margin-left: 20px;
+    }
+
+    .contenedor-objetivos-4 h2 {
+        font-family: 'Lato', sans-serif;
+        padding-top: 40px;
+        font-size: 40px;
+        padding-left: 20px;
+
+    }
+
+    .contenedor-objetivos-4 img {
+        width: 80%;
+        height: 80%;
+        padding-left: 150px;
+    }
+
+    .contenedor-objetivo-3 button {
+        background-color: #ec1b34;
+        color: white;
+        padding: 10px;
+        margin: 20px;
+        font-size: 25px;
+    }
 }

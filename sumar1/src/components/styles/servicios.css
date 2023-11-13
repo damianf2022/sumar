@@ -68,3 +68,44 @@ p {
     font-family: 'Lato', sans-serif;
 
 }
+
+@media (min-width: 1200px) {
+    .grand-content {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .servis {
+      flex: 1 0 100%;
+      font-size: 26px;
+    }
+  
+    .servis h2 {
+      margin-top: 0;
+    }
+  
+    .content {
+      width: 30%;
+      margin: 10px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      font-size: 22px;
+    }
+
+  
+    .titulo {
+      flex: 1;
+    }
+    p {
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.582);
+      margin: 5px 0;
+      font-family: 'Lato', sans-serif;
+  
+  }
+  
+  }
+  
