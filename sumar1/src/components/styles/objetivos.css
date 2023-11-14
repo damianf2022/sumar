@@ -118,72 +118,6 @@
     }
 }
 
-/* @media (min-width: 768px) {
-    .contenedor-objetivos-2 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        padding: 0 20px;
-    }
-
-    .contenedor-objetivos-2 p {
-        background-color: rgba(0, 0, 0, 0.371);
-        padding: 50px 20px;
-        font-size: 24px;
-        font-family: "";
-        color: white;
-        text-align: center;
-        margin: 0;
-    }
-
-    .contenedor-objetivo-3 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.421);
-        padding: 20px;
-        margin-bottom: 20px;
-    }
-
-    .contenedor-objetivos-1 {
-        background-image: url('https://fotos.perfil.com/2023/06/24/trim/987/555/la-rueda-de-eiffel-en-el-parque-de-la-biodiversidad-1595429.jpeg?webp');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .objcard {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .objcard .obj-icon {
-        color: #ec1b34;
-        font-size: 31px;
-        padding-bottom: 15px;
-    }
-
-    .objcard {
-        font-size: 36px;
-        font-family: 'Lato', sans-serif;
-        color: white
-    }
-
-    .objcard h6 {
-        font-family: 'Lato', sans-serif;
-        font-size: 18px
-    }
-} */
 
 @media  (min-width: 768px) {
     .contenedor-objetivos-1 {
@@ -291,6 +225,9 @@
         padding-top: 40px;
         font-size: 40px;
         padding-left: 20px;
+        color: rgba(0, 0, 0, 0.791);
+
+        
 
     }
 
@@ -306,5 +243,6 @@
         padding: 10px;
         margin: 20px;
         font-size: 25px;
+        border-radius: 20px;
     }
 }

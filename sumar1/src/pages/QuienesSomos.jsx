@@ -6,11 +6,12 @@ const QuienesSomos = () => {
   return (
     <div className='contenedor-somos'>
 
+      <div className='div'>
+        <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-quienes-somos-sumar.jpg" alt="" />
+      </div>
 
-      <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-quienes-somos-sumar.jpg" alt="" />
-
-      <strong className='stitulo'>Nuestra </strong>
-      <img src={hisTiempo} alt="" />
+      {/* <strong className='stitulo'>Nuestra </strong>  */}
+      <img className='history' src={hisTiempo} alt="" />
       {/* <p>En el año <strong>2011 Sumar</strong> se inicia como una empresa comercializadora de grupos electrógenos y plataformas para trabajo en altura, en condición venta y alquiler, con oficinas en Barracas y depósito en Sarandí.<br /><br />
 
         Luego de dos años en el <strong>2013</strong>, apostando a la producción nacional, se inaugura la planta industrial en Temperley convirtiéndonos en fabricantes de grupos electrógenos de hasta 700 kVA y torres de iluminación, haciendo acuerdos comerciales con fabricantes de motores como MWM, Perkins, Agrale, Volvo y Cummins, y de alternadores como Cramaco, Linz y Marelli.<br /><br />
@@ -22,10 +23,10 @@ const QuienesSomos = () => {
         Finalmente en el <strong>2018</strong> se realiza un acuerdo comercial con WEG, para armar nuestros grupos electrógenos con sus alternadores, dando un importante salto de calidad. Y también ese mismo año se consiguió la representación de <strong>ELGI</strong>, compañía India fabricante de compresores de aire de muy alta calidad, para la distribución de sus equipos en Argentina.<br /><br />
       </p> */}
       <br /><br /><br /><br />
-     
-        <strong className='stitulo'>Cultura empresarial</strong>
 
-      
+      <strong className='stitulo'>Cultura empresarial</strong>
+
+
 
 
       <div className='subcontainer'>
@@ -54,7 +55,7 @@ const QuienesSomos = () => {
           <strong>Entusiasmo</strong>. <br /> <br />
         </p>
 
-        <img src="https://scontent.fcor11-2.fna.fbcdn.net/v/t1.6435-9/43108213_964736720393568_6994842175590629376_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=IVtqXnZWI9kAX_QHtAH&_nc_ht=scontent.fcor11-2.fna&oh=00_AfCcuZnx_UwjGqm06VHFUKM-tkmv1lQ5reKytiSUkkBcaQ&oe=65776C94" alt="" />
+        {/* <img src="https://scontent.fcor11-2.fna.fbcdn.net/v/t1.6435-9/43108213_964736720393568_6994842175590629376_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=IVtqXnZWI9kAX_QHtAH&_nc_ht=scontent.fcor11-2.fna&oh=00_AfCcuZnx_UwjGqm06VHFUKM-tkmv1lQ5reKytiSUkkBcaQ&oe=65776C94" alt="" /> */}
 
       </div>
 

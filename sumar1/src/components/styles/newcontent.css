@@ -1,3 +1,7 @@
+.contenedornew-1 {
+  background-color: #f6f4f4;
+  padding: 40px;
+}
 .contenedornew-1 img {
   width: 50%;
   height: auto;
@@ -5,6 +9,8 @@
   margin: 0 auto;
   border: 3px solid #cccccc8d;
   box-shadow: 0 4px 8px black;
+  background-color: #ec1b34;
+  padding: 10px;
 }
 
 .galeria {
@@ -74,10 +80,10 @@
   }
 
   .objcardnew {
-    width: calc(30% - 20px);
-    flex: 1;
+    width: calc(27% - 0px);
+    /* flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: center; */
   }
 
   .obj-icon{

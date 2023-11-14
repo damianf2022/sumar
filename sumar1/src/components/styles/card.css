@@ -1,21 +1,25 @@
-.card1 .card-image{
-  width: 900px; /* Ancho fijo para la imagen rectangular */
-  height: 400px; /* Altura fija para la imagen rectangular */
+/* .card1 .card-image{
+  width: 900px; 
+  height: 400px; 
   object-fit:unset; 
   border: 1px solid #cccccc8d;
   box-shadow: 0 4px 8px black;
   transition: transform 0.3s;
   user-select: none;
-}
+  padding: 20px;
+  background-color: aqua;
+} */
 
 .card {
-  width: 300px;
+  width: 200px;
   text-align: center;
-  margin: 5px;
+  margin: 1px;
   border: 1px solid #cccccc8d;
   box-shadow: 0 4px 8px black;
   transition: transform 0.3s;
   user-select: none;
+  /* padding-top: 10px;
+  padding-bottom: 30px; */
 }
 
 .card:hover {
@@ -58,15 +62,16 @@
     align-items: center;
   }
 
-  .card {
+  /* .card {
     width: 90%;
     margin: 10px 0;
-  }
+  } */
 
   .card {
     order: -1; /* Pone la card1 al principio en móviles */
-    width: 100%;
-    margin: 10px 0;
+    width: 97%;
+    /* margin: 10px 0; */
+    margin-bottom: 30px;
   }
 }
 
@@ -76,7 +81,9 @@
     align-items: center;
     justify-content: center;
     gap: 100px;
-    background-color: rgba(0, 0, 0, 0.488);
+    /* background-color: rgba(0, 0, 0, 0.488); */
+    background-color: #f6f4f4;
+
   }
 
   .card {
@@ -86,7 +93,7 @@
   }
 
   .card {
-    width: 400px;
+    width: 350px;
     margin: 20px;
   }
 }

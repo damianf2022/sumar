@@ -19,7 +19,6 @@ const Footer = () => {
                 </div>
                 <div className='link-footer'>
                     <FiLinkedin />
-                    <FaWhatsappSquare/>
                     <FiFacebook />
                     <FiInstagram />
                     <FiTwitter />

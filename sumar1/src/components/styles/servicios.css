@@ -1,6 +1,7 @@
 .grand-content {
     background-color: #f6f4f4;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+    margin: 40px;
 }
 
 .content {
@@ -82,8 +83,10 @@ p {
   
     .servis h2 {
       margin-top: 0;
+      color: rgba(0, 0, 0, 0.863);
+      
     }
-  
+    
     .content {
       width: 30%;
       margin: 10px;
@@ -94,16 +97,19 @@ p {
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
       font-size: 22px;
     }
-
-  
+    
+    
     .titulo {
       flex: 1;
+      color: rgba(0, 0, 0, 0.863);
+
     }
     p {
       font-size: 18px;
       color: rgba(0, 0, 0, 0.582);
       margin: 5px 0;
       font-family: 'Lato', sans-serif;
+      /* background-color: aqua */
   
   }
   
