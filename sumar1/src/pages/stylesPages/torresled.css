@@ -1,9 +1,85 @@
-.ledcontainer h1{
+.ledcontainer h1 {
     padding: 10px;
+    color: #ec1b34;
+}
+
+.contenedorled video {
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 350px;
+    height: 300px;
+}
+
+.contenedorled p {
+    font-family: 'Lato', sans-serif;
+    text-align: start;
+    margin: 20px;
+    padding: 1px;
+}
+
+.contenedorled h2{
+    color: #ec1b34;
+margin-left: 10px;
 }
 
 
-.ledcontainer img{
-width: 100%;
-height: 100%;
+.contenedorled img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* *************************************************************** */
+
+@media (min-width: 768px) {
+
+    .contenedorled {}
+
+    .contenedorled img {
+        /* width: 1580px; */
+    }
+
+    .contenedorled video {
+        margin-top: 30px;
+        margin-left: 20%;
+        width: 900px;
+        height: 500px;
+        margin-bottom: 40px;
+    }
+
+
+
+    .ledcontainer h2 {
+        text-align: center;
+        margin: 20px;
+        font-size: 36px;
+        color: #ec1b34;
+        margin-bottom: 10px;
+    }
+
+    .ledcontainer p {
+        /* text-align: center; */
+        font-size: 22px;
+        margin: 100px;
+        margin-top: -2px;
+
+    }
+
+    .ledcontainer .tablaled {
+        width: 70%;
+        margin-bottom: 20px;
+        /* padding-top: -340px; */
+        padding-left: 15%;
+        /* background-color: aqua; */
+
+
+    }
+
+    .ledcontainer .torreled {
+        width: 45%;
+        margin-bottom: 20px;
+        padding-left: 35%;
+        /* background-color: aqua; */
+
+    }
 }

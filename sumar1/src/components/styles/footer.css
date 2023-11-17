@@ -29,9 +29,10 @@
 .link-footer {
     font-size: 18px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 20px;
     color: red;
+    gap: 20px;
 }
 
 
@@ -42,4 +43,18 @@
     color: white;
     font-size: 12px;
     padding: 10px;
+}
+/* ***************************************************** */
+
+@media  (min-width: 768px) {
+
+
+    .link-footer {
+        font-size: 28px;
+        display: flex;
+        justify-content: flex-end;
+        color: red;
+        padding-right: 200px;
+        gap: 20px;
+    } 
 }

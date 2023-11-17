@@ -4,7 +4,6 @@
 }
 
 .containerContac iframe {
-  padding: 30px;
   width: 63%;
   height: 600px;
 
@@ -79,7 +78,7 @@
   }
 
   .containerContac iframe {
-    width: 100%;
+    width: 97%;
     height: 300px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -93,7 +92,7 @@
     max-width: 300px;
     margin: 0 auto;
     padding: 15px;
-    border: solid 2px rgba(0, 0, 0, 0.399);
+    /* border: solid 2px rgba(0, 0, 0, 0.399); */
   }
 
   .sectionFormu h2 {

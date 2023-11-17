@@ -1,5 +1,5 @@
 import React from 'react'
-import Galery from '../components/Galery';
+// import Galery from '../components/Galery';
 import Card from '../components/Card';
 import Quienes from '../components/Quienes';
 import Servicios from '../components/Servicios';

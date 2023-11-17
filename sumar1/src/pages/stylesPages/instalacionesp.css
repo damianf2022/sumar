@@ -1,10 +1,65 @@
-.contenedorinsta{
-}
-.contenedorinsta img{
+.contenedorinsta {}
+
+.fotoinstala img {
     width: 100%;
     height: 100%;
 }
-.contenedorinsta p,h2{
-    margin: 5px;
+
+.subcontenedorinsta h2 {
+    margin: 10px;
+    font-size: 28px;
+    color: #ec1b34;
 }
 
+.subcontenedorinsta p {
+    margin: 10px;
+
+}
+
+/* ********************************************************** */
+
+@media (min-width: 768px) {
+
+
+    .subcontenedorinsta img {
+        width: 40%;
+        height: 40%;
+        margin-left: 30%;
+    }
+
+
+    .subcontenedorinsta h2 {
+        margin-top: 100px;
+        margin-left: 100px;
+        font-size: 28px;
+        color: #ec1b34;
+    }
+
+    .subcontenedorinsta p {
+        font-size: 22px;
+        margin: 100px;
+        margin-bottom: 12px;
+        margin-top: 2px;
+
+    }
+
+    .subcontenedorinsta ul {
+        margin-left: 30%;
+        margin-bottom: 30px;
+
+    }
+
+    .fotoinstala {
+        width: 30%;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%
+    }
+
+    .fotoinstala img {
+        display: flex;
+        width: 100%;
+
+    }
+}

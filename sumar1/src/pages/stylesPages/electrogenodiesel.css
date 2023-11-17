@@ -1,21 +1,56 @@
+.section_diesel {
+    /* margin: ; */
+}
+
+.trogenocontaniner ul {}
+
 .trogenocontaniner ul {
-}
-    .trogenocontaniner ul {
-    padding-left: 30px;
+    /* padding-left: 30px; */
 
 }
 
-.trogenocontaniner img {
+.tvideo {
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 350px;
+    height: 300px;
+}
+
+.section_diesel video {
     width: 100%;
     height: 100%;
 }
 
+.trogenocontaniner img {
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+}
+
+.imggene img {
+    margin-left: 0%;
+    width: 429px;
+
+}
+
+.motoralt img {
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+}
+
 .trogenocontaniner h2,
-p {
+h4 {
+    color: #ec1b34;
+
+}
+
+.trogenocontaniner p {
     font-family: 'Lato', sans-serif;
     text-align: start;
     margin: 10px;
-    padding: 10px;
+    padding: 1px;
+
 
 }
 
@@ -24,9 +59,152 @@ p {
 
 }
 
-/* ****************************************** */
+
+
+
+/* ****************************************** GAS ***********************************/
+.trogenocontaniner2 h2,
+h4 {
+    color: #ec1b34;
+
+}
+
 .trogenocontaniner2 img {
     margin-top: 30px;
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+}
+
+.altenadorgas img {
+    margin-left: 25%;
     width: 50%;
     height: 50%;
+}
+
+.trogenocontaniner2 p {
+    font-family: 'Lato', sans-serif;
+    text-align: start;
+    margin: 10px;
+    padding: 1px;
+
+
+}
+
+
+
+
+
+
+/* **********************************pantalla grande**************************************** */
+@media (min-width: 768px) {
+
+    .section_diesel {}
+
+    .tvideo {
+        margin-top: 30px;
+        margin-left: 20%;
+        width: 900px;
+        height: 500px;
+    }
+
+    .section_diesel video {
+        /* margin-left: 30%;
+        width: 350px;
+        height: 50%; */
+
+    }
+
+
+    .trogenocontaniner {
+        /* text-align: center; */
+        margin: 200px;
+    }
+
+    .imggene img {
+        width: 1580px;
+    }
+
+    .trogenocontaniner img {
+        width: 50%;
+        border-radius: 10px;
+        /* margin-bottom: 100px; */
+        margin-left: 25%;
+
+    }
+
+
+    .motoralt img {
+        height: 40%;
+        width: 40%;
+        margin-left: 10%;
+    }
+
+    .trogenocontaniner h2 {
+        font-size: 36px;
+        color: #ec1b34;
+    }
+
+    .trogenocontaniner h4 {
+        margin-top: -100px;
+        font-size: 36px;
+        color: #ec1b34;
+    }
+
+    .trogenocontaniner p {
+        font-size: 20px;
+        margin-bottom: 20px;
+
+        /* line-height: 1.5; */
+        /* margin-bottom: 3000px; */
+    }
+
+
+    .lu {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .lu li {
+        margin-bottom: 10px;
+    }
+
+    /* *********************************gas**************************************** */
+    .trogenocontaniner2 {
+        /* text-align: center; */
+        margin: 200px;
+    }
+
+    .trogenocontaniner2 h2 {
+        font-size: 36px;
+        color: #ec1b34;
+    }
+
+    .trogenocontaniner2 h4 {
+        font-size: 36px;
+        color: #ec1b34;
+    }
+
+    .trogenocontaniner2 p {
+        font-size: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .trogenocontaniner2 img {
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 30%;
+
+    }
+
+    .altenadorgas img {
+        width: 30%;
+        height: 30%;
+        margin-left: 30%;
+    }
+
+
+
 }

@@ -1,34 +1,91 @@
 .tablerocontent {}
 
-.tablerocontent p {
-    padding: 15px;
-
+.subtablerocontent p {
+    padding: 10px;
 }
 
-.tablerocontent img {
+.subtablerocontent img {
     width: 99%;
     height: 99%;
     margin-bottom: 10px;
 }
 
-.tablerocontent {
+.subtablerocontent {
     font-family: 'Lato', sans-serif;
     text-align: start;
 }
 
 
-.tablerocontent h2 {
+.subtablerocontent h2 {
     margin: 10px;
-    font-size: 26px;
+    font-size: 28px;
+    color: #ec1b34;
 
 }
 
-.tablerocontent li {
+.subtablerocontent h4 {
+    font-size: 22px;
+
+}
+
+
+.subtablerocontent li {
     margin-left: 30px;
 
 }
 
-.tablerocontent img {
+.subtablerocontent img {
     height: 100%;
     width: 100%;
+}
+
+/* ********************************************************** */
+
+@media (min-width: 768px) {
+
+    .subtablerocontent img {
+        width: 40%;
+        height: 40%;
+        margin-left: 30%;
+    }
+
+
+    .subtablerocontent h2 {
+        margin-top: 100px;
+        margin-left: 100px;
+        font-size: 28px;
+        color: #ec1b34;
+    }
+
+    .subtablerocontent h4 {
+        font-size: 22px;
+        margin-left: 100px;
+    }
+
+
+    .subtablerocontent p {
+        font-size: 22px;
+        margin: 100px;
+        margin-bottom: 12px;
+        margin-top: 2px;
+
+    }
+
+    .subtablerocontent ul {
+        margin-left: 30%;
+        margin-bottom: 30px;
+    }
+    .fototable {
+        width: 30%;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%
+    }
+
+    .fototable img {
+        display: flex;
+        width: 100%;
+    }
+
 }

@@ -11,7 +11,9 @@ const images = [
 const Servicios = () => {
     return (
         <div className='servicontenedor'>
-            <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-servicios.jpg" alt="" />
+            <div className='imggene'>
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-servicios.jpg" alt="" />
+            </div>
 
             <h2>Servicio técnico y servicio de mantenimiento preventivo.</h2>
 
@@ -23,23 +25,26 @@ const Servicios = () => {
             <h3>Modalidades del servicio:</h3>
             <br />
 
-            <div className='subservicios'>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_servicio-correctivo.png" alt="" />
-                <p>SERVICIO CORRECTIVO</p>
-            </div>
-            <div className='subservicios'>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_servicio-de-mantenimiento-preventivo.png" alt="" />
-                <p>SERVICIO DE MANTENIMIENTO PREVENTIVO</p>
-            </div>
-            <div className='subservicios'>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_venta-de-repuestos.png" alt="" />
-                <p>VENTA DE REPUESTOS</p>
-            </div>
-            <div className='subservicios'>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_Capacitaciones-te%CC%81cnicas-en-operacio%CC%81n-y-mantenimiento-de-equipos.png" alt="" />
-                <p>CAPACITACIONES TÉCNICAS EN OPERACIÓN Y MANTENIMIENTO DE EQUIPOS</p>
-            </div>
+            <div className='servicecard'>
 
+                <div className='subservicios'>
+                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_servicio-correctivo.png" alt="" />
+                    <p>SERVICIO CORRECTIVO</p>
+                </div>
+                <div className='subservicios'>
+                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_servicio-de-mantenimiento-preventivo.png" alt="" />
+                    <p>SERVICIO DE MANTENIMIENTO PREVENTIVO</p>
+                </div>
+                <div className='subservicios'>
+                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_venta-de-repuestos.png" alt="" />
+                    <p>VENTA DE REPUESTOS</p>
+                </div>
+                <div className='subservicios'>
+                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_Capacitaciones-te%CC%81cnicas-en-operacio%CC%81n-y-mantenimiento-de-equipos.png" alt="" />
+                    <p>OPERACIÓN Y MANTENIMIENTO DE EQUIPOS</p>
+                </div>
+
+            </div>
             <h4>Staff y herramientas</h4>
 
             <p>Contamos con personal técnico altamente calificado y especializado en cada una de nuestras distintas ramas de producto, vehículos, herramientas y un importante stock de repuestos para dar una repuesta rápida y eficiente ante una emergencia.
@@ -47,14 +52,6 @@ const Servicios = () => {
                 Orientamos a nuestro staff a la vocación de servicio ya que consideramos que ponernos en el lugar del cliente permite lograr los mejores esfuerzos de cada uno.
                 <br /><br />
                 {/* *********** */}
-
-                {/* <div>
-                    <h1>Página de inicio</h1>
-                    <p>Bienvenido a la página de inicio</p>
-                    <Galery /> 
-                    Usa el componente Galería aquí
-                </div> */}
-                {/* ***************** */}
 
                 <strong>Repuestos</strong>: contamos con repuestos originales de cada uno de nuestros productos, de manera tal, que podamos agilizar los tiempos de respuesta.
                 <br /><br />

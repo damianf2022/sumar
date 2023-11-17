@@ -12,6 +12,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 99%;
     }
 
     .contenedor-objetivos-2 {
@@ -118,8 +119,14 @@
     }
 }
 
+/* ******************************************************************************/
 
 @media  (min-width: 768px) {
+
+    .contenedor-objetivos-1{
+        height: 30%;
+        /* width: 30%; */
+    }
     .contenedor-objetivos-1 {
         background-image: url('https://fotos.perfil.com/2023/06/24/trim/987/555/la-rueda-de-eiffel-en-el-parque-de-la-biodiversidad-1595429.jpeg?webp');
         background-size: cover;
@@ -129,6 +136,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: 30%;
     }
 
     .contenedor-objetivos-2 {
