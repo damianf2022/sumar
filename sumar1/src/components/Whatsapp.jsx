@@ -4,7 +4,7 @@ import email_icon from '../images/email_icon.png';
 import { Bounce, Roll } from 'react-awesome-reveal';
 
 const Whatsapp = () => {
-    const styles = `
+  const styles = `
     .whatsapp-link {
       position: fixed;
       bottom: 20px;
@@ -49,19 +49,19 @@ const Whatsapp = () => {
 
   `;
 
-    return (
-        <div>
-            <style>{styles}</style>
-            <a href="https://api.whatsapp.com/send?phone=+5943585714007" className="whatsapp-link">
-                <img src={iconwat} alt="WhatsApp" className="whatsapp-icon" />
-            </a>
+  return (
+    <div>
+      <style>{styles}</style>
+      <a href="https://api.whatsapp.com/send/?phone=5493517667501&text&type=phone_number&app_absent=0" className="whatsapp-link">
+        <img src={iconwat} alt="WhatsApp" className="whatsapp-icon" />
+      </a>
 
-            <style>{styles}</style>
-            <a href="https://api.whatsapp.com/send?phone=TUNUMEROTELEFONO" className="email-link">
-                <img src={email_icon} alt="Email" className="email-icon" />
-            </a>
-        </div>
-    );
+      <style>{styles}</style>
+      <a href="https://api.whatsapp.com/send?phone=TUNUMEROTELEFONO" className="email-link">
+        <img src={email_icon} alt="Email" className="email-icon" />
+      </a>
+    </div>
+  );
 };
 
 export default Whatsapp;
