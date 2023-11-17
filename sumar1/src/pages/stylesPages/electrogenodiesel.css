@@ -17,8 +17,8 @@
 }
 
 .section_diesel video {
-    width: 100%;
-    height: 100%;
+    width: 98%;
+    height: 98%;
 }
 
 .trogenocontaniner img {
@@ -27,9 +27,8 @@
     margin-left: 5%;
 }
 
-.imggene img {
-    margin-left: 0%;
-    width: 429px;
+.imggene  img {
+    width: 100%;
 
 }
 

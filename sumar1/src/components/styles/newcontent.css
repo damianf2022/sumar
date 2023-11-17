@@ -23,8 +23,6 @@
 .contenedornew-2 {
   font-family: 'Lato', sans-serif;
   color: white;
-  /* margin-bottom: 30px; */
-  /* margin-top: 30px; */
 }
 
 .contenedornew-2 .obj-icon {
@@ -34,7 +32,7 @@
 }
 
 .objcardnew {
-  margin: 20px 0;
+  margin: 4%;
   background-color: #ec1b34;
   display: flex;
   border-radius: 30px;
@@ -69,7 +67,7 @@
   .objcardnew {
     width: 90%;
     border-radius: 15px;
-    margin-left: 8px;
+    /* margin-left: 8px; */
   }
 
   .objcardnew h1 {
