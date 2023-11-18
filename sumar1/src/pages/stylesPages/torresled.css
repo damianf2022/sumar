@@ -1,25 +1,24 @@
-.ledcontainer h1 {
-    padding: 10px;
-    color: #ec1b34;
-}
-
 .contenedorled video {
-    margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 5px;
     width: 350px;
     height: 300px;
 }
 
-.contenedorled p {
-    font-family: 'Lato', sans-serif;
-    text-align: start;
-    margin: 20px;
-    padding: 1px;
+.ledcontainer h1 {
+    margin-left: 10px;
+    font-size: 20px;
+    color: #ec1b34;
 }
 
-.contenedorled h2{
+.contenedorled p {
+    font-size: 16px;
+    text-align: start;
+    margin-left: 10px;
+}
+
+.contenedorled h2 {
     color: #ec1b34;
-margin-left: 10px;
+    margin-left: 10px;
 }
 
 
@@ -45,6 +44,14 @@ margin-left: 10px;
         width: 900px;
         height: 500px;
         margin-bottom: 40px;
+    }
+
+    .ledcontainer h1 {
+        margin: 100px;
+        margin-top: -20px;
+        font-size: 30px;
+        color: #ec1b34;
+        margin-bottom: 10px;
     }
 
 

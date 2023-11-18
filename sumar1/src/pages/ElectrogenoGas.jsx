@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import './stylesPages/electrogenodiesel.css'
+import './stylesPages/electrogenoGas.css'
 import GrupoElectrogeno from '../images/videos/GrupoElectrogeno.mp4'
 
 const Electrogenogas = () => {
     const [playing, setPlaying] = useState(true);
 
     return (
-        <div className='section_diesel'>
+        <div className='section_gas'>
             <div className='imggene'>
                 <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-grupos-electrogenos-sumar.jpg" alt="" />
             </div>
-            <div className='tvideo'>
+            {/* <div className='tvideo'> */}
                 <video
                     muted
                     src={GrupoElectrogeno}
@@ -20,11 +20,11 @@ const Electrogenogas = () => {
                 {/* <button onClick={() => setPlaying(!playing)}>
                     {playing ? 'Pausar' : 'Reproducir'}
                 </button> */}
-            </div>
+            {/* </div> */}
 
 
             <div className='trogenocontaniner2'>
-                <h2><strong>Grupos electrógenos a gas</strong> </h2>
+                <h1><strong>Grupos electrógenos a gas</strong> </h1>
                 <p>Sumar Servicios Industriales SRL se dedica a la fabricación de grupos electrógenos a gas de alta calidad y confiables con un diseño compacto de sencilla operación y mantenimiento desde el año 2014, desde potencias de 10KVa hasta 500KVa. En potencias hasta 66KVa las modificaciones son realizas por Sumar, y en potencias hasta 500KVa los motores son provistos desde fábrica.
                     <br /><br />
                     Apoyándose principalmente en los motores Agrale, MWM y Scania, en los alternadores en marcas como WEG y CRAMACO.
@@ -47,7 +47,7 @@ const Electrogenogas = () => {
                 </p>
                 <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos_electrogenos_Gas.jpg" alt="" />
 
-                <h4><strong>Componentes y Accesorios</strong></h4>
+                <h2><strong>Componentes y Accesorios</strong></h2>
                 <p><strong>Motores</strong>: Utilizamos motores de primera línea como ser: Cummins, Scania y FPT. <br />
                     <strong>Alternadores</strong>: Utilizamos alternadores de primera línea como Cramaco y WEG. <br />
                     <strong>Cabina</strong>: Construcción modular en chapa galvanizada, pintura epoxi, paneles fonoabsorbentes ignífugos de lana de roca volcánica, y silenciador de escape residencial, bulonería de acero inoxidable ocultos, entradas y salidas de aire tratadas acústicamente. Luz interior en la cabina. Tablero de control de grupo y tableros de transferencia:

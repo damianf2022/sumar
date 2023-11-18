@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react';
+import ServiciosPortada from '../images/videos/ServiciosPortada.mp4'
 import './stylesPages/serviciosp.css'
 // import Galery from '../components/Galery';
 
@@ -9,11 +10,20 @@ const images = [
 ];
 
 const Servicios = () => {
+    const [playing, setPlaying] = useState(true);
+
     return (
         <div className='servicontenedor'>
             <div className='imggene'>
                 <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-servicios.jpg" alt="" />
             </div>
+
+            <video
+                muted
+                src={ServiciosPortada}
+                controls={playing}
+                autoplay={playing}
+            />
 
             <h2>Servicio técnico y servicio de mantenimiento preventivo.</h2>
 

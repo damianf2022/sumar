@@ -1,6 +1,8 @@
 @media (max-width: 768px) {
     .contenedor-objetivos-1 {
         background-image: url('https://fotos.perfil.com/2023/06/24/trim/987/555/la-rueda-de-eiffel-en-el-parque-de-la-biodiversidad-1595429.jpeg?webp');
+        /* background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.LnFWaKb_HZ_iKk1xMxzIZQHaE8%26pid%3DApi&f=1&ipt=50cfca85d3fce86adf96be5c1e02bb1e945bab26288834418546f6c171bb25e1&ipo=images'); */
+
         background-size: cover;
         /* Ajusta el tamaño de la imagen de fondo */
         background-repeat: no-repeat;
@@ -19,8 +21,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 60px;
-        margin-bottom: 60px;
+        /* margin-top: 60px; */
+        /* margin-bottom: 60px; */
         padding: 0 20px;
     }
 
@@ -121,45 +123,61 @@
 
 /* ******************************************************************************/
 
-@media  (min-width: 768px) {
+@media (min-width: 768px) {
 
-    .contenedor-objetivos-1{
-        height: 30%;
+    .contenedor-objetivos-1 {
+        /* height: 30%; */
         /* width: 30%; */
     }
+
     .contenedor-objetivos-1 {
-        background-image: url('https://fotos.perfil.com/2023/06/24/trim/987/555/la-rueda-de-eiffel-en-el-parque-de-la-biodiversidad-1595429.jpeg?webp');
+        /* background-image: url('https://fotos.perfil.com/2023/06/24/trim/987/555/la-rueda-de-eiffel-en-el-parque-de-la-biodiversidad-1595429.jpeg?webp'); */
+        background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.LnFWaKb_HZ_iKk1xMxzIZQHaE8%26pid%3DApi&f=1&ipt=50cfca85d3fce86adf96be5c1e02bb1e945bab26288834418546f6c171bb25e1&ipo=images');
+
+
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        height: 30%;
+        /* align-items: center; */
+        /* height: 30%; */
     }
 
     .contenedor-objetivos-2 {
-        display: flex;
-        flex-direction: column;
+        /* display: flex; */
+        /* flex-direction: column; */
         align-items: center;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        padding: 0 20px;
+        /* margin-top: 60px; */
+        margin-bottom: 0px;
+        /* padding: 0 20px; */
     }
 
     .contenedor-objetivos-2 p {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         background-color: rgba(0, 0, 0, 0.371);
-        padding-top: 50px;
-        font-size: 54px;
+        /* padding-bottom: 15px; */
+        font-size: 34px;
         font-family: "";
         color: white;
         text-align: center;
         margin: 0 auto;
-        padding-bottom: 50px;
+        padding: 25px;
+    }
+
+    .cartasobj {
+        display: flex;
+        flex-direction: row;
+        padding: 30px;
+        margin-top: 50px;
+        justify-content: center;
     }
 
     .objcard {
+        margin: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -172,14 +190,14 @@
     }
 
     .objcard {
-        font-size: 56px;
+        font-size: 36px;
         font-family: 'Lato', sans-serif;
         color: white
     }
 
     .objcard h6 {
         font-family: 'Lato', sans-serif;
-        font-size: 38px
+        font-size: 30px
     }
 
     .contenedor-objetivo-3 {
@@ -197,10 +215,11 @@
         display: flex;
         justify-content: center;
         font-family: 'Lato', sans-serif;
-        font-size: 60px;
+        font-size: 40px;
         text-align: center;
         margin: 0 auto;
-        padding: 20px;
+        /* padding: 20px; */
+        /* margin-top: 30px; */
     }
 
     .contenedor-objetivo-3 span {
@@ -210,13 +229,15 @@
         text-align: center;
         margin: 0 auto;
         padding: 20px;
+        margin-bottom: 20px;
+
     }
 
     .contenedor-objetivo-3 button {
-        background-color: #ec1b34;
-        color: white;
+        /* background-color: #ec1b34; */
+        /* color: white;
         padding: 10px;
-        margin: 20px
+        margin: 2000px */
     }
 
     .contenedor-objetivos-4 .linea-divisoraf {
@@ -228,14 +249,14 @@
         margin-left: 20px;
     }
 
-    .contenedor-objetivos-4 h2 {
+    .contenedor-objetivos-4 h3 {
         font-family: 'Lato', sans-serif;
         padding-top: 40px;
-        font-size: 40px;
+        font-size: 30px;
         padding-left: 20px;
         color: rgba(0, 0, 0, 0.791);
 
-        
+
 
     }
 
@@ -249,8 +270,8 @@
         background-color: #ec1b34;
         color: white;
         padding: 10px;
-        margin: 20px;
-        font-size: 25px;
+        margin-bottom: 20px;
+        font-size: 26px;
         border-radius: 20px;
     }
 }

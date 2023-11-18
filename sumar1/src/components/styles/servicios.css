@@ -82,6 +82,7 @@ p {
   }
 
   .servis h2 {
+    font-size: 26;
     margin-top: 0;
     color: rgba(0, 0, 0, 0.863);
 
@@ -95,7 +96,6 @@ p {
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    font-size: 22px;
   }
 
 

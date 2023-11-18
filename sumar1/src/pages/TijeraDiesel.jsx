@@ -24,7 +24,7 @@ const TijeraDiesel = () => {
 
             <div className='subtijedieselconten'>
 
-                <h2><strong>Plataformas de elevación tipo tijera todo terreno diesel</strong></h2>
+                <h1><strong>Plataformas de elevación tipo tijera todo terreno diesel</strong></h1>
                 <p>Conocido como un líder de la industria en plataformas de elevación tipo tijera todo terreno diesel a combustión durante décadas, <strong>Skyjack</strong> continúa mejorando sus equipos para los terrenos más difíciles con la mejor adaptación.
                     <br /><br />
                     La característica de estos equipos es operar al aire libre bajo cualquier tipo de condición de terreno, esto significa que este elevador tijera para terrenos accidentados puede ser el primero y el ultimo en irse.
