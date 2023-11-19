@@ -57,7 +57,7 @@ const Objetivos = () => {
             <div className="contenedor-objetivos-4">
                 <h3>Somos Representantes</h3>
                 <div className="linea-divisoraf"></div>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/representantes-1024x213.jpg" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/representantes-1024x213.jpg" alt="imagen de representado" />
             </div>
         </div>
     )

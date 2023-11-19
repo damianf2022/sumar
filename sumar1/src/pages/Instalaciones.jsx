@@ -4,7 +4,7 @@ const Instalaciones = () => {
     return (
         <div className='contenedorinsta'>
             <div className='imggene'>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-instalaciones.jpg" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-instalaciones.jpg" alt="header" />
             </div>
 
             <div className='subcontenedorinsta'>
@@ -14,8 +14,8 @@ const Instalaciones = () => {
                 <br />
 
                 <div className='fotoinstala'>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Instalaciones_imagen-1.png" alt="" />
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Instalaciones_imagen-2.png" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Instalaciones_imagen-1.png" alt="instalaciones" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Instalaciones_imagen-2.png" alt="instalaciones" />
                 </div>
 
             </div>

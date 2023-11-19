@@ -7,7 +7,7 @@ const TijeraDiesel = () => {
     return (
         <div className='tijedieselconten'>
             <div className='imggene'>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-plataformas-de-altura-tijera-diesel.jpg" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-plataformas-de-altura-tijera-diesel.jpg" alt="header" />
             </div>
 
             <div className='videotijera'>
@@ -34,7 +34,7 @@ const TijeraDiesel = () => {
                     Neumáticos rellenos de espuma, casi cero niveles de ruido y cero emisiones de gases, esto hace que la transición de la tijera de interior a exterior muy sencillo y versátil el trabajo.
                 </p>
 
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Plataforma-de-elevacio%CC%81n-tipo-Tijera-todo-terreno-Diesel-1392x1536.jpg" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Plataforma-de-elevacio%CC%81n-tipo-Tijera-todo-terreno-Diesel-1392x1536.jpg" alt="tijera" />
             </div>
         </div>
     )

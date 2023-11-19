@@ -7,7 +7,7 @@ const TijeraElectrica = () => {
     return (
         <div className='tijeraeleconten'>
             <div className='imggene'>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-plataformas-de-altura-tijera-electrica.jpg" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-plataformas-de-altura-tijera-electrica.jpg" alt="header" />
             </div>
 
             <div className='videotijera'>
@@ -33,7 +33,7 @@ const TijeraElectrica = () => {
                     Manteniendo un diseño simple, utilizando tecnología probada y aprobada por nuestros clientes, la fiabilidad y facilidad de servicio son comunes a todos nuestros equipos.
                 </p>
 
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Plataforma-de-elevacio%CC%81n-tipo-Tijera-electrica.jpg" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Plataforma-de-elevacio%CC%81n-tipo-Tijera-electrica.jpg" alt="tijera electrica" />
 
                 <h4>Características estándar</h4>
                 <ul>

@@ -4,7 +4,7 @@ const Tableros = () => {
     return (
         <div className='tablerocontent'>
             <div className='imggene'>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-tableros.jpg" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-tableros.jpg" alt="header" />
             </div>
 
             <div className='subtablerocontent'>
@@ -14,7 +14,7 @@ const Tableros = () => {
                     <br /><br />
                     El TTA generalmente funciona al accionar distintos dispositivos como pueden ser contactores, llaves de transferencia o llaves motorizadas, correspondientes al a red externa y y grupo, y de un central PLC, que se encarga de accionar dichos dispositivos y cambiar el suministro de energía de la red a grupo, luego de cumplir con los parámetros de encendido que se previeron en su configuración.
                 </p>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Tableros_imagen-1.png" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Tableros_imagen-1.png" alt="tableros" />
 
                 <h2>Módulo de paralelismo</h2>
                 <p>El módulo de paralelismo, en un sistema que consta de una central DSE que es la encargada de medir, proteger y comandar la sincronización remota de grupos electrógenos con la red eléctrica.
@@ -23,8 +23,8 @@ const Tableros = () => {
                 </p>
 
                 <div className='fototable'>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Tableros_imagen-2.png" alt="" />
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Tableros_imagen-3.png" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Tableros_imagen-2.png" alt="tableros1" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Tableros_imagen-3.png" alt="tableros2" />
                 </div>
             </div>
         </div>

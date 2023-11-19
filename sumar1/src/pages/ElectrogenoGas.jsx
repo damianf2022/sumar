@@ -8,7 +8,7 @@ const Electrogenogas = () => {
     return (
         <div className='section_gas'>
             <div className='imggene'>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-grupos-electrogenos-sumar.jpg" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-grupos-electrogenos-sumar.jpg" alt="header" />
             </div>
             {/* <div className='tvideo'> */}
                 <video
@@ -45,7 +45,7 @@ const Electrogenogas = () => {
                     Cada grupo electrógeno a gas está sujeto a un exhaustivo programa de pruebas que incluye pruebas de carga completa, verificación y provisión de todas las funciones de control y seguridad.
 
                 </p>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos_electrogenos_Gas.jpg" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos_electrogenos_Gas.jpg" alt="electrogeno gas" />
 
                 <h2><strong>Componentes y Accesorios</strong></h2>
                 <p><strong>Motores</strong>: Utilizamos motores de primera línea como ser: Cummins, Scania y FPT. <br />
@@ -58,7 +58,7 @@ const Electrogenogas = () => {
                     <li>Iluminacion interior</li>
                 </ul>
                 <div className='altenadorgas'>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos-electrogenos_alternadores.jpg" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos-electrogenos_alternadores.jpg" alt="repuestos" />
                 </div>
             </div>
         </div>

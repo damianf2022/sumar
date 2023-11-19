@@ -15,7 +15,7 @@ const Servicios = () => {
     return (
         <div className='servicontenedor'>
             <div className='imggene'>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-servicios.jpg" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-servicios.jpg" alt="header" />
             </div>
 
             <video
@@ -38,19 +38,19 @@ const Servicios = () => {
             <div className='servicecard'>
 
                 <div className='subservicios'>
-                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_servicio-correctivo.png" alt="" />
+                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_servicio-correctivo.png" alt="correctivo" />
                     <p>SERVICIO CORRECTIVO</p>
                 </div>
                 <div className='subservicios'>
-                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_servicio-de-mantenimiento-preventivo.png" alt="" />
+                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_servicio-de-mantenimiento-preventivo.png" alt="mantenimiento" />
                     <p>SERVICIO DE MANTENIMIENTO PREVENTIVO</p>
                 </div>
                 <div className='subservicios'>
-                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_venta-de-repuestos.png" alt="" />
+                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_venta-de-repuestos.png" alt="ventas" />
                     <p>VENTA DE REPUESTOS</p>
                 </div>
                 <div className='subservicios'>
-                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_Capacitaciones-te%CC%81cnicas-en-operacio%CC%81n-y-mantenimiento-de-equipos.png" alt="" />
+                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_Capacitaciones-te%CC%81cnicas-en-operacio%CC%81n-y-mantenimiento-de-equipos.png" alt="capacitaciones" />
                     <p>OPERACIÓN Y MANTENIMIENTO DE EQUIPOS</p>
                 </div>
 

@@ -16,7 +16,7 @@ const Newcontent = () => {
         <div className='contentnew'>
             {/* <Fade> */}
             <div className='contenedornew-1'>
-                <img src="https://scontent.fcor11-2.fna.fbcdn.net/v/t1.18169-9/30711937_845675858966322_1863372273810616069_n.png?_nc_cat=103&ccb=1-7&_nc_sid=7a1959&_nc_ohc=_BxxAS4t2JEAX_aDAhg&_nc_ht=scontent.fcor11-2.fna&oh=00_AfDQJFWUtSEUX4lMP8kxoZqVvRadbren49FRTGZfA_6zgQ&oe=6575BB18" alt="" />
+                <img src="https://scontent.fcor11-2.fna.fbcdn.net/v/t1.18169-9/30711937_845675858966322_1863372273810616069_n.png?_nc_cat=103&ccb=1-7&_nc_sid=7a1959&_nc_ohc=_BxxAS4t2JEAX_aDAhg&_nc_ht=scontent.fcor11-2.fna&oh=00_AfDQJFWUtSEUX4lMP8kxoZqVvRadbren49FRTGZfA_6zgQ&oe=6575BB18" alt="imagen de logo" />
 
                 <div className='tvideo'>
                     <video
@@ -39,7 +39,7 @@ const Newcontent = () => {
 
                 <div className='contenedornew-2'>
                     <Fade delay={2300}>
-                        <img className="galeria" src={galeria} alt="" />
+                        <img className="galeria" src={galeria} alt="imagen de galeria" />
 
                     </Fade>
                     <div className='contenedor_cardnew'>

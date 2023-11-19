@@ -19,7 +19,7 @@ const Navbar = () => {
 
             <div className='mail'>
                 <FaEnvelope />
-                <a href="mailto:"></a>
+                {/* <a href="mailto:"></a> */}
                 comercialcba@sumarservicios.com.ar
             </div>
 

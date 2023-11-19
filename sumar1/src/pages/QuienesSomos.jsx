@@ -7,22 +7,22 @@ const QuienesSomos = () => {
     <div className='contenedor-somos'>
 
       <div className='div'>
-        <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-quienes-somos-sumar.jpg" alt="" />
+        <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-quienes-somos-sumar.jpg" alt="header" />
       </div>
 
       <img className='history' src={hisTiempo} alt="" />
 
       <h2><strong>Cultura empresarial</strong></h2>
       <div className='subcontainer'>
-        <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Quienes-somos_filosofia-empresaria_mision.png" alt="" />
+        <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Quienes-somos_filosofia-empresaria_mision.png" alt="mision" />
         <p> <strong>Nuestra Misión</strong> es ofrecer a nuestros clientes la mejor ecuación precio y calidad del mercado, siempre apuntando a la excelencia. Desde el asesoramiento preventa para brindar la mejor solución, pasando por la provisión de equipos y servicios, hasta la postventa. </p>
       </div>
       <div className='subcontainer'>
-        <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Quienes-somos_filosofia-empresaria_vision.png" alt="" />
+        <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Quienes-somos_filosofia-empresaria_vision.png" alt="vision" />
         <p><strong>Nuestra Visión</strong> es construir relaciones a largo plazo con nuestros clientes, a quienes consideramos pilares fundamentales para el desarrollo de la compañía. Con el fin ser una empresa referente en el segmento y lograr una mayor especialización.</p>
       </div>
       <div className='subcontainer'>
-        <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Quienes-somos_filosofia-empresaria_valores.png" alt="" />
+        <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Quienes-somos_filosofia-empresaria_valores.png" alt="valores" />
         <p><strong>Nuestros Valores son:</strong>
         
         <br /><br />

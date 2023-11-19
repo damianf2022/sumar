@@ -36,7 +36,7 @@ const Card = () => {
                     <Link to="/sumar/torresled">
                         <img
                             className="card-image"
-                            src={card_iluminaria} />
+                            src={card_iluminaria} alt="Imagen de la tarjeta" />
 
 
                     </Link>

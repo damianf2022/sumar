@@ -7,7 +7,7 @@ const ElectrogenoDiesel = () => {
     return (
         <div className='section_diesel'>
             <div className='imggene'>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-grupos-electrogenos-sumar.jpg" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-grupos-electrogenos-sumar.jpg" alt="grupo electrogeno diesel" />
             </div>
             {/* <div className='tvideo'> */}
                 <video
@@ -40,7 +40,7 @@ const ElectrogenoDiesel = () => {
                     <br /><br />
                     Tenemos precalentadores de block, cargadores de batería.
                 </p>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos_electrogenos_Diesel-1.jpg" alt="" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos_electrogenos_Diesel-1.jpg" alt="grupo" />
 
                 <div className='trogenocontaniner'>
                 <h2><strong>Componentes y Accesorios</strong></h2>
@@ -54,8 +54,8 @@ const ElectrogenoDiesel = () => {
                     <li>Iluminación interior.</li>
                 </ul>
                 <div className='motoralt'>
-                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos-electrogenos_motores.jpg" alt="" />
-                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos-electrogenos_alternadores.jpg" alt="" />
+                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos-electrogenos_motores.jpg" alt="repuesto" />
+                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos-electrogenos_alternadores.jpg" alt="repuesto" />
                     {/* <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos-electrogenos_tableros-150x150.jpg" alt="" /> */}
                 </div>
                 </div>
