@@ -36,7 +36,7 @@ const TorresLed = () => {
                     Las torres poseen cuatro patas de apoyo para lograr una mayor estabilidad. Cuentan con mástil telescópico, rebatible de tres tramos llegando a una altura máxima de 9.5 metros y en cuanto a los artefactos de iluminación que se utilizan para su composición se pueden utilizar tanto luminarias LED de 300 watts como lámparas halógenas Phillips de 1000 watts.
                 </p>
                 <div>
-                    <img className='tablaled' src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/ORIG_SUMAR_web_Torres-led.jpg" alt="torres1" />
+                    {/* <img className='tablaled' src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/ORIG_SUMAR_web_Torres-led.jpg" alt="torres1" /> */}
                     <img className='torreled' src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Torres-de-iluminacion-led.png" alt="torres2" />
                 </div>
             </div>

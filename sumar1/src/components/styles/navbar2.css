@@ -3,35 +3,36 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    justify-items: center;
+    /* justify-items: center; */
 }
 
 .navbar,
 .img {
     height: 100%;
-    margin-right: 10px;
-    padding-left: 1px;
-    padding: 10px;
+    margin-right: 1vw;
+    padding-left: 0.1vw;
+    padding: 1vh 1vw;
 
 }
 
 .img {
-    padding-left: 200px;
+    padding-left: 1rem;
 }
 
 .navbar a {
     float: right;
-    font-size: 26px;
+    font-size: 22px;
     color: black;
-    ;
     text-align: center;
-    padding: 14px 16px;
-    padding-left: 10px;
+    padding: 12 px 14px;
+    padding-left: 1rem;
     text-decoration: none;
 }
 
+
+
 .menu {
-    padding-right: 150px;
+    /* padding-right: 10px; */
 }
 
 
@@ -41,6 +42,21 @@
 }
 
 @media (max-width: 768px) {
+
+    .navbar a {
+        font-size: 10px;
+        padding: 10px 12px;
+    }
+
+    .dropdown .dropbtn {
+        /* font-size: 8px; */
+        /* padding-top: 10px; */
+    }
+
+    .dropdown-content {
+        top: 60px;
+    }
+
     .navbar {
         display: none;
     }
@@ -51,6 +67,32 @@
 
     .logo1 {
         display: inline;
+    }
+}
+/* ******************Tablet********************************************* */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar a {
+        font-size: 12px !important;
+        /* Ajusta el tamaño del texto para tabletas */
+    /* padding: 5px; */
+    }
+    .dropdown  {
+        /* font-size: 12px !important; */
+        border: none;
+        outline: none;
+        color: black;
+        background-color: inherit;
+        /* padding-top: -10px !important; */
+        
+    }
+
+
+    /* .dropdown  {
+        font-size: 42px;
+    background-color: aqua;
+    }
+ */
+    .dropdown-content {
     }
 }
 
@@ -78,18 +120,17 @@
 .dropdown {
     float: right;
     overflow: hidden;
+padding-left: 16px;
 
 }
 
 .dropdown .dropbtn {
-    font-size: 26px;
+    font-size: 22px;
     border: none;
     outline: none;
     color: black;
     background-color: inherit;
-    padding-top: 27px;
-
-
+    /* padding-top: 28px; */
 }
 
 .dropdown:hover .dropbtn {
@@ -101,6 +142,7 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
+    /* background-color: violet; */
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;

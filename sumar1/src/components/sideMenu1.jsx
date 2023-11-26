@@ -33,7 +33,7 @@ function SideMenu() {
           <div className='sidenav1'>
             <div className='menu-side'>
               <div className='menu2'>
-                <Link to="/sumar/QuienesSomos">
+                <Link to="/sumar/QuienesSomos" onClick={closeNav}>
                   <a>Quiénes somos</a>
                 </Link>
 
@@ -47,30 +47,30 @@ function SideMenu() {
                       <div className="sub-menu">
                         <a href="#">Grupos Electrogenos</a>
 
-                        <div className="sub-menu-content">
+                        <div className="sub-menu-content" onClick={closeNav}>
                           <Link to="/sumar/electrogenodiesel">
-                          <a >Diesel</a>
+                            <a >Diesel</a>
                           </Link>
                           <Link to="/sumar/electrogenogas">
-                          <a>Gas</a>
+                            <a>Gas</a>
                           </Link>
                         </div>
                       </div>
 
-                      <div className="sub-menu2">
+                      <div className="sub-menu2" onClick={closeNav}>
                         <a href="#">Torres de Iluminacion</a>
 
-                        <div className="sub-menu-content2">
+                        <div className="sub-menu-content2" onClick={closeNav}>
                           <Link to="/sumar/torresled">
                             <a >LED</a>
                           </Link>
                         </div>
                       </div>
 
-                      <div className="sub-menu2">
+                      <div className="sub-menu2" onClick={closeNav}>
                         <a href="#">Plataformas de Altura</a>
 
-                        <div className="sub-menu-content2">
+                        <div className="sub-menu-content2" onClick={closeNav}>
                           <Link to="/sumar/BrazoArtDiesel">
                             <a >Brazo articulado diesel</a>
                           </Link>
@@ -86,20 +86,22 @@ function SideMenu() {
 
                         </div>
                       </div>
-                      <Link to="/sumar/Tableros">
-                        <a >Tableros</a>
-                      </Link>
+                      <div className="sub-menu">
+                        <Link to="/sumar/Tableros" onClick={closeNav}>
+                          <a style={{ paddingLeft: "0px" }}>Tableros</a>
+                        </Link>
+                      </div>
                     </div>
                   )}
 
                 </div>
-                <Link to="/sumar/Servicios">
+                <Link to="/sumar/Servicios" onClick={closeNav}>
                   <a>Servicios</a>
                 </Link>
-                <Link to="/sumar/Instalaciones">
+                <Link to="/sumar/Instalaciones" onClick={closeNav}>
                   <a>Instalaciones</a>
                 </Link>
-                <Link to="/sumar/Contacto">
+                <Link to="/sumar/Contacto" onClick={closeNav}>
                   <a>Contacto</a>
                 </Link>
 

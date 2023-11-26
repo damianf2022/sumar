@@ -70,20 +70,6 @@
 }
 
 
-/* Estilos para .containerContac en pantallas móviles */
-@media (max-width: 768px) {
-  .containerContac {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .containerContac iframe {
-    width: 97%;
-    height: 300px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-}
 
 /* Estilos para .sectionFormu en pantallas móviles */
 @media (max-width: 768px) {
@@ -122,5 +108,98 @@
   .sectionFormu .additional-info {
     font-size: 12px;
     margin-top: 8px;
+  }
+
+  .containerContac {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .containerContac iframe {
+    width: 97%;
+    height: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+/*tablet *********************************************************Tablet********************************************* */
+@media (min-width: 769px) and (max-width: 900px) {
+  .containerContac {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .containerContac iframe {
+    /* width: 63%; */
+    /* height: 600px; */
+  }
+
+  .sectionFormu {
+    /* padding-right: 30px; */
+    /* text-align: center; */
+    /* max-width: 600px; */
+    /* margin: 0 auto; */
+    /* padding: 30px; */
+    /* background-color: aqua; */
+  }
+
+  .sectionFormu h2 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .sectionFormu p {
+    color: #666;
+  }
+
+  .sectionFormu label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 16px;
+  }
+
+  .sectionFormu input,
+  .sectionFormu textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .sectionFormu textarea {
+    height: 120px;
+  }
+
+  .sectionFormu .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+
+  .sectionFormu .submit-button:hover {
+    background-color: #0056b3;
+  }
+
+  .sectionFormu .additional-info {
+    font-size: 14px;
+    color: #888;
+    margin-top: 10px;
+
+  }
+  .containerContac iframe {
+    /* width: 97%; */
+    /* height: 300px; */
+    /* padding-top: 30px; */
+    margin-bottom:23%;
   }
 }

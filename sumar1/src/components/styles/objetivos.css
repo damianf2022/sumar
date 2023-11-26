@@ -132,8 +132,8 @@
 
     .contenedor-objetivos-1 {
         /* background-image: url('https://fotos.perfil.com/2023/06/24/trim/987/555/la-rueda-de-eiffel-en-el-parque-de-la-biodiversidad-1595429.jpeg?webp'); */
-        background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.LnFWaKb_HZ_iKk1xMxzIZQHaE8%26pid%3DApi&f=1&ipt=50cfca85d3fce86adf96be5c1e02bb1e945bab26288834418546f6c171bb25e1&ipo=images');
-
+        /* background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.LnFWaKb_HZ_iKk1xMxzIZQHaE8%26pid%3DApi&f=1&ipt=50cfca85d3fce86adf96be5c1e02bb1e945bab26288834418546f6c171bb25e1&ipo=images'); */
+        background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.JBRxk3tODh9UGpNhzLsb1wHaEK%26pid%3DApi&f=1&ipt=7c0421dd86bd35f1af240e4a0d31643c5362722417bf31f46a95456a084ce92d&ipo=images');
 
         background-size: cover;
         background-repeat: no-repeat;
@@ -208,7 +208,14 @@
         color: white;
         background-color: rgba(0, 0, 0, 0.421);
         padding-bottom: 20px;
-
+        background-image: url("https://sumarservicios.com.ar/wp-content/uploads/2020/01/Home_solicita-asesoramiento_fondo-3-1.jpg");
+        background-size: cover;
+        /* Ajusta el tamaño de la imagen de fondo */
+        background-repeat: no-repeat;
+        /* Evita que la imagen se repita */
+        background-position: center;
+        /* Centra la imagen de fondo */
+        background-attachment: fixed;
     }
 
     .contenedor-objetivo-3 h3 {
@@ -230,6 +237,7 @@
         margin: 0 auto;
         padding: 20px;
         margin-bottom: 20px;
+
 
     }
 
@@ -273,5 +281,6 @@
         margin-bottom: 20px;
         font-size: 26px;
         border-radius: 20px;
+
     }
 }

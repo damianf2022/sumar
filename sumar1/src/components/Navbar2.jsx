@@ -51,7 +51,7 @@ function Navbar2() {
 
                     <div className="dropdown">
                         <a className="dropbtn" onClick={() => setIsOpen(!isOpen)}>
-                            Productos
+                             Productos
                         </a>
                         {isOpen && (
                             <div className="dropdown-content">
@@ -95,9 +95,11 @@ function Navbar2() {
                                         </Link>
                                     </div>
                                 </div>
-                                <Link to="/sumar/Tableros">
-                                    <a>Tableros</a>
-                                </Link>
+                                    <div className="sub-menu">
+                                        <Link to="/sumar/Tableros">
+                                            <a style={{ padding: "0px" }}>Tableros</a>
+                                        </Link>
+                                    </div>
                             </div>
                         )}
 

@@ -4,15 +4,17 @@
 }
 
 .container {
+    /* width: 92%; */
+    max-width: 100%;
     background-color: #ED1B34;
-    padding: 10px;
+    padding: 1em;
     color: white;
     display: flex;
 
 }
 
 .phone {
-    /* margin-left: 5%; */
+    margin-left: 1em;
     display: flex;
     align-items: center;
 }
@@ -24,24 +26,66 @@
 }
 
 .icons {
-    margin-left: 50%;
+    margin-left: auto;
     display: flex;
     justify-content: space-between;
 }
 
 .icons svg {
-    margin-right: 20px;
+    margin-right: 1em;
 }
 
 .icons svg:last-child {
     margin-right: 0;
 }
 
-@media (max-width: 768px) {
+/*tablet *********************************************************Tablet********************************************* */
+@media (min-width: 769px) and (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        max-width: 92%;
+        /* margin: 0 auto;; */
+    }
+
+    .icons {
+        order: -1;
+        margin: 6px 12px;
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    .phone {
+        margin: 5px 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .mail {
+        margin: 5px 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 901px) {
 
     .container {
         flex-direction: column;
+        /* max-width: 96%; */
+        /* width: 99%; */
+         max-width: 100%;
+        background-color: #ED1B34;
+        padding: 1em;
+        color: white;
+        display: flex;
+    
     }
+    
 
     .icons {
         order: -1;

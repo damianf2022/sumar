@@ -1,5 +1,5 @@
 .contenedorled video {
-    margin-left: 5px;
+    margin-left: 20px;
     width: 350px;
     height: 300px;
 }
@@ -26,13 +26,48 @@
     width: 100%;
     height: 100%;
 }
+/*tablet *********************************************************Tablet********************************************* */
+@media (min-width: 769px) and (max-width: 900px) {
 
+    .contenedorled video {
+        margin-left: 5px;
+        width: 98%;
+        height: 300px;
+    }
+    
+    .ledcontainer h1 {
+        margin-left: 10px;
+        font-size: 20px;
+        color: #ec1b34;
+    }
+    
+    .contenedorled p {
+        font-size: 16px;
+        text-align: start;
+        margin-left: 10px;
+    }
+    
+    .contenedorled h2 {
+        color: #ec1b34;
+        margin-left: 10px;
+    }
+    
+    
+    .contenedorled img {
+        margin-left: 100px;
+        width: 70%;
+        height: 80%;
+    }
+     
+}
 
 /* *************************************************************** */
 
-@media (min-width: 768px) {
+@media (min-width: 901px) {
 
-    .contenedorled {}
+    .contenedorled {
+        /* background-color: aqua; */
+    }
 
     .contenedorled img {
         /* width: 1580px; */
@@ -50,7 +85,7 @@
         margin: 100px;
         margin-top: -20px;
         font-size: 30px;
-        color: #ec1b34;
+        /* color: #ec1b34; */
         margin-bottom: 10px;
     }
 

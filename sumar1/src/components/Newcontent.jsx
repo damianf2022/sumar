@@ -7,10 +7,22 @@ import equipo from '../images/equipo.png'
 import icogrua from '../images/icogrua.jpg'
 import { Slide, Fade } from 'react-awesome-reveal';
 import galeria from '../images/galeria.png'
+import { Link } from 'react-router-dom';
+import sound2 from '../../src/assets/reactanimacionsonidos_src_Assets_sound_flipCard.ogg';
+
 
 
 const Newcontent = () => {
     const [playing, setPlaying] = useState(true);
+    const [isSoundPlaying, setIsSoundPlaying] = useState(false);
+
+    const handleMouseEnter = () => {
+        setIsSoundPlaying(true);
+    };
+
+    const handleMouseLeave = () => {
+        setIsSoundPlaying(false);
+    };
 
     return (
         <div className='contentnew'>
@@ -42,23 +54,31 @@ const Newcontent = () => {
                         <img className="galeria" src={galeria} alt="imagen de galeria" />
 
                     </Fade>
-                    <div className='contenedor_cardnew'>
-                        <div className="objcardnew">
-                            <FontAwesomeIcon className="obj-icon" icon={faRetweet} beatFade style={{ color: "#ffffff", fontSize: "30px" }} />
-                            <h2>Alquiler</h2>
-                            <div className="linea-divisora"></div>
-                        </div>
+                    <div className='contenedor_cardnew'onClick={onclick}>
+                        <Link to="/sumar/Contacto" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                {isSoundPlaying && <audio autoPlay src={sound2} />}
+                            <div className="objcardnew"  onClick={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                                <FontAwesomeIcon className="obj-icon" icon={faRetweet} beatFade style={{ color: "#ffffff", fontSize: "30px" }} />
+                                <h2  onClick={onclick}>Alquiler</h2>
+                                <div className="linea-divisora"></div>
 
-                        <div className="objcardnew">
-                            <FontAwesomeIcon className="obj-icon" icon={faMoneyBillTrendUp} beatFade style={{ color: "#ffffff", fontSize: "30px" }} />
-                            <h2>Ventas</h2>
-                            <div className="linea-divisora"></div>
-                        </div>
+                            </div>
+                        </Link>
 
-                        <div className="objcardnew">
-                            <FontAwesomeIcon className="obj-icon" icon={faScrewdriver} beatFade style={{ color: "#ffffff", fontSize: "30px" }} />
-                            <h2>Mantenimiento</h2>
-                        </div>
+                        <Link to="/sumar/Contacto" style={{ textDecoration: 'none', color: 'inherit' }}>
+                            <div className="objcardnew">
+                                <FontAwesomeIcon className="obj-icon" icon={faMoneyBillTrendUp} beatFade style={{ color: "#ffffff", fontSize: "30px" }} />
+                                <h2>Ventas</h2>
+                                <div className="linea-divisora"></div>
+                            </div>
+                        </Link>
+
+                        <Link to="/sumar/Contacto" style={{ textDecoration: 'none', color: 'inherit' }}>
+                            <div className="objcardnew">
+                                <FontAwesomeIcon className="obj-icon" icon={faScrewdriver} beatFade style={{ color: "#ffffff", fontSize: "30px" }} />
+                                <h2>Mantenimiento</h2>
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </Slide >

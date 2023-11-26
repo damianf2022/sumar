@@ -9,7 +9,7 @@ const Footer = () => {
 
         <div>
             <div className='contenedor-footer'>
-                <h5>Cordoba Capital</h5>
+                <h5>Córdoba Capital</h5>
                 {/* <div className="linea-divisora">.</div> */}
 
                 <div className='datos-footer'>

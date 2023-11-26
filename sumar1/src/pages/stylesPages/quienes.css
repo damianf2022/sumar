@@ -37,9 +37,14 @@
   margin-left: 10px;
   font-size: 15px;
 }
+/*tablet *********************************************************Tablet********************************************* */
+@media (min-width: 769px) and (max-width: 900px) {
+
+
+}
 
 /********************************* Estilos para pantallas grandes */
-@media (min-width: 768px) {
+@media (min-width: 901px) {
   .contenedor-somos .div {
     width: auto;
     overflow: hidden;

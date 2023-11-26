@@ -18,9 +18,53 @@
 
 }
 
+/*tablet *********************************************************Tablet********************************************* */
+@media (min-width: 769px) and (max-width: 900px) {
+    .subcontenedorinsta img {
+        width: 40%;
+        height: 40%;
+        margin-left: 30%;
+    }
+
+
+    .subcontenedorinsta h1 {
+        margin-top: 20px;
+        margin-left: 100px;
+        font-size: 30px;
+        /* color: #ec1b34; */
+    }
+
+    .subcontenedorinsta p {
+        font-size: 22px;
+        margin: 100px;
+        margin-bottom: 12px;
+        margin-top: 2px;
+    }
+
+    .subcontenedorinsta ul {
+        margin-left: 30%;
+        margin-bottom: 30px;
+
+    }
+
+    .fotoinstala {
+        width: 30%;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%
+    }
+
+    .fotoinstala img {
+        display: flex;
+        width: 100%;
+        margin-bottom: 100px;
+
+    }
+}
 /* ********************************************************** */
 
-@media (min-width: 768px) {
+@media (min-width: 901px) {
 
 
     .subcontenedorinsta img {

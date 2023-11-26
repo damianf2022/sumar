@@ -25,11 +25,40 @@
     font-size: 12px;
 }
 
+/*tablet *********************************************************Tablet********************************************* */
+@media (min-width: 769px) and (max-width: 900px) {
+    .subbrazocontainer img {
+        width: 40%;
+        height: 40%;
+        margin-left: 30%;
+    }
+
+    .subbrazocontainer h1 {
+        font-size: 30px;
+        margin-top: 30px;
+        margin-left: 100px;
+        color: #ec1b34;
+    }
+
+    .subbrazocontainer p {
+        font-size: 22px;
+        margin: 100px;
+        margin-top: -2px;
+
+    }
+
+    .subbrazocontainer li {
+        margin-left: 15%;
+        margin-bottom: 3px;
+        font-size: 18px;
+
+
+    }
+
+}
 
 /* **************************************************************** */
-
-
-@media (min-width: 768px) {
+@media (min-width: 901px) {
 
 
     .subbrazocontainer img {

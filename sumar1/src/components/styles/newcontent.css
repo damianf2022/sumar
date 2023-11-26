@@ -1,6 +1,6 @@
 .contenedornew-1 {
   background-color: #f6f4f4;
-  /* padding: 40px; */
+  padding: 4px;
 }
 
 
@@ -9,9 +9,11 @@
   height: auto;
   display: block;
   margin: 0 auto;
-  border: 3px solid #cccccc8d;
-  box-shadow: 0 4px 8px black;
-  background-color: #ec1b34;
+  border-radius: 35px;
+  /* border: 3px solid #cccccc8d; */
+  /* box-shadow: 0 2px 0px rgba(0, 0, 0, 0.527); */
+  /* background-color: #ec1b34; */
+  /* background-color: white; */
   padding: 10px;
 }
 
@@ -40,7 +42,11 @@
 
 .objcardnew {
   /* margin: 5%; */
+  text-decoration: none;
+  color: inherit;
+
   background-color: #ec1b34;
+
   display: flex;
   border-radius: 30px;
   border: 3px solid #cccccc8d;
@@ -50,6 +56,22 @@
 
 /*************************************************Estilos para pantallas pequeñas */
 @media screen and (max-width: 768px) {
+  .contenedornew-1 {
+    background-image: url("https://scontent.fcor11-2.fna.fbcdn.net/v/t1.18169-9/30711937_845675858966322_1863372273810616069_n.png?_nc_cat=103&ccb=1-7&_nc_sid=7a1959&_nc_ohc=fwIqpImbA4gAX9BP6a2&_nc_ht=scontent.fcor11-2.fna&oh=00_AfCvjuStnGJM-SJOyFofQ54NY9V9-ZO43dDTcDl3tS7TnA&oe=658B4398");
+    background-size: cover;
+    /* Ajusta el tamaño de la imagen de fondo */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-position: center;
+    /* Centra la imagen de fondo */
+    /* background-attachment: fixed; */
+    /* Fija la imagen de fondo en su posición */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 90%; */
+    /* padding: 40px; */
+  }
 
   .contentnew {
     background-color: #f6f4f4;
@@ -58,14 +80,14 @@
   }
 
   .contenedornew-1 img {
-    width: 70%;
+    width: 80%;
     border-radius: 50%;
   }
 
-.tvideo{
-  display: none;
-}
-  
+  .tvideo {
+    display: none;
+  }
+
   .galeria {
     max-width: 99%;
     margin: auto;
@@ -90,34 +112,90 @@
 
 }
 
+/*tablet *********************************************************Tablet********************************************* */
+@media (min-width: 769px) and (max-width: 900px) {
+  .contenedor_cardnew {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .contenedornew-1 {
+    /* width: 30%; */
+    position: relative;
+    /* Agrega posición relativa al contenedor */
+    overflow: hidden;
+  }
+
+  .contenedornew-1 video {
+    margin-left: 150px;
+    /* width: 50%; */
+    height: 50%;
+
+  }
+
+  .tvideo {
+    margin-top: 10%;
+    /* width: 100%; */
+    /* height: 100%; */
+    margin: 10px;
+  margin-left: -100px;
+  }
+
+
+  .contenedornew-1 video {
+    margin-left: 150px;
+    width: 80%;
+    height: 50%;
+
+  }
+
+  .contenedornew-1 img {
+    display: block;
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .galeria {
+    max-width: 70%;
+    margin-left: 130px;
+  }
+
+  .objcardnew {
+    /* width: calc(7% - 0px); */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .obj-icon {
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 40px;
+  }
+
+  .objcardnew h1 {
+    padding: 25px;
+  }
+}
+
 /* **********************************************Estilos para pantallas grandes */
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 901px) {
   .contenedor_cardnew {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    
   }
 
   .contenedornew-1 {
-    /* background-image: url('https://leosystem.travel/wp-content/uploads/2019/12/1296817300.jpg'); */
-    /* background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.LnFWaKb_HZ_iKk1xMxzIZQHaE8%26pid%3DApi&f=1&ipt=50cfca85d3fce86adf96be5c1e02bb1e945bab26288834418546f6c171bb25e1&ipo=images'); */
-    /* background-image: url('C:\Users\fmaur\Desktop\Sumar3\sumar\sumar1\src\images\iniciosumar.png'); */
-    /* background-image: url('../../images/inicio14542.png'); */
-    /* background-image: url('https://scontent.fcor11-1.fna.fbcdn.net/v/t1.6435-9/72550093_1211704225696815_7545791045494112256_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=LcW69sFFk0AAX89bJ8M&_nc_ht=scontent.fcor11-1.fna&oh=00_AfCbjoF6T8nikNZVJDE-wFdbxByq9DEfVl42K0Sic92W1w&oe=657E6170'); */
-
-    /* background-size: cover; */
-    /* Ajusta el tamaño de la imagen de fondo */
-    /* background-repeat: no-repeat; */
-    /* Evita que la imagen se repita */
-    /* background-position: center; */
-    /* Centra la imagen de fondo */
-    /* background-attachment: fixed; */
-    /* Fija la imagen de fondo en su posición */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* width: 90%; */
 
   }
 
@@ -138,9 +216,9 @@
   }
 
   .contenedornew-1 video {
-    margin-left: 150px;
-    width: 80%;
-    height:50%;
+    margin-left: 21%;
+    width: 60%;
+    height: 50%;
 
   }
 
@@ -154,16 +232,6 @@
     text-align: center;
   }
 
-
-
-
-
-
-
-
-
-
-
   .galeria {
     max-width: 70%;
     margin-left: 250px;
@@ -173,17 +241,21 @@
     /* width: calc(7% - 0px); */
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 30px;
+    
   }
-
+  
   .obj-icon {
-    padding-top: 10px;
+    /* background-color: aqua; */
+    padding-top: 8px;
     padding-right: 10px;
     font-size: 40px;
   }
 
-  .objcardnew h1 {
-    padding: 25px;
+  .objcardnew h2 {
+    padding-top: 20px;
+padding-left: 0px;
+padding-right: 100px;
   }
 }

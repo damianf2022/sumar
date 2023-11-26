@@ -14,6 +14,7 @@
     font-size: 20px;
     color: #ec1b34;
 }
+
 .brazotelecotainer p {
     font-size: 16px;
     margin: 20px;
@@ -26,10 +27,40 @@
 
 }
 
+/*tablet *********************************************************Tablet********************************************* */
+@media (min-width: 769px) and (max-width: 900px) {
+    .subimage img {
+        width: 40%;
+        height: 40%;
+        margin-left: 30%;
+    }
+
+
+    .brazotelecotainer h1 {
+        margin-top: 15px;
+        margin-left: 50px;
+        font-size: 30px;
+        color: #ec1b34;
+    }
+
+    .brazotelecotainer p {
+        font-size: 22px;
+        margin: 50px;
+        margin-top: 5px;
+
+    }
+
+    .brazotelecotainer li {
+        font-size: 14px;
+        margin-left: 10%;
+        /* margin-bottom: 30px; */
+
+
+    }
+}
 
 /* ********************************************************** */
-
-@media (min-width: 768px) {
+@media (min-width: 901px) {
 
 
     .subimage img {
