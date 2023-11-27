@@ -70,18 +70,26 @@
     justify-content: center;
     /* background-color: rgba(0, 0, 0, 0.488); */
     background-color: #f6f4f4;
+    max-width: 100%;
+    gap: 30px ;
 
   }
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  
 
   .card {
     order: 0;
     /* Reestablece el orden para las tarjetas en pantallas más grandes */
-    width: 400px;
+    width: 200px;
     margin: 2px;
   }
 
   .card {
-    width: 250px;
+    width: 200px;
     margin: 5px;
   }
 
@@ -92,7 +100,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 30px;
     /* background-color: rgba(0, 0, 0, 0.488); */
     background-color: #f6f4f4;
 

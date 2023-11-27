@@ -57,7 +57,7 @@ function SideMenu() {
                         </div>
                       </div>
 
-                      <div className="sub-menu2" onClick={closeNav}>
+                      <div className="sub-menu2" >
                         <a href="#">Torres de Iluminacion</a>
 
                         <div className="sub-menu-content2" onClick={closeNav}>
@@ -67,7 +67,7 @@ function SideMenu() {
                         </div>
                       </div>
 
-                      <div className="sub-menu2" onClick={closeNav}>
+                      <div className="sub-menu2" >
                         <a href="#">Plataformas de Altura</a>
 
                         <div className="sub-menu-content2" onClick={closeNav}>

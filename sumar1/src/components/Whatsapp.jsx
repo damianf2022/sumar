@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import iconwat from '../images/what_icon.png';
 import email_icon from '../images/email_icon.png';
-import { Bounce, Roll } from 'react-awesome-reveal';
+import { AttentionSeeker } from 'react-awesome-reveal';
 
 const Whatsapp = () => {
   const styles = `
@@ -51,15 +51,21 @@ const Whatsapp = () => {
 
   return (
     <div>
-      <style>{styles}</style>
-      <a href="https://api.whatsapp.com/send/?phone=5493517667501&text&type=phone_number&app_absent=0" className="whatsapp-link">
-        <img src={iconwat} alt="WhatsApp" className="whatsapp-icon" />
-      </a>
+      <AttentionSeeker effect="shakeX" style="" delay={2000}>
+        <style>{styles}</style>
 
-      <style>{styles}</style>
-      <a href="https://api.whatsapp.com/send?phone=TUNUMEROTELEFONO" className="email-link">
-        <img src={email_icon} alt="Email" className="email-icon" />
-      </a>
+        <a href="https://api.whatsapp.com/send/?phone=5493517667501&text&type=phone_number&app_absent=0" className="whatsapp-link">
+          <img src={iconwat} alt="WhatsApp" className="whatsapp-icon" />
+        </a>
+      </AttentionSeeker>
+    
+      <AttentionSeeker effect="shakeX" style="" delay={3000}>
+        <style>{styles}</style>
+        <a href="https://api.whatsapp.com/send?phone=TUNUMEROTELEFONO" className="email-link">
+          <img src={email_icon} alt="Email" className="email-icon" />
+        </a>
+      </AttentionSeeker>
+
     </div>
   );
 };

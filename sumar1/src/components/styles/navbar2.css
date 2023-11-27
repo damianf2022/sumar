@@ -24,7 +24,7 @@
     font-size: 22px;
     color: black;
     text-align: center;
-    padding: 12 px 14px;
+    padding: 12 px 16px;
     padding-left: 1rem;
     text-decoration: none;
 }
@@ -69,31 +69,41 @@
         display: inline;
     }
 }
+
 /* ******************Tablet********************************************* */
 @media (min-width: 769px) and (max-width: 1024px) {
     .navbar a {
         font-size: 12px !important;
         /* Ajusta el tamaño del texto para tabletas */
-    /* padding: 5px; */
+        /* padding: 5px; */
     }
-    .dropdown  {
+
+    .dropdown {
         /* font-size: 12px !important; */
         border: none;
         outline: none;
         color: black;
         background-color: inherit;
         /* padding-top: -10px !important; */
-        
+
     }
 
-
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        margin-top: 15px;
+        /* min-width: 100px; */
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
     /* .dropdown  {
         font-size: 42px;
     background-color: aqua;
     }
  */
-    .dropdown-content {
-    }
+    .dropdown-content {}
 }
 
 @media (min-width: 768px) {
@@ -120,7 +130,7 @@
 .dropdown {
     float: right;
     overflow: hidden;
-padding-left: 16px;
+    padding-left: 16px;
 
 }
 
@@ -142,11 +152,10 @@ padding-left: 16px;
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    /* background-color: violet; */
-    min-width: 160px;
+    margin-top: 25px;
+    /* min-width: 100px; */
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-
 }
 
 .dropdown-content a {
@@ -162,10 +171,12 @@ padding-left: 16px;
 
 .dropdown-content a:hover {
     background-color: #ddd;
+    
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+    
 }
 
 /************************ Estilos para submenus */
@@ -180,10 +191,11 @@ padding-left: 16px;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.2);
     z-index: 2;
     top: 0;
     left: 100%;
+
 
 }
 

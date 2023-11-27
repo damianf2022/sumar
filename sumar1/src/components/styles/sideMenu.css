@@ -8,7 +8,7 @@
     background-color: #111111b4;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 100px;
+    padding-top: 40px;
     /* padding-bottom: 10px; */
 
 
@@ -45,8 +45,6 @@
 }
 
 .menu-panel2 {
-    /* background-color: #818181; */
-    /* font-size: 50px; */
 }
 
 .menu-panel2 :hover {
@@ -90,7 +88,7 @@
 }
 
 .dropbtn2 {
-    font-size: 200px;
+    font-size: 20px;
     border: none;
     outline: none;
     color: violet;
@@ -117,7 +115,7 @@
     position: absolute;
     background-color: #f9f9f9;
     /* background-color: violet; */
-    min-width: 160px;
+    min-width: 60px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 
@@ -126,7 +124,7 @@
 .dropdown-content2 a {
     float: none;
     color: black;
-    padding: 12px 16px;
+    /* padding: 12px 16px; */
     text-decoration: none;
     display: block;
     text-align: left;
@@ -153,12 +151,17 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 10px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 2;
     top: 0;
-    left: 100%;
+    left: 80%;
 
+}
+.sub-menu-content2 a {
+/* background-color: aqua; */
+/* margin-right: 90%; */
+/* padding: 5px; */
 }
 
 .sub-menu2:hover .sub-menu-content2 {
