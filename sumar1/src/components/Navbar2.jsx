@@ -56,7 +56,7 @@ function Navbar2() {
                         {isOpen && (
                             <div className="dropdown-content">
                                 <div className="sub-menu">
-                                    <a href="#">Grupos Electrogenos</a>
+                                    <a href="#">Grupos Electrógenos</a>
                                     <div className="sub-menu-content">
                                         <Link to="/sumar/electrogenodiesel">
                                             <a>Diesel</a>
@@ -68,7 +68,7 @@ function Navbar2() {
                                 </div>
 
                                 <div className="sub-menu">
-                                    <a href="#">Torres de Iluminacion</a>
+                                    <a href="#">Torres de Iluminación</a>
 
                                     <div className="sub-menu-content">
                                         <Link to="/sumar/torresled" >
