@@ -8,20 +8,32 @@
 }
 
 /* Estilos para la mitad de la imagen */
-.image-half {}
+.image-half {
+  image-rendering: optimizeQuality;
+
+}
+
+.image-half img {
+  width: 98%;
+  height: 98%;
+}
 
 .half-image {
-  width: 100%;
-  height: 100%;
+  width: 98%;
+  height: 98%;
   border-radius: 10px;
   border: 1px solid #cccccc8d;
   box-shadow: 0 4px 8px rgb(255, 255, 255);
+  /* background-color: aqua; */
+  /* padding:5px; */
+  /* background-size: cover; */
 
 }
 
 .equipo2 {
-  width: 100%;
-  height: 90%;
+  /* width: 100%; O el ancho deseado */
+  /* height: auto;  */
+  /* height: 90%; */
   border-radius: 10px;
   border: 1px solid #cccccc8d;
   box-shadow: 0 4px 8px rgb(255, 255, 255);
@@ -75,6 +87,7 @@
   .equipo2 {
     display: none;
   }
+
   .text-half h2 {
     margin-left: 15px;
     font-size: 26px;
@@ -90,6 +103,7 @@
   .equipo3 {
     display: none;
   }
+
   .image-text-container {
     display: flex;
     padding: 13px;
@@ -99,11 +113,11 @@
     margin-bottom: 30px;
     /* background-color: aqua; */
   }
-  
+
   .image-text-container {
     display: flex;
     padding: 30px;
-    flex-flow:column ;
+    flex-flow: column;
     background-color: rgba(0, 0, 0, 0.863);
     /* margin-top: 30px; */
     /* margin-bottom: 30px; */
@@ -128,7 +142,7 @@
   }
 
   .equipo2 {
-display: none;
+    display: none;
   }
 
   .text-half {
@@ -182,25 +196,25 @@ display: none;
     gap: 30px;
   }
 
-  .image-half {
+  /* .image-half {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
 
-  }
+  } */
 
-  .half-image {
+  /* .half-image {
     width: 400px;
     height: 450px;
     border-radius: 10px;
     border: 1px solid #cccccc8d;
     box-shadow: 0 4px 8px rgb(255, 255, 255);
 
-  }
+  } */
 
   .equipo2 {
-display: none;
+    display: none;
   }
 
   .text-half {

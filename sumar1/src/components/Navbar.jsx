@@ -9,14 +9,33 @@ const Navbar = () => {
         const isMobile = window.innerWidth <= 768;
 
         // Obtiene el enlace de Instagram
+        const facebookLink = document.getElementById('facebook-link');
+        const twitterLink = document.getElementById('twitter-link');
+        const linkedinLink = document.getElementById('linkedin-link');
         const instagramLink = document.getElementById('instagram-link');
 
         // Define las URL de destino para móviles y escritorio
+        const mobileFacebookURL = 'https://m.facebook.com/SumarenCordoba';
+        const desktopFacebookURL = 'https://www.facebook.com/SumarenCordoba';
+
+        const mobileLinkedinURL = 'https://www.linkedin.com/company/sumar-servicios-industriales-srl/';
+        const desktopLinkedinURL = 'https://www.linkedin.com/company/sumar-servicios-industriales-srl/';
+
         const mobileInstagramURL = 'https://m.instagram.com/sumar_cba/';
         const desktopInstagramURL = 'https://www.instagram.com/sumar_cba/';
 
+        const mobileTwitterURL = 'https://twitter.com/SrlSumar?s=09';
+        const desktopTwitterURL = 'https://twitter.com/SrlSumar?s=09';
+
+
+
+
         // Asigna la URL correcta según el tipo de dispositivo
+        facebookLink.href = isMobile ? mobileFacebookURL : desktopFacebookURL;
+        linkedinLink.href = isMobile ? mobileLinkedinURL : desktopLinkedinURL;
         instagramLink.href = isMobile ? mobileInstagramURL : desktopInstagramURL;
+        twitterLink.href = isMobile ? mobileTwitterURL : desktopTwitterURL;
+
     }, []);
 
     return (
@@ -32,14 +51,18 @@ const Navbar = () => {
             </div>
 
             <div className='icons'>
-                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <a href="#" target="_blank" rel="noopener noreferrer" id='linkedin-link'>
                     <FaLinkedin />
                 </a>
-                <a href="https://www.facebook.com/SumarenCordoba" target="_blank">
+                <a href="#" target="_blank" id='facebook-link'>
                     <FaFacebook />
                 </a>
                 <a id="instagram-link" href="#" target="_blank">
                     <FaInstagram />
+                </a>
+
+                <a id="twitter-link" href="#" target="_blank">
+                    <FaTwitter/>
                 </a>
             </div>
         </div>
