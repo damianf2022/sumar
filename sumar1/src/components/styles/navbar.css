@@ -13,6 +13,11 @@
 
 }
 
+a {
+    /* text-decoration: none; */
+    /* color: #333; Puedes cambiar esto al color que desees */
+}
+
 .phone {
     margin-left: 1em;
     display: flex;
@@ -25,10 +30,24 @@
     align-items: center;
 }
 
+.mail a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: white;
+}
+
 .icons {
     margin-left: auto;
     display: flex;
     justify-content: space-between;
+}
+
+.icons a {
+
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+
 }
 
 .icons svg {
@@ -78,14 +97,14 @@
         flex-direction: column;
         /* max-width: 96%; */
         /* width: 99%; */
-         max-width: 100%;
+        max-width: 100%;
         background-color: #ED1B34;
         padding: 1em;
         color: white;
         display: flex;
-    
+
     }
-    
+
 
     .icons {
         order: -1;

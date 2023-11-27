@@ -19,17 +19,28 @@ const Navbar = () => {
 
             <div className='mail'>
                 <FaEnvelope />
-                {/* <a href="mailto:"></a> */}
-                comercialcba@sumarservicios.com.ar
+                <a href="mailto:comercialcba@sumarservicios.com.ar">comercialcba@sumarservicios.com.ar</a>
+                {/* comercialcba@sumarservicios.com.ar */}
             </div>
 
             <div className='icons'>
-                <FaLinkedin />
-                <FaFacebook />
-                {/* <a href="https://www.facebook.com/SumarenCordoba" target="_blank" style="text-decoration: none; color: black;">
+
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin />
+                </a>
+
+                <a href="https://www.facebook.com/SumarenCordoba" target="_blank">
+                    <FaFacebook />
+                </a>
+                <a href="https://www.instagram.com/sumar_cba/" target="_blank">
+                    <FaInstagram />
+
+                </a>
+                {/* <a href="https://www.facebook.com/SumarenCordoba" target="_blank">
+
+                    <FaTwitter />
                 </a> */}
-                <FaInstagram />
-                <FaTwitter />
+
             </div>
 
         </div>

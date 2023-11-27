@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHandHoldingUsd, faKey, faCheckSquare, faHandshake } from '@fortawesome/free-solid-svg-icons';
 import "./styles/objetivos.css";
@@ -48,7 +49,9 @@ const Objetivos = () => {
                         <span>Nuestro principal objetivo, es construir relaciones a largo plazo con nuestros clientes, como así también con nuestros
                             proveedores y empleados, a quienes consideramos pilares fundamentales para el desarrollo de nuestra companía.
                         </span>
-                        <button>CONTACTANOS</button>
+                        <Link to="/sumar/Contacto" style={{ textDecoration: 'none', color: 'inherit' }}>
+                                <button>CONTACTANOS</button>
+                        </Link>
                     </div>
                 </div>
 

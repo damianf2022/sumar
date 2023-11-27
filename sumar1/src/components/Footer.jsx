@@ -18,10 +18,18 @@ const Footer = () => {
                     <p>comercialcba@sumarservicios.com.ar</p>
                 </div>
                 <div className='link-footer'>
-                    <FiLinkedin />
-                    <FiFacebook />
-                    <FiInstagram />
-                    <FiTwitter />
+
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                        <FiLinkedin />
+                    </a>
+                    <a href="https://www.facebook.com/SumarenCordoba" target="_blank">
+                        <FiFacebook />
+                    </a>
+                    <a href="https://www.instagram.com/sumar_cba/" target="_blank">
+                        <FiInstagram />
+                    </a>
+
+                    {/* <FiTwitter /> */}
                 </div>
             </div>
             <div className='pie-footer'>

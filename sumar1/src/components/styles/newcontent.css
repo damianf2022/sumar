@@ -41,12 +41,10 @@
 }
 
 .objcardnew {
-  /* margin: 5%; */
+
   text-decoration: none;
   color: inherit;
-
   background-color: #ec1b34;
-
   display: flex;
   border-radius: 30px;
   border: 3px solid #cccccc8d;
@@ -140,7 +138,7 @@
     /* width: 100%; */
     /* height: 100%; */
     margin: 10px;
-  margin-left: -100px;
+    margin-left: -100px;
   }
 
 
@@ -192,12 +190,10 @@
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
-    
-  }
-
-  .contenedornew-1 {
 
   }
+
+  .contenedornew-1 {}
 
 
   .contenedornew-1 {
@@ -227,7 +223,7 @@
     width: 20%;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 51%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
@@ -238,14 +234,13 @@
   }
 
   .objcardnew {
-    /* width: calc(7% - 0px); */
     flex: 1;
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    
+
   }
-  
+
   .obj-icon {
     /* background-color: aqua; */
     padding-top: 8px;
@@ -255,7 +250,7 @@
 
   .objcardnew h2 {
     padding-top: 20px;
-padding-left: 0px;
-padding-right: 100px;
+    padding-left: 0px;
+    padding-right: 100px;
   }
 }
