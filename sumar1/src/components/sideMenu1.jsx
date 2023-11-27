@@ -9,7 +9,6 @@ function SideMenu() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleOpenMenu = () => {
-    console.log("productos!!!");
     setIsOpen(true);
   }
 

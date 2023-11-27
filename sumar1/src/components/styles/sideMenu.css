@@ -35,7 +35,7 @@
 .menu-side a {
     color: white;
     /* background-color: pink;  */
-    font-size: 14px;
+    font-size: 16px;
 
 
 }
@@ -56,10 +56,8 @@
     /* position: absolute; */
     position: fixed;
     top: 30px;
-    margin-left: -15px;
-    font-size: 40px;
+    font-size: 45px;
     z-index: 2;
-    margin: 10px;
     border-radius:50%;
     padding-top: 10px;
     /* background-color: red; */
@@ -73,34 +71,20 @@
 /* ************************************************************************************************************* */
 
 .menu-side .dropdown2 {
-    /* float: left; */
-    /* overflow: hidden; */
-    /* background-color: aqua; */
     margin-left: 33px;
-    /* font-size: 26px; */
-    /* border: none;
-    outline: none; */
-    /* color: black; */
-    /* background-color: inherit; */
-    /* padding-top: 27px; */
-
-
 }
 
-.dropbtn2 {
+/* .dropbtn2 {
     font-size: 20px;
     border: none;
     outline: none;
     color: violet;
-    /* background-color: aqua; */
+    background-color: aqua;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
-    margin: 0;
-    /* background-color: aqua; */
-
-
-}
+    margin: 0; */
+/* } */
 
 
 
@@ -115,7 +99,7 @@
     position: absolute;
     background-color: #f9f9f9;
     /* background-color: violet; */
-    min-width: 60px;
+    /* max-width: 50%; */
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 
@@ -127,7 +111,7 @@
     /* padding: 12px 16px; */
     text-decoration: none;
     display: block;
-    text-align: left;
+    /* text-align: left; */
 
 
 }
@@ -144,14 +128,13 @@
 
 .sub-menu2 {
     position: relative;
-
 }
 
 .sub-menu-content2 {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 10px;
+    /* min-width: 10px; */
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 2;
     top: 0;
@@ -175,5 +158,6 @@
     border: none;
     cursor: pointer;
     font-size: 40px;
+    background-color: aqua;
 
 }
