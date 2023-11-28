@@ -1,7 +1,8 @@
 @media (max-width: 768px) {
     .contenedor-objetivos-1 {
-        background-image: url('https://fotos.perfil.com/2023/06/24/trim/987/555/la-rueda-de-eiffel-en-el-parque-de-la-biodiversidad-1595429.jpeg?webp');
+        /* background-image: url('https://fotos.perfil.com/2023/06/24/trim/987/555/la-rueda-de-eiffel-en-el-parque-de-la-biodiversidad-1595429.jpeg?webp'); */
         /* background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.LnFWaKb_HZ_iKk1xMxzIZQHaE8%26pid%3DApi&f=1&ipt=50cfca85d3fce86adf96be5c1e02bb1e945bab26288834418546f6c171bb25e1&ipo=images'); */
+        background-image: url('https://sumarservicios.com.ar/wp-content/uploads/2020/02/home_contador_fondo-recorte.jpg');
 
         background-size: cover;
         /* Ajusta el tamaño de la imagen de fondo */
@@ -67,8 +68,17 @@
         justify-content: center;
         align-items: center;
         color: white;
-        background-color: rgba(0, 0, 0, 0.421);
+        /* background-color: rgba(0, 0, 0, 0.421); */
         padding-bottom: 20px;
+        background-image: url("https://sumarservicios.com.ar/wp-content/uploads/2020/01/Home_solicita-asesoramiento_fondo-3-1.jpg");
+        background-size: cover;
+        /* Ajusta el tamaño de la imagen de fondo */
+        background-repeat: no-repeat;
+        /* Evita que la imagen se repita */
+        background-position: center;
+        /* Centra la imagen de fondo */
+        background-attachment: fixed;
+
 
     }
 
