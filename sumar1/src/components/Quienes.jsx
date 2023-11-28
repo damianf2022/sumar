@@ -12,7 +12,7 @@ const Quienes = () => {
             <div className="text-half">
                 <h2><strong>Quiénes somos</strong></h2>
                 <img className='linea' src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/divider.jpg" alt="linea" /> <br />
-                <p>SUMAR Servicios Industiales S.R.L. es una empresa joven y dinámica con una fuerte cultura orientada a la atención del cliente, brindando soluciones rápidas y eficientes, trabajando bajo las normas necesarias para el correcto desarrollo y cumplimiento en tiempo y forma de vuestros proyectos.</p>
+                <p>SUMAR Servicios Industriales S.R.L. es una empresa joven y dinámica con una fuerte cultura orientada a la atención del cliente, brindando soluciones rápidas y eficientes, trabajando bajo las normas necesarias para el correcto desarrollo y cumplimiento en tiempo y forma de vuestros proyectos.</p>
                 <p>Nuestra misión es ofrecer a nuestros clientes la mejor ecuación precio y calidad del mercado, siempre apuntando a la excelencia. Desde el asesoramiento preventa para brindar la mejor solución, pasando por la provisión de equipos y servicios, hasta la postventa.</p>
                 <p>Nuestra visión es construir relaciones a largo plazo con nuestros clientes, a quienes consideramos pilares fundamentales para el desarrollo de la compañía. Con el fin ser una empresa referente en el segmento  y lograr una mayor especialización.</p>
             </div>

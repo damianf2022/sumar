@@ -11,12 +11,12 @@ const TijeraDiesel = () => {
             </div>
 
             <div className='videotijera'>
-                <video
+                {/* <video
                     muted
                     src={PlataformaAltura}
                     controls={playing}
                     autoplay={playing}
-                />
+                /> */}
                 {/* <button onClick={() => setPlaying(!playing)}>
                     {playing ? 'Pausar' : 'Reproducir'}
                 </button> */}
