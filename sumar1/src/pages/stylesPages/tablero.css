@@ -101,7 +101,7 @@
 
     .subtablerocontent h1 {
         margin-top: 20px;
-        margin-left: 105px;
+        margin-left: 20%;
         font-size: 28px;
         color: #ec1b34;
     }
@@ -109,10 +109,12 @@
 
 
     .subtablerocontent p {
+        width: 900px;
+        text-align: justify;
         font-size: 22px;
-        margin: 100px;
         margin-bottom: 12px;
         margin-top: 2px;
+        margin-left: 20%;
 
     }
 
@@ -126,7 +128,7 @@
 
     .subtablerocontent h2 {
         margin-top: 20px;
-        margin-left: 108px;
+        margin-left:20%;
         font-size: 26px;
         color: #ec1b34;
     }

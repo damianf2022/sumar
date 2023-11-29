@@ -186,12 +186,12 @@
 /* **********************************************Estilos para pantallas grandes */
 @media screen and (min-width: 901px) {
   .contenedor_cardnew {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 75px;
     flex-wrap: wrap;
-
-  }
+    }
 
   .contenedornew-1 {}
 
@@ -229,8 +229,8 @@
   }
 
   .galeria {
-    max-width: 70%;
-    margin-left: 250px;
+    width: 80%;
+    margin-left: 175px;
   }
 
   .objcardnew {

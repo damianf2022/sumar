@@ -21,9 +21,7 @@ const BrazoArtDiesel = () => {
                     <li>Opciones de motor diésel y combustible. Excelente potencia, torque y capacidad de terreno en general.</li>
                     <li>La característica del Jib proporciona un mayor rango de trabajo y mejor alcance a lugares confinados.</li>
                 </ul>
-                <div>
-                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Platadormas-en-altura_Brazo-articulado-Diesel-1500.jpg" alt="repuestos" />
-                </div>
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Platadormas-en-altura_Brazo-articulado-Diesel-1500.jpg" alt="repuestos" />
             </div>
 
         </div>

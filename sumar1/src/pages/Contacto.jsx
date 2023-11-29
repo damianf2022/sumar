@@ -17,15 +17,15 @@ const Contacto = () => {
 
 
             <div className="sectionFormu">
-                <h2>Feedback</h2>
-                <p >Post-ironic portland shabby chic echo park, banjo fashion axe</p>
+                <h2></h2>
+                <p >Por favor deje un breve mensaje con su consulta y un mail, para que nuestro equipo a la brevedad se ponga en contacto con usted.</p>
                 <div className="inputName">
                     <label htmlFor="name">Name</label>
                     <input
                         type="text"
                         id="name"
                         name="name"
-                        placeholder="Your Name"
+                        placeholder="tu nombre"
                     />
                 </div>
                 <div className="inputEmail">
@@ -34,7 +34,7 @@ const Contacto = () => {
                         type="email"
                         id="email"
                         name="email"
-                        placeholder="Your Email"
+                        placeholder="tu email"
                     />
                 </div>
                 <div className="inputMesage">
@@ -45,10 +45,10 @@ const Contacto = () => {
                         className="input-field"
                         placeholder="Your Message"
                     ></textarea>
+                    <br /> <br />
                     <button className="submit-button">Button</button>
                 </div>
                 <p>
-                    Chicharrones blog helvetica normcore iceland tousled brook viral artisan.
                 </p>
             </div>
         </div>

@@ -10,13 +10,13 @@ const ElectrogenoDiesel = () => {
                 <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-grupos-electrogenos-sumar.jpg" alt="grupo electrogeno diesel" />
             </div>
             {/* <div className='tvideo'> */}
-                <video
-                    muted
-                    src={GrupoElectrogeno}
-                    controls={playing}
-                    autoplay={playing}
-                />
-                {/* <button onClick={() => setPlaying(!playing)}>
+            <video
+                muted
+                src={GrupoElectrogeno}
+                controls={playing}
+                autoplay={playing}
+            />
+            {/* <button onClick={() => setPlaying(!playing)}>
                     {playing ? 'Pausar' : 'Reproducir'}
                 </button> */}
             {/* </div> */}
@@ -42,11 +42,13 @@ const ElectrogenoDiesel = () => {
                 </p>
                 <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos_electrogenos_Diesel-1.jpg" alt="grupo" />
 
-                <div className='trogenocontaniner'>
-                <h2><strong>Componentes y Accesorios</strong></h2>
-                <p><strong>Motores</strong>: Utilizamos motores de primera línea como ser MWM, Cummins, Perkins, Volvo, Agrale y FPT.
-                    <strong>Alternadores</strong>: Utilizamos alternadores de primera línea como WEG y Cramaco.
-                    <strong>Cabinados</strong>: Construcción modular en chapa galvanizada, pintura epoxi, paneles fonoabsorbentes ignífugos de lana de roca volcánica, y silenciador de escape residencial, bulones de acero inoxidable ocultos, entradas y salidas de aire tratadas acústicamente y con luz interior. <strong>Tablero de control de grupo y tableros de transferencia:</strong>
+            </div>
+            <div className='trogenocontaniner2'>
+                <h2 className='h2'><strong>Componentes y Accesorios</strong></h2>
+                <p className='p2'><strong>Motores</strong>: Utilizamos motores de primera línea como ser MWM, Cummins, Perkins, Volvo, Agrale y FPT. <br />
+                    <strong>Alternadores</strong>: Utilizamos alternadores de primera línea como WEG y Cramaco. <br />
+                    <strong>Cabinados</strong>: Construcción modular en chapa galvanizada, pintura epoxi, paneles fonoabsorbentes ignífugos de lana de roca volcánica, y silenciador de escape residencial, bulones de acero inoxidable ocultos, entradas y salidas de aire tratadas acústicamente y con luz interior. <br />
+                    <strong>Tablero de control de grupo y tableros de transferencia:</strong> <br />
                 </p>
                 <ul className='lu'>
                     <li>Lógica de control Deep Sea, y componentes de maniobra ABB.</li>
@@ -54,10 +56,9 @@ const ElectrogenoDiesel = () => {
                     <li>Iluminación interior.</li>
                 </ul>
                 <div className='motoralt'>
-                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos-electrogenos_motores.jpg" alt="repuesto" />
-                    <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos-electrogenos_alternadores.jpg" alt="repuesto" />
-                    {/* <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos-electrogenos_tableros-150x150.jpg" alt="" /> */}
-                </div>
+                    <img className='img2' src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos-electrogenos_motores.jpg" alt="repuesto" />
+                    <img className='img2' src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos-electrogenos_alternadores.jpg" alt="repuesto" />
+                    {/* <img className='img2' src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Grupos-electrogenos_tableros-150x150.jpg" alt="repuesto" /> */}
                 </div>
             </div>
         </div>

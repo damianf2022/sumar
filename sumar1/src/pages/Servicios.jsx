@@ -41,7 +41,7 @@ const Servicios = () => {
                     <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_servicio-correctivo.png" alt="correctivo" />
                     <p>SERVICIO CORRECTIVO</p>
                 </div>
-                <div className='subservicios'>
+                <div className='subservicios'   >
                     <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Servicios_modalidades-de-servicio_servicio-de-mantenimiento-preventivo.png" alt="mantenimiento" />
                     <p>SERVICIO DE MANTENIMIENTO PREVENTIVO</p>
                 </div>

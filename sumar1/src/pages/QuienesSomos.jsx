@@ -22,25 +22,25 @@ const QuienesSomos = () => {
         <p><strong>Nuestra Visión</strong> es construir relaciones a largo plazo con nuestros clientes, a quienes consideramos pilares fundamentales para el desarrollo de la compañía. Con el fin ser una empresa referente en el segmento y lograr una mayor especialización.</p>
       </div>
       <div className='subcontainer'>
-        <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Quienes-somos_filosofia-empresaria_valores.png" alt="valores" />
+        <img className='estre' src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Quienes-somos_filosofia-empresaria_valores.png" alt="valores" />
         <p><strong>Nuestros Valores son:</strong>
-        
-        <br /><br />
-          <strong>Honestidad</strong>. Dando la mejor solución a nuestros clientes de acuerdo a su necesidad. <br /> <br />
-          <strong>Compromiso</strong>. Cumpliendo con los compromisos asumidos con nuestros clientes. <br /> <br />
 
-          <strong>Superación</strong>. Buscando siempre la mejora continua de nuestros equipos y servicios. Escuchando las críticas y sugerencias de nuestros clientes para ofrecer las mejores soluciones. <br /> <br />
+          <br />
+          <strong>Honestidad</strong>. Dando la mejor solución a nuestros clientes de acuerdo a su necesidad. <br />
+          <strong>Compromiso</strong>. Cumpliendo con los compromisos asumidos con nuestros clientes. <br />
 
-          <strong>Responsabilidad</strong>. Todas nuestras funciones las realizamos de forma responsable, entendiendo desde la criticidad de nuestra provisión de equipos o servicios, hasta el cuidado de nuestras acciones para el entorno (usuarios, clientes, personal y medio ambiente). <br /> <br />
+          <strong>Superación</strong>. Buscando siempre la mejora continua de nuestros equipos y servicios. Escuchando las críticas y sugerencias de nuestros clientes para ofrecer las mejores soluciones. <br />
 
-          <strong>Pasión</strong>. <br /> <br />
+          <strong>Responsabilidad</strong>. Todas nuestras funciones las realizamos de forma responsable, entendiendo desde la criticidad de nuestra provisión de equipos o servicios, hasta el cuidado de nuestras acciones para el entorno (usuarios, clientes, personal y medio ambiente). <br />
 
-          <strong>Entusiasmo</strong>. <br /> <br />
+          <strong>Pasión</strong>. <br />
+
+          <strong>Entusiasmo</strong>. <br />
         </p>
 
 
       </div>
-        {/* <div className='foto'>
+      {/* <div className='foto'>
           <img src="https://scontent.fcor11-2.fna.fbcdn.net/v/t1.6435-9/43108213_964736720393568_6994842175590629376_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=IVtqXnZWI9kAX_QHtAH&_nc_ht=scontent.fcor11-2.fna&oh=00_AfCcuZnx_UwjGqm06VHFUKM-tkmv1lQ5reKytiSUkkBcaQ&oe=65776C94" alt="" />
         </div> */}
 

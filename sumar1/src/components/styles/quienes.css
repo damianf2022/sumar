@@ -24,28 +24,9 @@
   border-radius: 10px;
   border: 1px solid #cccccc8d;
   box-shadow: 0 4px 8px rgb(255, 255, 255);
-  /* background-color: aqua; */
-  /* padding:5px; */
-  /* background-size: cover; */
 
 }
 
-.equipo2 {
-  /* width: 100%; O el ancho deseado */
-  /* height: auto;  */
-  /* height: 90%; */
-  border-radius: 10px;
-  border: 1px solid #cccccc8d;
-  box-shadow: 0 4px 8px rgb(255, 255, 255);
-}
-
-.equipo3 {
-  width: 98%;
-  height: 90%;
-  border-radius: 10px;
-  border: 1px solid #cccccc8d;
-  box-shadow: 0 4px 8px rgb(255, 255, 255);
-}
 
 
 .image-half img s {}
@@ -196,26 +177,6 @@
     gap: 30px;
   }
 
-  /* .image-half {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-
-  } */
-
-  /* .half-image {
-    width: 400px;
-    height: 450px;
-    border-radius: 10px;
-    border: 1px solid #cccccc8d;
-    box-shadow: 0 4px 8px rgb(255, 255, 255);
-
-  } */
-
-  .equipo2 {
-    display: none;
-  }
 
   .text-half {
     flex: 1;
@@ -226,6 +187,7 @@
     font-size: 6px;
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
+    text-align: justify;
   }
 
 

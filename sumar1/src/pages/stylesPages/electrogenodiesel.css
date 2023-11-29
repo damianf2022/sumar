@@ -1,229 +1,217 @@
+.section_diesel {}
+
+.section_diesel {
+    /* max-width: 100%; */
+}
+
 .section_diesel video {
-    margin-left: 20px;
-    width: 350px;
-    height: 300px;
+    margin-top: 30px;
+    margin-left: 20%;
+    width: 900px;
+    height: 500px;
+    margin-bottom: 40px;
 }
 
-/* .tvideo video{
-    margin-top: 10%;
-    margin-left: 5%;
-    width: 350px;
-    height: 300px;
-    margin: 10px;
-} */
-
-
-.trogenocontaniner img {
-    width: 90%;
-    height: 80%;
-    margin-left: 5%;
-}
 
 .imggene img {
-    width: 100%;
+    max-width: 100%;
 
 }
 
-.motoralt img {
-    height: 50%;
-    width: 50%;
-    margin-left: 25%;
-}
 
 .trogenocontaniner h1 {
-    margin-left: 10px;
-    font-size: 20px;
-    color: #ec1b34;
-
-}
-
-.trogenocontaniner h2 {
-    margin-left: 10px;
-    font-size: 16px;
+    /* margin-top: -200px; */
+    margin-left: 20%;
+    font-size: 30px;
     color: #ec1b34;
 }
-
 
 .trogenocontaniner p {
-    font-size: 16px;
-    text-align: start;
-    margin: 10px;
-    padding: 1px;
+    font-size: 22px;
+    width: 900px;
+    text-align: justify;
+    margin-left: 20%;
+}
 
+.trogenocontaniner img {
+    width: 55%;
+    border-radius: 10px;
+    /* margin-bottom: 100px; */
+    margin-left: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.trogenocontaniner {}
+
+
+
+.trogenocontaniner2 {}
+
+.trogenocontaniner2 h2 {
+    margin-left: 20%;
+    font-size: 26px;
+    color: #ec1b34;
+}
+
+.trogenocontaniner2 p {
+    font-size: 22px;
+    width: 900px;
+    margin-left: 20%;
+    text-align: justify;
 
 }
 
-.trogenocontaniner .lu {
-    padding: 40px;
-
+.trogenocontaniner2 ul {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 40%;
+    font-size: 18px;
 }
 
-/*tablet *********************************************************Tablet********************************************* */
-@media (min-width: 769px) and (max-width: 900px) {
-    .section_diesel video {
-        margin-top: 30px;
-        margin-left: 10%;
-        width: 900px;
-        height: 500px;
-        margin-bottom: 40px;
+.trogenocontaniner2 img {
+    padding: 3px;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
 
-    }
 
-    /* .tvideo {
-        margin-top: 30px;
-        margin-left: 20%;
-        width: 900px;
-        height: 500px;
-    } */
+
+/* *********** MOBILE ************************************************ */
+
+
+@media (max-width: 650px) {
 
     .section_diesel video {
-        margin-left: 30%;
+        margin-left: 15px;
         width: 350px;
-        height: 50%;
-        margin-bottom: 60px;
-
+        height: 300px;
     }
 
-
-    .trogenocontaniner {
-        /* text-align: center; */
-        margin: 100px;
-    }
 
     .imggene img {
         max-width: 100%;
-    }
-
-    .trogenocontaniner img {
-        width: 50%;
-        border-radius: 10px;
-        /* margin-bottom: 100px; */
-        margin-left: 25%;
 
     }
 
-
-    .motoralt img {
-        height: 40%;
-        width: 40%;
-        margin-left: 10%;
-    }
 
     .trogenocontaniner h1 {
-        margin-top: -150px;
-        margin-left: 10px;
-        font-size: 30px;
-        color: #ec1b34;
-    }
-
-    .trogenocontaniner h2 {
-        margin-left: 10px;
-        margin-top: -100px;
-        font-size: 26px;
+        margin-left: 5%;
+        font-size: 24px;
         color: #ec1b34;
     }
 
     .trogenocontaniner p {
-        font-size: 22px;
-        /* margin-bottom: 20px; */
-        /* line-height: 1.5; */
-        /* margin-bottom: 3000px; */
+        font-size: 16px;
+        width: 350px;
+        text-align: justify;
+        margin-left: 5%;
     }
 
-
-    .lu {
-        /* list-style-type: none; */
-        margin-left: -30%;
+    .trogenocontaniner img {
+        width: 90%;
+        height: 90%;
+        margin: 10px;
+        border-radius: 10px;
     }
 
-    .lu li {
-        margin-bottom: 10px;
+    .trogenocontaniner {}
+
+
+
+    .trogenocontaniner2 {}
+
+    .trogenocontaniner2 h2 {
+        margin-left: 5%;
+        font-size: 20px;
+        color: #ec1b34;
     }
 
+    .trogenocontaniner2 p {
+        font-size: 16px;
+        width: 350px;
+        text-align: justify;
+        margin-left: 5%;
 
+    }
+
+    .trogenocontaniner2 ul {
+        align-items: center;
+        margin-left: 10%;
+    }
+
+    .trogenocontaniner2 img {
+        width: 50%;
+        padding: 3px;
+        margin-left: 20%;
+        /* margin-bottom: 5%; */
+    }
 }
 
-/* **********************************pantalla grande**************************************** */
-@media (min-width: 901px) {
-
+/*********************** Tablet en modo horizontal y vertical********************************* */
+@media only screen and (min-width: 600px) and (max-width: 1124px) {
     .section_diesel video {
-        margin-top: 30px;
-        margin-left: 20%;
-        width: 900px;
-        height: 500px;
-        margin-bottom: 40px;
-
+        margin-left: 0px;
+        width: 100%;
+        /* height: 300px; */
     }
 
-    /* .tvideo {
-        margin-top: 30px;
-        margin-left: 20%;
-        width: 900px;
-        height: 500px;
-    } */
-
-    .section_diesel video {
-        /* margin-left: 30%;
-        width: 350px;
-        height: 50%; */
-
-    }
-
-
-    .trogenocontaniner {
-        /* text-align: center; */
-        margin: 200px;
-    }
 
     .imggene img {
-        width: 1580px;
-    }
-
-    .trogenocontaniner img {
-        width: 50%;
-        border-radius: 10px;
-        /* margin-bottom: 100px; */
-        margin-left: 25%;
+        max-width: 100%;
 
     }
 
-
-    .motoralt img {
-        height: 40%;
-        width: 40%;
-        margin-left: 10%;
-    }
 
     .trogenocontaniner h1 {
-        margin-top: -150px;
-        margin-left: 10px;
-        font-size: 30px;
-        color: #ec1b34;
-    }
-
-    .trogenocontaniner h2 {
-        margin-left: 10px;
-        margin-top: -100px;
-        font-size: 26px;
+        margin-left: 10%;
+        font-size: 24px;
         color: #ec1b34;
     }
 
     .trogenocontaniner p {
-        font-size: 22px;
-        margin-bottom: 20px;
-        /* line-height: 1.5; */
-        /* margin-bottom: 3000px; */
+        font-size: 16px;
+        width: 80%;
+        text-align: justify;
+        margin-left: 10%;
     }
 
-
-    .lu {
-        list-style-type: none;
-        padding: 0;
+    .trogenocontaniner img {
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        border-radius: 10px;
     }
 
-    .lu li {
-        margin-bottom: 10px;
+    .trogenocontaniner {}
+
+
+
+    .trogenocontaniner2 {}
+
+    .trogenocontaniner2 h2 {
+        margin-left: 10%;
+        font-size: 20px;
+        color: #ec1b34;
     }
 
+    .trogenocontaniner2 p {
+        font-size: 16px;
+        width: 80%;
+        text-align: justify;
+        margin-left: 10%;
 
+    }
+
+    .trogenocontaniner2 ul {
+        align-items: center;
+        margin-left: 30%;
+    }
+
+    .trogenocontaniner2 img {
+        width: 40%;
+        padding: 3px;
+        margin-left: 30%;
+        /* margin-bottom: 5%; */
+    }
 }

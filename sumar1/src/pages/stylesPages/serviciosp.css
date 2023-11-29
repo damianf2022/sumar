@@ -10,7 +10,9 @@
     height: 100%;
 }
 
-.servicontenedor h2,h3,h4 {
+.servicontenedor h2,
+h3,
+h4 {
     font-size: 16px;
     padding: 10px;
     color: #ec1b34;
@@ -28,12 +30,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* gap: 40px; */
+    gap: 40px;
 }
 
 .subservicios img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     padding-bottom: 15px;
 }
 
@@ -41,6 +43,7 @@
     padding-bottom: 30px;
 
 }
+
 /*tablet *********************************************************Tablet********************************************* */
 @media (min-width: 769px) and (max-width: 900px) {
     .servicontenedor video {
@@ -81,9 +84,9 @@
         flex-wrap: wrap;
     }
 
-    .subservicios{
+    .subservicios {
         flex: 1;
-margin: 5px;
+        margin: 5px;
     }
 
     .subservicios img {
@@ -97,7 +100,13 @@ margin: 5px;
 
     }
 }
+
+
+
+
 /* ********************************************************* */
+
+
 @media (min-width: 901px) {
 
 
@@ -110,18 +119,18 @@ margin: 5px;
     }
 
     .servicontenedor h2 {
-        margin-top: 10px;
-        margin-left: 100px;
-        font-size: 28px;
+        margin-top: 30px;
+        margin-left: 20%;
+        font-size: 30px;
         color: #ec1b34;
 
     }
 
     .servicontenedor h3,
     h4 {
-        margin-top: 10px;
-        margin-left: 100px;
-        font-size: 28px;
+        /* margin-top: 30px; */
+        margin-left: 20%;
+        font-size: 30px;
         color: #ec1b34;
 
     }
@@ -129,29 +138,52 @@ margin: 5px;
 
     .servicontenedor p {
         font-size: 22px;
-        margin: 100px;
-        margin-bottom: 12px;
-        margin-top: 2px;
+        width: 900px;
+        text-align: justify;
+        margin-left: 20%;
+        margin-bottom: 30px;
     }
 
     .servicecard {
+        width: 900px;
+        margin-left: 20%;
+        /* 
         display: flex;
         flex-wrap: wrap;
+        justify-content: center; */
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        overflow-x: auto;
+
+
     }
 
-    .subservicios{
-        flex: 1;
-margin: 5px;
+    .subservicios {
+        margin: 10px;
+        padding: 5px;
+        /* border: 2px solid #ec1b34;
+        border-radius: 10px;
+        background-color: #fff; */
+        text-align: center;
+        width: 200px;
+        text-align: center;
     }
 
     .subservicios img {
-        width: 80px;
-        height: 80px;
-        /* padding-bottom: 15px; */
+        max-width: 30%;
+        height: auto;
+        margin-bottom: 10px;
     }
 
     .subservicios p {
-        /* padding-bottom: 30px; */
-
+        width: 100%;
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 1.4;
+        margin-left: 0px;
+        text-align: center;
     }
+
+
 }

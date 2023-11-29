@@ -3,9 +3,7 @@ import './stylesPages/brazotele.css'
 const BrazoTelescopico = () => {
     return (
         <div className='brazotelecotainer'>
-            <div className='imggene'>
-            <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-plataformas-de-altura-brazo-tele-skyjack.jpg" alt="foto brazo" />
-            </div>
+                <img className='imggene' src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-plataformas-de-altura-brazo-tele-skyjack.jpg" alt="foto brazo" />
 
             <strong> <h1>Plataformas de elevación diesel con brazo articulado telescópico</h1></strong>
             <p>Las plataformas de elevación diesel con brazo articulado telescópico de <strong>Skyjack</strong> están diseñados para ofrecer la mejor solución de alcance cuando el acceso está limitado por diferentes causas.
@@ -19,7 +17,7 @@ const BrazoTelescopico = () => {
             </ul>
 
             <div className='subimage'>
-            <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Platadormas-en-altura_Brazo-telesco%CC%81pico-Diesel-1500.jpg" alt="repuestos" />
+                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Platadormas-en-altura_Brazo-telesco%CC%81pico-Diesel-1500.jpg" alt="repuestos" />
             </div>
         </div>
     )

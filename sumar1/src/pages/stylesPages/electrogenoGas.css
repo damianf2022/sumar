@@ -1,191 +1,214 @@
+.section_gas {}
+
+.section_gas {
+    /* max-width: 100%; */
+}
+
 .section_gas video {
-    margin-left: 20px;
-    width: 350px;
-    height: 300px;
-
-    /* margin-left: -3px;
-    width: 98%;
-    height: 98%; */
-}
-
-.trogenocontaniner2 h1 {
-    font-size: 20px;
-    margin-left: 10px;
-    color: #ec1b34;
-
-}
-
-.trogenocontaniner2 h2 {
-    margin-left: 10px;
-    font-size: 16px;
-    color: #ec1b34;
-
-}
-
-.trogenocontaniner2 img {
     margin-top: 30px;
-    width: 90%;
-    height: 80%;
-    margin-left: 5%;
+    margin-left: 20%;
+    width: 900px;
+    height: 500px;
+    margin-bottom: 40px;
 }
 
-.altenadorgas img {
-    margin-left: 25%;
-    width: 50%;
-    height: 50%;
+
+.imggene3 img {
+    max-width: 100%;
+
 }
 
-.trogenocontaniner2 p {
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    text-align: start;
-    margin: 10px;
-    padding: 1px;
+
+.trogenocontaniner3 h1 {
+    /* margin-top: -200px; */
+    margin-left: 20%;
+    font-size: 30px;
+    color: #ec1b34;
 }
 
-.lu li {
-    margin-top: 3px;
-    font-size: 12px;
-    margin-left: 10px;
+.trogenocontaniner3 p {
+    font-size: 22px;
+    width: 900px;
+    text-align: justify;
+    margin-left: 20%;
 }
 
-@media (max-width: 768px) {
-    /* .section_gas video {
-        margin-left: -3px;
-        width: 98%;
-        height: 98%;
-    } */
-    /* .tvideo {
-        margin-left: 20px;
+.trogenocontaniner3 img {
+    width: 55%;
+    border-radius: 10px;
+    /* margin-bottom: 100px; */
+    margin-left: 20%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.trogenocontaniner3 {}
+
+
+
+.gascontaniner2 {}
+
+.gascontaniner2 h2 {
+    margin-left: 20%;
+    font-size: 26px;
+    color: #ec1b34;
+}
+
+.gascontaniner2 p {
+    font-size: 22px;
+    width: 900px;
+    margin-left: 20%;
+    text-align: justify;
+
+}
+
+.gascontaniner2 ul {
+    align-items: center;
+    margin-left: 40%;
+}
+
+.gascontaniner2 img {
+    padding: 3px;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+
+
+
+/* *********** MOBILE ************************************************ */
+
+
+@media (max-width: 650px) {
+
+    .section_gas video {
+        margin-left: 15px;
         width: 350px;
         height: 300px;
-    } */
-
-    /* .video {
-        margin-top: 30px;
-        margin-left: 20%;
-        width: 900px;
-        height: 500px;
-    } */
-
-
-}
-
-/********tablet *********************************************************Tablet********************************************* */
-@media (min-width: 769px) and (max-width: 900px) {
-    .trogenocontaniner2 {
-        /* text-align: center; */
-        margin: 200px;
-    }
-
-    .section_gas video {
-        margin-top: 30px;
-        /* margin-left: 2%; */
-        width: 98%;
-        height: 500px;
     }
 
 
-    .trogenocontaniner2 h1 {
-        margin-left: 10px;
-        font-size: 30px;
+    .imggene3 img {
+        max-width: 100%;
+
+    }
+
+
+    .trogenocontaniner3 h1 {
+        margin-left: 5%;
+        font-size: 24px;
         color: #ec1b34;
-        margin-top: -180px;
     }
 
-    .trogenocontaniner2 h2 {
-        font-size: 26px;
+    .trogenocontaniner3 p {
+        font-size: 16px;
+        width: 350px;
+        text-align: justify;
+        margin-left: 5%;
+    }
+
+    .trogenocontaniner3 img {
+        width: 90%;
+        height: 90%;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .trogenocontaniner3 {}
+
+
+
+    .gascontaniner2 {}
+
+    .gascontaniner2 h2 {
+        margin-left: 5%;
+        font-size: 20px;
         color: #ec1b34;
-        margin-left: 10px;
     }
 
-    .trogenocontaniner2 p {
-        font-size: 22px;
-        margin-bottom: 60px;
-
-    }
-
-    .trogenocontaniner2 img {
-        width: 110%
-        /* margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 30%; */
+    .gascontaniner2 p {
+        font-size: 16px;
+        width: 350px;
+        text-align: justify;
+        margin-left: 5%;
 
     }
 
-    .altenadorgas img {
-        width: 60%;
-        height: 30%;
-        margin-left: 30%;
+    .gascontaniner2 ul {
+        align-items: center;
+        margin-left: 10%;
     }
 
-    .lu li {
-        margin-top: 30px;
-        font-size: 18px;
-        margin-left: 200px;
-    }
-
-
-
-
-}
-
-/* **************************pantalla grande**************************************** */
-
-@media (min-width: 901px) {
-    .trogenocontaniner2 {
-        /* text-align: center; */
-        margin: 200px;
-    }
-
-    .section_gas video {
-        margin-top: 30px;
-        margin-left: 20%;
-        width: 900px;
-        height: 500px;
-    }
-
-
-    .trogenocontaniner2 h1 {
-        margin-left: 10px;
-        font-size: 30px;
-        color: #ec1b34;
-        margin-top: -180px;
-    }
-
-    .trogenocontaniner2 h2 {
-        font-size: 26px;
-        color: #ec1b34;
-        margin-left: 10px;
-    }
-
-    .trogenocontaniner2 p {
-        font-size: 22px;
-        margin-bottom: 60px;
-
-    }
-
-    .trogenocontaniner2 img {
+    .gascontaniner2 img {
         width: 50%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 30%;
-
+        padding: 3px;
+        margin-left: 20%;
+        /* margin-bottom: 5%; */
     }
-
-    .altenadorgas img {
-        width: 30%;
-        height: 30%;
-        margin-left: 30%;
-    }
-
-    .lu li {
-        margin-top: 30px;
-        font-size: 18px;
-        margin-left: 200px;
-    }
-
-
-
-
 }
+
+/*********************** Tablet en modo horizontal y vertical********************************* */
+@media only screen and (min-width: 600px) and (max-width: 1124px) {
+    .section_gas video {
+        margin-left: 0px;
+        width: 100%;
+        /* height: 300px; */
+    }
+    
+    
+    .imggene3 img {
+        max-width: 100%;
+        
+    }
+    
+    
+    .trogenocontaniner3 h1 {
+        margin-left: 10%;
+        font-size: 24px;
+        color: #ec1b34;
+    }
+
+    .trogenocontaniner3 p {
+        font-size: 16px;
+        width: 80%;
+        text-align: justify;
+        margin-left: 10%;
+    }
+
+    .trogenocontaniner3 img {
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        border-radius: 10px;
+    }
+
+    .trogenocontaniner3 {}
+
+
+
+    .gascontaniner2 {}
+
+    .gascontaniner2 h2 {
+        margin-left: 10%;
+        font-size: 20px;
+        color: #ec1b34;
+    }
+
+    .gascontaniner2 p {
+        font-size: 16px;
+        width: 80%;
+        text-align: justify;
+        margin-left: 10%;
+
+    }
+
+    .gascontaniner2 ul {
+        align-items: center;
+        margin-left: 30%;
+    }
+
+    .gascontaniner2 img {
+        width: 40%;
+        padding: 3px;
+        margin-left: 30%;
+        /* margin-bottom: 5%; */
+    }}
