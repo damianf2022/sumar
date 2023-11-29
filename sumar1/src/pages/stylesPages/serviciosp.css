@@ -1,6 +1,7 @@
 .servicontenedor video {
-    margin-left: 5%;
-    width: 350px;
+    margin-left: 1%;
+    margin-right: 1%;
+    max-width: 350px;
     height: 300px;
 
 }
@@ -14,15 +15,18 @@
 h3,
 h4 {
     font-size: 16px;
-    padding: 10px;
     color: #ec1b34;
+    margin-left: 1%;
 
 
 }
 
 .servicontenedor p {
     font-size: 16px;
-    padding: 10px;
+    max-width: 350px;
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .subservicios {
@@ -41,7 +45,6 @@ h4 {
 
 .subservicios p {
     padding-bottom: 30px;
-
 }
 
 /*tablet *********************************************************Tablet********************************************* */

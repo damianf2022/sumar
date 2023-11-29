@@ -81,8 +81,9 @@
 @media (max-width: 650px) {
 
     .contenedorled video {
-        margin-left: 15px;
-        width: 350px;
+        margin-left: 1%;
+        margin-right: 1%;
+        max-width: 350px;
         height: 300px;
     }
 
@@ -94,16 +95,17 @@
 
 
     .ledcontainer h1 {
-        margin-left: 5%;
+        margin-left: 1%;
         font-size: 24px;
         color: #ec1b34;
     }
 
     .ledcontainer p {
         font-size: 16px;
-        width: 350px;
+        max-width: 350px;
         text-align: justify;
-        margin-left: 5%;
+        margin-left: 1%;
+        margin-right: 1%;
     }
 
     .ledcontainer img {
@@ -113,31 +115,6 @@
         border-radius: 10px;
     }
 
-    .ledcontainer {}
-
-
-
-    .ledcontainer2 {}
-
-    .ledcontainer2 h2 {
-        margin-left: 5%;
-        font-size: 20px;
-        color: #ec1b34;
-    }
-
-    .ledcontainer2 p {
-        font-size: 16px;
-        width: 350px;
-        text-align: justify;
-        margin-left: 5%;
-
-    }
-
-    .ledcontainer2 ul {
-        align-items: center;
-        margin-left: 10%;
-    }
-
     .ledcontainer2 img {
         width: 50%;
         padding: 3px;
@@ -145,6 +122,7 @@
         /* margin-bottom: 5%; */
     }
 }
+
 
 /*********************** Tablet en modo horizontal y vertical********************************* */
 @media only screen and (min-width: 600px) and (max-width: 1124px) {

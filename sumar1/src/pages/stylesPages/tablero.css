@@ -1,11 +1,15 @@
 .tablerocontent {}
 
 .subtablerocontent p {
-    padding: 10px;
+    font-size: 16px;
+    max-width: 350px;
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 .subtablerocontent img {
-    width: 99%;
+    max-width: 99%;
     height: 99%;
     margin-bottom: 10px;
 }
@@ -20,13 +24,13 @@
 
     font-size: 20px;
     color: #ec1b34;
-    margin-left: 10px;
+    margin-left: 1%;
 
 }
 
 .subtablerocontent h2 {
     font-size: 16px;
-    margin-left: 10px;
+    margin-left: 1%;
     color: #ec1b34;
 }
 
