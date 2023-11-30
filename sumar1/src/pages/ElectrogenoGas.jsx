@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './stylesPages/electrogenoGas.css'
-import GrupoElectrogeno from '../images/videos/GrupoElectrogeno.mp4'
+import GrupoElectrogeno from '../images/videos/TodosGE.mp4'
 
 const Electrogenogas = () => {
     const [playing, setPlaying] = useState(true);
@@ -16,6 +16,7 @@ const Electrogenogas = () => {
                 src={GrupoElectrogeno}
                 controls={playing}
                 autoplay={playing}
+
             />
             {/* <button onClick={() => setPlaying(!playing)}>
                     {playing ? 'Pausar' : 'Reproducir'}

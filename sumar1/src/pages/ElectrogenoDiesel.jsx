@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import GrupoElectrogeno from '../images/videos/GrupoElectrogeno.mp4'
+import GrupoElectrogeno from '../images/videos/SCANIAGE.mp4'
 import './stylesPages/electrogenodiesel.css'
 const ElectrogenoDiesel = () => {
     const [playing, setPlaying] = useState(true);
