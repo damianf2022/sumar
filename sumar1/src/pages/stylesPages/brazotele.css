@@ -53,10 +53,11 @@
 @media (max-width: 650px) {
 
     .myImageGallery {
+        margin-top: 1x;
         margin-left: 1%;
-        max-width:98%;
-        height: 300px;
-        margin-bottom: 160px;
+        max-width: 98%;
+        max-height: 300px;
+        margin-bottom: 130%;
       }
     
     

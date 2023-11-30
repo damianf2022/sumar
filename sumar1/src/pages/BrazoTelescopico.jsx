@@ -2,20 +2,37 @@ import React from 'react'
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import brazotelescopicoG from '../images/brazotelescopicoG.jpg'
+import brazo_articulado from '../images/brazo_articulado.jpeg'
+
 import './stylesPages/brazotele.css'
 const BrazoTelescopico = () => {
     const images = [
         {
-            original: "https://scontent.fcor11-2.fna.fbcdn.net/v/t1.6435-9/188656712_1690588294475070_2282297236909307526_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=810d5f&_nc_ohc=Fo0IHwetZ-YAX9fY1Mz&_nc_ht=scontent.fcor11-2.fna&oh=00_AfB0uUgeWcEfSr6JlXyBjm5LdhCKeJtQgmdNbWdUJ8A42A&oe=6590421D",
-            thumbnail: "https://scontent.fcor11-2.fna.fbcdn.net/v/t1.6435-9/188656712_1690588294475070_2282297236909307526_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=810d5f&_nc_ohc=Fo0IHwetZ-YAX9fY1Mz&_nc_ht=scontent.fcor11-2.fna&oh=00_AfB0uUgeWcEfSr6JlXyBjm5LdhCKeJtQgmdNbWdUJ8A42A&oe=6590421D",
+            original: brazotelescopicoG,
+            thumbnail: brazotelescopicoG,
+            originalHeight: 600, // ajusta la altura según tus necesidades
+            originalWidth: 1000, // ajusta el ancho según tus necesidades
+            thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
+            thumbnailWidth: 250, // a
+
         },
         {
-            original: "https://scontent.fcor11-2.fna.fbcdn.net/v/t1.6435-9/188656712_1690588294475070_2282297236909307526_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=810d5f&_nc_ohc=Fo0IHwetZ-YAX9fY1Mz&_nc_ht=scontent.fcor11-2.fna&oh=00_AfB0uUgeWcEfSr6JlXyBjm5LdhCKeJtQgmdNbWdUJ8A42A&oe=6590421D",
-            thumbnail: "https://scontent.fcor11-2.fna.fbcdn.net/v/t1.6435-9/188656712_1690588294475070_2282297236909307526_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=810d5f&_nc_ohc=Fo0IHwetZ-YAX9fY1Mz&_nc_ht=scontent.fcor11-2.fna&oh=00_AfB0uUgeWcEfSr6JlXyBjm5LdhCKeJtQgmdNbWdUJ8A42A&oe=6590421D",
+            original: brazo_articulado,
+            thumbnail: brazo_articulado,
+            originalHeight: 600, // ajusta la altura según tus necesidades
+            originalWidth: 1000, // ajusta el ancho según tus necesidades
+            thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
+            thumbnailWidth: 250, // a
+
         },
         {
-            original: "https://scontent.fcor11-2.fna.fbcdn.net/v/t1.6435-9/188656712_1690588294475070_2282297236909307526_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=810d5f&_nc_ohc=Fo0IHwetZ-YAX9fY1Mz&_nc_ht=scontent.fcor11-2.fna&oh=00_AfB0uUgeWcEfSr6JlXyBjm5LdhCKeJtQgmdNbWdUJ8A42A&oe=6590421D",
-            thumbnail: "https://scontent.fcor11-2.fna.fbcdn.net/v/t1.6435-9/188656712_1690588294475070_2282297236909307526_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=810d5f&_nc_ohc=Fo0IHwetZ-YAX9fY1Mz&_nc_ht=scontent.fcor11-2.fna&oh=00_AfB0uUgeWcEfSr6JlXyBjm5LdhCKeJtQgmdNbWdUJ8A42A&oe=6590421D",
+            original: brazotelescopicoG,
+            thumbnail: brazotelescopicoG,
+            originalHeight: 600, // ajusta la altura según tus necesidades
+            originalWidth: 1000, // ajusta el ancho según tus necesidades
+            thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
+            thumbnailWidth: 250, // a
+
         },
 
         // {
