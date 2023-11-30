@@ -34,7 +34,7 @@ const BrazoArtDiesel = () => {
                     thumbnailWidth={250}  // Ajusta el ancho de las miniaturas
                     thumbnailHeight={250} // Ajusta la altura de las miniaturas
                     showPlayButton={false} // Opciones adicionales según tus necesidades
-                    showThumbnails={false}
+                    showFullscreenButton={false}
                 />
             </div>
             <div className='subbrazocontainer'>

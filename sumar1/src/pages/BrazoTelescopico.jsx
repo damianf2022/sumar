@@ -1,7 +1,7 @@
 import React from 'react'
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-
+import brazotelescopicoG from '../images/brazotelescopicoG.jpg'
 import './stylesPages/brazotele.css'
 const BrazoTelescopico = () => {
     const images = [
@@ -37,7 +37,7 @@ const BrazoTelescopico = () => {
                     thumbnailWidth={250}  // Ajusta el ancho de las miniaturas
                     thumbnailHeight={250} // Ajusta la altura de las miniaturas
                     showPlayButton={false} // Opciones adicionales según tus necesidades
-                    showThumbnails={true}
+                    showFullscreenButton={false}
                 />
             </div>
             <strong> <h1>Plataformas de elevación diesel con brazo articulado telescópico</h1></strong>
