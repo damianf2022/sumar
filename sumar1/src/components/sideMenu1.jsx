@@ -70,8 +70,11 @@ function SideMenu() {
                         <a href="#">Plataformas de Altura</a>
 
                         <div className="sub-menu-content2" onClick={closeNav}>
-                          <Link to="/sumar/BrazoArtDiesel">
+                        <Link to="/sumar/BrazoArtDiesel">
                             <a >Brazo articulado diesel</a>
+                          </Link>
+                          <Link to="/sumar/BrazoElectrico">
+                            <a >Brazo articulado eléctrico</a>
                           </Link>
                           <Link to="/sumar/BrazoTelescopico">
                             <a>Brazo telescópico diesel</a>

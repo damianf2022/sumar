@@ -19,9 +19,9 @@ const Footer = () => {
                 </div>
                 <div className='link-footer'>
 
-                    <a href="https://www.linkedin.com/company/sumar-servicios-industriales-srl/" target="_blank" rel="noopener noreferrer">
+                    {/* <a href="https://www.linkedin.com/company/sumar-servicios-industriales-srl/" target="_blank" rel="noopener noreferrer">
                         <FiLinkedin />
-                    </a>
+                    </a> */}
                     <a href="https://www.facebook.com/SumarenCordoba" target="_blank">
                         <FiFacebook />
                     </a>

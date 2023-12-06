@@ -20,7 +20,7 @@
     width: 150px;  
     height: 100px; 
     padding: 30px;
-    background-color: aqua;
+    /* background-color: aqua; */
   }
 
 
@@ -60,6 +60,8 @@
     text-align: justify;
     margin-left: 20%;
     margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.591);
+
 }
 
 .subbrazocontainer img {
@@ -73,6 +75,8 @@
     /* align-items: center; */
     margin-left: 25%;
     text-align: justify;
+    color: rgba(0, 0, 0, 0.591);
+
 
 }
 

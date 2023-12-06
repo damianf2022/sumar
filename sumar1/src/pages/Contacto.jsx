@@ -38,15 +38,15 @@ const Contacto = () => {
                     />
                 </div>
                 <div className="inputMesage">
-                    <label htmlFor="message">Message</label>
+                    <label htmlFor="message">Mensaje</label>
                     <textarea
-                        id="message"
-                        name="message"
+                        id="mensage"
+                        name="mensage"
                         className="input-field"
-                        placeholder="Your Message"
+                        placeholder="Tu Mensaje"
                     ></textarea>
                     <br /> <br />
-                    <button className="submit-button">Button</button>
+                    <button className="submit-button">Contáctanos</button>
                 </div>
                 <p>
                 </p>

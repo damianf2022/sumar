@@ -3,8 +3,6 @@ import VideoaPortadaInicio from '../images/videos/VideoaPortadaInicio.mp4'
 import './styles/newcontent.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faScrewdriver, faRetweet, faCheckSquare, faHandshake, faMoneyBillTrendUp } from '@fortawesome/free-solid-svg-icons';
-import equipo from '../images/equipo.png'
-import icogrua from '../images/icogrua.jpg'
 import { Slide, Fade } from 'react-awesome-reveal';
 import galeria from '../images/galeria.png'
 import { Link } from 'react-router-dom';
@@ -28,7 +26,8 @@ const Newcontent = () => {
         <div className='contentnew'>
             {/* <Fade> */}
             <div className='contenedornew-1'>
-                <img src="https://scontent.fcor11-2.fna.fbcdn.net/v/t1.18169-9/30711937_845675858966322_1863372273810616069_n.png?_nc_cat=103&ccb=1-7&_nc_sid=7a1959&_nc_ohc=_BxxAS4t2JEAX_aDAhg&_nc_ht=scontent.fcor11-2.fna&oh=00_AfDQJFWUtSEUX4lMP8kxoZqVvRadbren49FRTGZfA_6zgQ&oe=6575BB18" alt="imagen de logo" />
+                <img src="https://scontent.fcor11-2.fna.fbcdn.net/v/t39.30808-6/325898215_745513970037791_4386854368367331220_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=zF7Yl18snFEAX_n1n8l&_nc_ht=scontent.fcor11-2.fna&oh=00_AfC0Z2ycBXpXxC8YK9GYvLUUZ-tBIM8MI02x7063utw1bQ&oe=65752C51" alt="" />
+                {/* <img src="https://scontent.fcor11-2.fna.fbcdn.net/v/t1.18169-9/30711937_845675858966322_1863372273810616069_n.png?_nc_cat=103&ccb=1-7&_nc_sid=7a1959&_nc_ohc=_BxxAS4t2JEAX_aDAhg&_nc_ht=scontent.fcor11-2.fna&oh=00_AfDQJFWUtSEUX4lMP8kxoZqVvRadbren49FRTGZfA_6zgQ&oe=6575BB18" alt="imagen de logo" /> */}
 
                 <div className='tvideo'>
                     <video

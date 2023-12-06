@@ -32,6 +32,8 @@
     width: 900px;
     text-align: justify;
     margin-left: 20%;
+    color: rgba(0, 0, 0, 0.591);
+
 }
 
 .trogenocontaniner img {
@@ -60,6 +62,8 @@
     width: 900px;
     margin-left: 20%;
     text-align: justify;
+    color: rgba(0, 0, 0, 0.591);
+
 
 }
 
@@ -68,6 +72,8 @@
     margin-bottom: 30px;
     margin-left: 40%;
     font-size: 18px;
+    color: rgba(0, 0, 0, 0.591);
+
 }
 
 .trogenocontaniner2 img {

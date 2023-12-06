@@ -1,4 +1,6 @@
-.contenedor-somos {}
+.contenedor-somos {
+  
+}
 
 .contenedor-somos img {
   width: 100%;
@@ -17,6 +19,8 @@
   margin-left: 10px;
   font-size: 15px;
   text-align: justify;
+  color: rgba(0, 0, 0, 0.591);
+
 
 }
 
@@ -150,7 +154,8 @@
   .subcontainer p {
     font-size: 22px;
     /* line-height: 1.6; */
-    color: #333;
+    /* color: #333; */
+    color: rgba(0, 0, 0, 0.591);
     text-align: justify;
     width: 140%;
   }

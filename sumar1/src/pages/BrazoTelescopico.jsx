@@ -58,7 +58,7 @@ const BrazoTelescopico = () => {
                 />
             </div>
             <strong> <h1>Plataformas de elevación diesel con brazo articulado telescópico</h1></strong>
-            <p>Las plataformas de elevación diesel con brazo articulado telescópico de <strong>Skyjack</strong> están diseñados para ofrecer la mejor solución de alcance cuando el acceso está limitado por diferentes causas.
+            <p>Las plataformas de elevación diesel con brazo articulado telescópico de <strong>Skyjack</strong> y <strong>Snorkel</strong> están diseñados para ofrecer la mejor solución de alcance cuando el acceso está limitado por diferentes causas.
                 Perfecto para aplicaciones de construcción e industriales.
                 El sistema de accionamiento basado en ejes mejora el trabajo y la productividad con una tracción superior demostrando una mejor adaptabilidad del terreno
             </p>

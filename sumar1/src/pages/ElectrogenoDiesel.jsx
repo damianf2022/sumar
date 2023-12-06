@@ -24,7 +24,7 @@ const ElectrogenoDiesel = () => {
                 <h1><strong>Grupos electrógenos diesel</strong></h1>
                 <p><strong>Sumar Servicios Industriales SRL</strong> se dedica a la fabricación de grupos electrógenos diesel desde el año 2013, apostando a la calidad de los componentes y la fabricación de los mismos.
                     <br /><br />
-                    Apoyándose principalmente en los motores BAOUDIN, FPT, PERKINS, CUMMINS, VOLVO y SCANIA, en los alternadores en marcas como WEG y CRAMACO.
+                    Apoyándose principalmente en los motores BAUDOUIN, FPT, PERKINS, CUMMINS y SCANIA, en los alternadores en marcas como WEG y CRAMACO.
                     <br /><br />
                     Los componentes eléctricos de nuestros grupos electrógenos diesel principalmente son: ABB y WEG.
                     <br /><br />
@@ -45,7 +45,7 @@ const ElectrogenoDiesel = () => {
             </div>
             <div className='trogenocontaniner2'>
                 <h2 className='h2'><strong>Componentes y Accesorios</strong></h2>
-                <p className='p2'><strong>Motores</strong>: Utilizamos motores de primera línea como ser MWM, Cummins, Perkins, Volvo, Agrale y FPT. <br />
+                <p className='p2'><strong>Motores</strong>: Utilizamos motores de primera línea como ser MWM, Cummins, Perkins, Agrale y FPT. <br />
                     <strong>Alternadores</strong>: Utilizamos alternadores de primera línea como WEG y Cramaco. <br />
                     <strong>Cabinados</strong>: Construcción modular en chapa galvanizada, pintura epoxi, paneles fonoabsorbentes ignífugos de lana de roca volcánica, y silenciador de escape residencial, bulones de acero inoxidable ocultos, entradas y salidas de aire tratadas acústicamente y con luz interior. <br />
                     <strong>Tablero de control de grupo y tableros de transferencia:</strong> <br />

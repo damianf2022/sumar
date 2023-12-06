@@ -122,16 +122,23 @@
     }
 
     .fototable {
-        width: 30%;
-        height: 30%;
+        width: 25%;
+        height: 25%;
         display: flex;
         flex-direction: row;
-        margin-left: 5%
+        gap: 3px;
+        margin-left: 12.5%;
+
+    }
+
+    .fototable img {
+
+        background-color: aqua;
     }
 
     .subtablerocontent h2 {
         margin-top: 20px;
-        margin-left:20%;
+        margin-left: 20%;
         font-size: 26px;
         color: #ec1b34;
     }

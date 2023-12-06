@@ -1,0 +1,95 @@
+.brazoElect .imggene {
+    width: 100%;
+
+}
+
+.brazoElect .img {
+width: 10%;
+}
+
+.contenedorImg {
+     width: 240%;
+    height: auto; 
+    /* margin-top: 30px; */
+    /* max-width: 100%; */
+    margin-left: 35%;
+    margin-bottom: 40px;
+
+}
+
+.brazoElect .img2{
+    margin-left: 14px;
+    margin-top: 30px;
+}
+.brazoElect ul {
+    font-size: 24px;
+    margin-left: 0.5%;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.591);
+}
+
+.brazoElect li {
+    margin-left: 0.5%;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.591);
+
+
+}
+
+
+
+/* *********** MOBILE ************************************************ */
+
+
+@media (max-width: 650px) {
+
+
+    .contenedorImg {
+        margin-left: 0px;
+        
+
+
+    }
+
+    .brazoElect .img {
+        margin-left: 13%;
+    }
+
+    .brazoElect .img2{
+margin-left: 2%;
+    }
+    .brazoElect ul {
+        margin-left: 6%;
+        font-size: 20px;
+        /* margin-left: 0px; */
+    }
+    .brazoElect li {
+        font-size: 14px;
+        margin-left: 6%;
+
+    }
+
+}
+
+
+/*********************** Tablet en modo horizontal y vertical********************************* */
+@media only screen and (min-width: 600px) and (max-width: 1124px) {
+
+    .brazoElect .img {
+        /* margin-top: 30px; */
+        margin-left:3%;
+        width: 10%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+    
+
+    .brazoElect ul {
+        /* align-items: center; */
+        /* margin-left: 15%; */
+        /* margin-right: 10%; */
+        text-align: justify;
+    }
+
+
+}

@@ -29,6 +29,8 @@
     text-align: justify;
     margin-left: 20%;
     margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.591);
+
 }
 
 .subimage img {
@@ -42,6 +44,8 @@
     /* align-items: center; */
     margin-left: 25%;
     text-align: justify;
+    color: rgba(0, 0, 0, 0.591);
+
 }
 
 

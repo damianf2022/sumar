@@ -16,6 +16,7 @@ import QuienesSomos from './pages/QuienesSomos'
 import Instalaciones from './pages/Instalaciones'
 import Servicios from './pages/Servicios'
 import Contacto from './pages/Contacto'
+import BrazoElectrico from './pages/BrazoElecrico'
 import Whatsapp from './components/Whatsapp'
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route path="/sumar/tijeraelectrica" element={<TijeraElectrica />} />
         <Route path="/sumar/torresled" element={<TorresLed />} />
         <Route path="/sumar/BrazoArtDiesel" element={<BrazoArtDiesel />} />
+        <Route path="/sumar/BrazoElectrico" element={<BrazoElectrico />} />
         <Route path="/sumar/BrazoTelescopico" element={<BrazoTelescopico />} />
         <Route path="/sumar/TijeraDiesel" element={<TijeraDiesel />} />
         <Route path="/sumar/TijeraElectrica" element={<TijeraElectrica />} />
