@@ -4,23 +4,24 @@
 }
 
 .brazoElect .img {
-width: 10%;
+    width: 35%;
 }
 
 .contenedorImg {
-     width: 240%;
-    height: auto; 
+    /* width: 240%; */
+    height: auto;
     /* margin-top: 30px; */
-    /* max-width: 100%; */
+    max-width: 100%;
     margin-left: 35%;
     margin-bottom: 40px;
 
 }
 
-.brazoElect .img2{
-    margin-left: 14px;
+.brazoElect .img2 {
+    margin-left: 5px;
     margin-top: 30px;
 }
+
 .brazoElect ul {
     font-size: 24px;
     margin-left: 0.5%;
@@ -45,27 +46,26 @@ width: 10%;
 
 
     .contenedorImg {
-        margin-left: 0px;
-        
-
-
+        margin-left: 10px;
     }
 
     .brazoElect .img {
-        margin-left: 13%;
+        margin-left: 30%;
     }
 
-    .brazoElect .img2{
-margin-left: 2%;
+    .brazoElect .img2 {
+        margin-left: 0px;
     }
+
     .brazoElect ul {
         margin-left: 6%;
-        font-size: 20px;
-        /* margin-left: 0px; */
+        font-size: 18px;
+        margin-left: 5px;
     }
+
     .brazoElect li {
         font-size: 14px;
-        margin-left: 6%;
+        margin-left: 2%;
 
     }
 
@@ -75,19 +75,19 @@ margin-left: 2%;
 /*********************** Tablet en modo horizontal y vertical********************************* */
 @media only screen and (min-width: 600px) and (max-width: 1124px) {
 
+
     .brazoElect .img {
-        /* margin-top: 30px; */
-        margin-left:3%;
-        width: 10%;
-        height: auto;
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 70%;
+        /* height: auto; */
         margin-bottom: 20px;
-      }
-    
+    }
+
 
     .brazoElect ul {
-        /* align-items: center; */
-        /* margin-left: 15%; */
-        /* margin-right: 10%; */
+        align-items: center;
+        margin-right: 10%;
         text-align: justify;
     }
 

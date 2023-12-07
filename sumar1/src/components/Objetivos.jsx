@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHandHoldingUsd, faKey, faCheckSquare, faHandshake } from '@fortawesome/free-solid-svg-icons';
 import "./styles/objetivos.css";
+import snorkel from '../images/snorkel.jpg'
 
 
 const Objetivos = () => {
@@ -60,7 +61,8 @@ const Objetivos = () => {
             <div className="contenedor-objetivos-4">
                 <h3>Somos Representantes</h3>
                 <div className="linea-divisoraf"></div>
-                <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/representantes-1024x213.jpg" alt="imagen de representado" />
+                <img src={snorkel} alt="snorkel" />
+                {/* <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/representantes-1024x213.jpg" alt="imagen de representado" /> */}
             </div>
         </div>
     )

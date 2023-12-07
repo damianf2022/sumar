@@ -18,14 +18,14 @@ const BrazoArtDiesel = () => {
             thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
             thumbnailWidth: 250, // a
         },
-        {
-            original: brazo3,
-            thumbnail: brazo3,
-            originalHeight: 600, // ajusta la altura según tus necesidades
-            originalWidth: 1000, // ajusta el ancho según tus necesidades
-            thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
-            thumbnailWidth: 250, // a
-        },
+        // {
+        //     original: brazo3,
+        //     thumbnail: brazo3,
+        //     originalHeight: 600, // ajusta la altura según tus necesidades
+        //     originalWidth: 1000, // ajusta el ancho según tus necesidades
+        //     thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
+        //     thumbnailWidth: 250, // a
+        // },
         {
             original: brazo_,
             thumbnail: brazo_,

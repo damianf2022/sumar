@@ -2,7 +2,8 @@ import React from 'react'
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import brazotelescopicoG from '../images/brazotelescopicoG.jpg'
-import brazo_articulado from '../images/brazo_articulado.jpeg'
+import Alquiler_plataformas from '../images/Alquiler_plataformas.jpg'
+import telescopico from '../images/telescopico.jpeg'
 
 import './stylesPages/brazotele.css'
 const BrazoTelescopico = () => {
@@ -17,8 +18,8 @@ const BrazoTelescopico = () => {
 
         },
         {
-            original: brazo_articulado,
-            thumbnail: brazo_articulado,
+            original: telescopico,
+            thumbnail: telescopico,
             originalHeight: 600, // ajusta la altura según tus necesidades
             originalWidth: 1000, // ajusta el ancho según tus necesidades
             thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
@@ -26,8 +27,8 @@ const BrazoTelescopico = () => {
 
         },
         {
-            original: brazotelescopicoG,
-            thumbnail: brazotelescopicoG,
+            original: Alquiler_plataformas,
+            thumbnail: Alquiler_plataformas,
             originalHeight: 600, // ajusta la altura según tus necesidades
             originalWidth: 1000, // ajusta el ancho según tus necesidades
             thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
