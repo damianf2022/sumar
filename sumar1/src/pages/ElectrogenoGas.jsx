@@ -28,7 +28,7 @@ const Electrogenogas = () => {
                 <h1><strong>Grupos electrógenos a gas</strong> </h1>
                 <p>Sumar Servicios Industriales SRL se dedica a la fabricación de grupos electrógenos a gas de alta calidad y confiables con un diseño compacto de sencilla operación y mantenimiento desde el año 2014, desde potencias de 10KVa hasta 500KVa. En potencias hasta 66KVa las modificaciones son realizas por Sumar, y en potencias hasta 500KVa los motores son provistos desde fábrica.
                     <br />
-                    Apoyándose principalmente en los motores Agrale, MWM y Scania, en los alternadores en marcas como WEG y CRAMACO.
+                    Apoyándose principalmente en los motores BAUDOUIN y Scania, en los alternadores en marcas como WEG y CRAMACO.
                     <br />
                     Los componentes eléctricos de los grupos electrógenos a gas principalmente son: ABB y WEG.
                     <br />
