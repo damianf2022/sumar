@@ -1,7 +1,10 @@
 import React, { useEffect } from 'react';
 import iconwat from '../images/what_icon.png';
 import email_icon from '../images/email_icon.png';
+import { Link } from 'react-router-dom';
+
 import { AttentionSeeker } from 'react-awesome-reveal';
+import ChatBot from './ChatBot';
 
 const Whatsapp = () => {
   const styles = `
@@ -46,7 +49,26 @@ const Whatsapp = () => {
         background-color: rgb(70, 236, 70);
 
     }
+    .chatbot-link {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 9999;
+    }
 
+    .chatbot-icon {
+      width: 70px;
+      height: 70px;
+      border-radius:50%;
+      background: none;
+      border: 3px solid #cccccc8d;
+      box-shadow: 0 4px 8px rgb(255, 255, 255);
+  
+    }
+    .chatbot-icon:hover {
+      background-color: rgb(70, 236, 70);
+
+  }
   `;
 
   return (
@@ -65,7 +87,10 @@ const Whatsapp = () => {
         <img src={email_icon} alt="Email" className="email-icon" />
       </a>
       {/* </AttentionSeeker> */}
-
+      <Link to="/sumar/chatbot">
+        <div className="chatbot-icon">
+        </div>
+      </Link>
     </div>
   );
 };

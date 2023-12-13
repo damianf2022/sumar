@@ -18,6 +18,7 @@ import Servicios from './pages/Servicios'
 import Contacto from './pages/Contacto'
 import BrazoElectrico from './pages/BrazoElecrico'
 import Whatsapp from './components/Whatsapp'
+import Chatbot from './components/ChatBot';
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
         <Route path="/sumar/Instalaciones" element={<Instalaciones />} />
         <Route path="/sumar/Servicios" element={<Servicios />} />
         <Route path="/sumar/Contacto" element={<Contacto />} />
+        <Route path="/sumar/chatbot" element={<Chatbot />} />
 
 
 
