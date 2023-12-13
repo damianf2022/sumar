@@ -10,7 +10,6 @@ const Electrogenogas = () => {
             <div className='imggene3'>
                 <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-grupos-electrogenos-sumar.jpg" alt="header" />
             </div>
-            {/* <div className='tvideo'> */}
             <video
                 muted
                 src={GrupoElectrogeno}
@@ -18,10 +17,6 @@ const Electrogenogas = () => {
                 autoplay={playing}
 
             />
-            {/* <button onClick={() => setPlaying(!playing)}>
-                    {playing ? 'Pausar' : 'Reproducir'}
-                </button> */}
-            {/* </div> */}
 
 
             <div className='trogenocontaniner3'>

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import TorreDeIluminación from '../images/videos/TorreDeIluminación.mp4'
 import './stylesPages/torresled.css'
 
 const TorresLed = () => {
@@ -10,18 +9,6 @@ const TorresLed = () => {
             <div className='imggene'>
                 <img src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/header-torres-de-iluminacion.jpg" alt="header" />
             </div>
-
-            {/* <div className='videoled'> */}
-            {/* <video
-                    muted
-                    src={TorreDeIluminación}
-                    controls={playing}
-                    autoplay={playing}
-                /> */}
-            {/* <button onClick={() => setPlaying(!playing)}>
-                    {playing ? 'Pausar' : 'Reproducir'}
-                </button> */}
-            {/* </div> */}
 
             <div className='ledcontainer'>
                 <img className='torreled' src="https://sumarservicios.com.ar/wp-content/uploads/2020/01/Torres-de-iluminacion-led.png" alt="torres2" />
