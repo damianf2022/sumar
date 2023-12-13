@@ -11,8 +11,8 @@ import ezeiza from '../images/EZEIZA.jpg'
 const BrazoArtDiesel = () => {
     const images = [
         {
-            original: ezeiza,
-            thumbnail: ezeiza,
+            original: brazo,
+            // thumbnail: ezeiza,
             originalHeight: 600, // ajusta la altura según tus necesidades
             originalWidth: 1000, // ajusta el ancho según tus necesidades
             thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
@@ -26,30 +26,30 @@ const BrazoArtDiesel = () => {
         //     thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
         //     thumbnailWidth: 250, // a
         // },
-        {
-            original: brazo_,
-            thumbnail: brazo_,
-            originalHeight: 600, // ajusta la altura según tus necesidades
-            originalWidth: 1000, // ajusta el ancho según tus necesidades
-            thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
-            thumbnailWidth: 250, // a
-        },
-        {
-            original: brazo2,
-            thumbnail: brazo2,
-            originalHeight: 600,
-            originalWidth: 1000,
-            thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
-            thumbnailWidth: 250, // a
-        },
-        {
-            original: brazo,
-            thumbnail: brazo,
-            originalHeight: 600,
-            originalWidth: 1000,
-            thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
-            thumbnailWidth: 250, // a
-        },
+        // {
+        //     original: brazo_,
+        //     thumbnail: brazo_,
+        //     originalHeight: 600, // ajusta la altura según tus necesidades
+        //     originalWidth: 1000, // ajusta el ancho según tus necesidades
+        //     thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
+        //     thumbnailWidth: 250, // a
+        // },
+        // // {
+        //     original: brazo2,
+        //     thumbnail: brazo2,
+        //     originalHeight: 600,
+        //     originalWidth: 1000,
+        //     thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
+        //     thumbnailWidth: 250, // a
+        // },
+        // {
+        //     original: brazo,
+        //     thumbnail: brazo,
+        //     originalHeight: 600,
+        //     originalWidth: 1000,
+        //     thumbnailHeight: 150, // ajusta la altura de la miniatura según tus necesidades
+        //     thumbnailWidth: 250, // a
+        // },
     ];
 
     return (

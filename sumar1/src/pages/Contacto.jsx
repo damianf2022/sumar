@@ -65,7 +65,7 @@ const Contacto = () => {
                 <form onSubmit={handleSubmit}>
                     <p >Por favor deje un breve mensaje con su consulta y un mail, para que nuestro equipo a la brevedad se ponga en contacto con usted.</p>
                     <div className="inputName">
-                        <label htmlFor="name">Name</label>
+                        <label htmlFor="name">Nombre</label>
                         <input
                             type="text"
                             id="name"

@@ -4,7 +4,6 @@ import './styles/newcontent.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faScrewdriver, faRetweet, faCheckSquare, faHandshake, faMoneyBillTrendUp } from '@fortawesome/free-solid-svg-icons';
 import { Slide, Fade } from 'react-awesome-reveal';
-import galeria from '../images/galeria.png'
 import { Link } from 'react-router-dom';
 import sound2 from '../../src/assets/reactanimacionsonidos_src_Assets_sound_flipCard.ogg';
 
@@ -50,7 +49,7 @@ const Newcontent = () => {
 
                 <div className='contenedornew-2'>
                     <Fade delay={2300}>
-                        <img className="galeria" src={galeria} alt="imagen de galeria" />
+                        {/* <img className="galeria" src={galeria} alt="imagen de galeria" /> */}
 
                     </Fade>
                     <div className='contenedor_cardnew'onClick={onclick}>

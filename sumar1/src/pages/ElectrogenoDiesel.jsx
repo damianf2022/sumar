@@ -28,13 +28,13 @@ const ElectrogenoDiesel = () => {
                     <br /><br />
                     Los componentes eléctricos de nuestros grupos electrógenos diesel principalmente son: ABB y WEG.
                     <br /><br />
-                    Somos representantes de grupos electrógenos diesel de la marca DeepSea de UK , líderes en fabricación de controladores de equipos, tanto para control del equipo, paralelismo, transferencia automática; contamos con amplio stock para entrega inmediata.
+                    Somos representantes de grupos electrógenos diesel de la marca DeepSea, líderes en fabricación de controladores de equipos, tanto para control del equipo, paralelismo, transferencia automática; contamos con amplio stock para entrega inmediata.
                     <br /><br />
                     Ofrecemos tanto opciones abiertas como cabinadas, en el caso de esta última con chapa galvanizada y pintura epoxi, e insonorización ignifuga con lana basáltica mineral.
                     <br /><br />
                     También contamos con transferencias automáticas (módulos de conmutación) fabricados con la más alta calidad tanto con componentes WEG o ABB.
                     <br /><br />
-                    Adaptamos proyectos a medida de rupos electrógenos diesel de acuerdo a la necesidad del cliente como por ejemplo: tanques de combustible desmontable con mayor autonomía, chasis y cabinas, cáncamos de izaje, batea antiderrame.
+                    Adaptamos proyectos a medida de grupos electrógenos diesel de acuerdo a la necesidad del cliente como por ejemplo: tanques de combustible desmontable con mayor autonomía, chasis y cabinas, cáncamos de izaje, batea antiderrame.
                     <br /><br />
                     Los tipos de escape que hay son: industriales, residenciales o críticos.
                     <br /><br />

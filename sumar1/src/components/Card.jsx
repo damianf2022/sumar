@@ -1,14 +1,16 @@
 import { React, useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import recorte1 from '../images/recorte1.png'
+import recorte2 from '../images/recorte2.png'
+import recorte3 from '../images/recorte3.png'
 import sound2 from '../../src/assets/reactanimacionsonidos_src_Assets_sound_efectoEncima.ogg';
 
 
 import "./styles/card.css";
 import _dsc0 from '../images/_dsc0.png';
-import card_grupo from '../images/card_grupo.png';
-import card_grua from '../images/card_grua.png';
-import card_iluminaria from '../images/card_iluminaria.png';
+// import card_grupo from '../images/card_grupo.png';
+// import card_grua from '../images/card_grua.png';
+// import card_iluminaria from '../images/card_iluminaria.png';
 
 import { Slide, Fade } from 'react-awesome-reveal';
 
@@ -31,7 +33,7 @@ const Card = () => {
                     <Link to="/sumar/electrogenodiesel">
                         <img
                             className="card-image"
-                            src={card_grupo} alt="Imagen de la tarjeta" />
+                            src={recorte1} alt="Imagen de la tarjeta" />
                         {isSoundPlaying && <audio autoPlay src={sound2} />}
 
                     </Link>
@@ -42,7 +44,7 @@ const Card = () => {
                     <Link to="/sumar/TijeraElectrica">
                         <img
                             className="card-image"
-                            src={card_grua} alt="Imagen de la tarjeta" />
+                            src={recorte2} alt="Imagen de la tarjeta" />
                         {/* {isSoundPlaying && <audio autoPlay src={sound2} />} */}
 
                     </Link>
@@ -53,7 +55,7 @@ const Card = () => {
                     <Link to="/sumar/torresled">
                         <img
                             className="card-image"
-                            src={card_iluminaria} alt="Imagen de la tarjeta" />
+                            src={recorte3} alt="Imagen de la tarjeta" />
 
 
                     </Link>

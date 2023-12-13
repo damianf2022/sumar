@@ -32,7 +32,7 @@ const Electrogenogas = () => {
                     <br />
                     Los componentes eléctricos de los grupos electrógenos a gas principalmente son: ABB y WEG.
                     <br />
-                    Somos representantes de la marca DeepSea de UK, líderes en fabricación de controladores de equipos, tanto para control del equipo, paralelismo, transferencia automática; contamos con amplio stock para entrega inmediata.
+                    Somos representantes de la marca DeepSea, líderes en fabricación de controladores de equipos, tanto para control del equipo, paralelismo, transferencia automática; contamos con amplio stock para entrega inmediata.
                     <br />
                     Ofrecemos tanto opciones abiertas como cabinadas, en el caso de esta última con chapa galvanizada y pintura epoxi, e insonorización ignifuga con lana basáltica mineral.
                     <br />
